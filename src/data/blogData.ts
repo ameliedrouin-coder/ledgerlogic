@@ -2916,7 +2916,7 @@ export const blogPosts: BlogPost[] = [
             "Xero"
         ],
         "category": "Accounting Tools",
-        "image": "/images/blog-heroes/logo_float.svg"
+        "image": "/images/blog-heroes/hero_ledgerlogic_startups_accounting.png"
     },
     {
         "id": "are-dividends-taxable-in-canada",
@@ -2989,7 +2989,7 @@ export const blogPosts: BlogPost[] = [
             "Corporate Tax"
         ],
         "category": "Tax",
-        "image": "/images/blog-heroes/hero_tax_canada.png"
+        "image": "/images/blog-heroes/hero_ledgerlogic_dividends_taxable.png"
     },
     {
         "id": "is-it-better-to-pay-yourself-a-salary-or-dividends-in-canada",
@@ -3047,7 +3047,7 @@ export const blogPosts: BlogPost[] = [
             "Personal Tax"
         ],
         "category": "Tax",
-        "image": "/images/blog-heroes/hero_startup.png"
+        "image": "/images/blog-heroes/hero_ledgerlogic_salary_vs_dividends.png"
     },
     {
         "id": "transferring-personal-assets-from-proprietorship-to-a-corporation-in-canada-section-85-rollover",
@@ -3092,7 +3092,7 @@ export const blogPosts: BlogPost[] = [
             "Corporate Tax"
         ],
         "category": "Tax",
-        "image": "/images/blog-heroes/hero_startup.png"
+        "image": "/images/blog-heroes/hero_ledgerlogic_transfer_assets_section_85.png"
     },
     {
         "id": "choosing-the-right-accounting-software-for-your-e-commerce-business",
@@ -3154,7 +3154,7 @@ export const blogPosts: BlogPost[] = [
             "Xero"
         ],
         "category": "E Commerce",
-        "image": "/images/blog-heroes/logo_shopify.png"
+        "image": "/images/blog-heroes/hero_ledgerlogic_ecommerce_accounting_software.png"
     },
     {
         "id": "cra-10-year-limit",
