@@ -1,10 +1,14 @@
-import React from 'react';
+"use client";
+
+import React, { useState } from 'react';
 // import { Check, X, ArrowRight, RefreshCw } from 'lucide-react';
 import { Check } from 'lucide-react';
 import Link from 'next/link';
+import OnboardingModal from '../components/OnboardingModal';
 
 
 const Pricing: React.FC = () => {
+    const [isModalOpen, setIsModalOpen] = useState(false);
     const pricingSchema = {
         "@context": "https://schema.org",
         "@type": "ItemList",
@@ -136,7 +140,7 @@ const Pricing: React.FC = () => {
                             <li className="feature-item"><Check size={18} className="text-accent" /> Accounting Software (Xero or QBO)</li>
                             <li className="feature-item"><Check size={18} className="text-accent" /> Receipt Management (Hubdoc/Dext)</li>
                         </ul>
-                        <Link href="/contact" className="btn btn-outline btn-full">Get Started</Link>
+                        <button onClick={() => setIsModalOpen(true)} className="btn btn-outline btn-full">Get Started</button>
                     </div>
 
                     {/* Tier 2: Momentum (Growing) */}
@@ -167,7 +171,7 @@ const Pricing: React.FC = () => {
                             <li className="feature-item"><Check size={18} className="text-accent" /> Accounting Software (Xero or QBO)</li>
                             <li className="feature-item"><Check size={18} className="text-accent" /> Receipt Management (Hubdoc/Dext)</li>
                         </ul>
-                        <Link href="/contact" className="btn btn-primary btn-full btn-glow">Choose Momentum</Link>
+                        <button onClick={() => setIsModalOpen(true)} className="btn btn-primary btn-full btn-glow">Choose Momentum</button>
                     </div>
 
                     {/* Tier 3: Summit (Established) */}
@@ -200,7 +204,7 @@ const Pricing: React.FC = () => {
                             <li className="feature-item"><Check size={18} className="text-accent" /> Receipt Management (Hubdoc/Dext)</li>
                             <li className="feature-item"><Check size={18} className="text-accent" /> CFO Software (Fathom)</li>
                         </ul>
-                        <Link href="/contact" className="btn btn-outline btn-full">Book Consultation</Link>
+                        <button onClick={() => setIsModalOpen(true)} className="btn btn-outline btn-full">Book Consultation</button>
                     </div>
                 </div>
 
@@ -317,7 +321,7 @@ const Pricing: React.FC = () => {
                             </div>
                         </div>
 
-                        <Link href="/contact" className="btn btn-primary btn-lg btn-glow">Start Your Switch Now</Link>
+                        <button onClick={() => setIsModalOpen(true)} className="btn btn-primary btn-lg btn-glow">Start Your Switch Now</button>
                     </div>
                 </div>
             </section>
@@ -350,11 +354,12 @@ const Pricing: React.FC = () => {
                 <div className="container">
                     <h2 className="cta-title">Ready to Get Started?</h2>
                     <p className="cta-subtitle">Book a free discovery call to discuss which plan fits your goals.</p>
-                    <Link href="/contact" className="btn btn-primary btn-lg btn-glow">
+                    <button onClick={() => setIsModalOpen(true)} className="btn btn-primary btn-lg btn-glow">
                         Book Your Call {/* <ArrowRight /> */}
-                    </Link>
+                    </button>
                 </div>
             </section>
+            <OnboardingModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
         </>
     );
 };
