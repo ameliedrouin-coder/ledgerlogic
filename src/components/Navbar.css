@@ -9,7 +9,8 @@
     transition: all 0.3s ease;
 }
 
-.navbar.scrolled {
+.navbar.scrolled,
+.navbar.force-scrolled {
     padding: 1rem 0;
     background: rgba(11, 17, 32, 0.8);
     /* Slightly darker opacity for better text popping */
@@ -19,25 +20,34 @@
 }
 
 /* Explicitly enforce for blog page to satisfy user request */
-.navbar.scrolled.blog-navbar {
+.navbar.scrolled.blog-navbar,
+.navbar.force-scrolled.blog-navbar {
     background: rgba(11, 17, 32, 0.6) !important;
     backdrop-filter: blur(15px);
     /* Increase blur if making it more transparent */
 }
 
-.navbar.scrolled .logo {
+.navbar.scrolled .logo,
+.navbar.force-scrolled .logo,
+.navbar.dark-hero .logo {
     color: #ffffff;
 }
 
-.navbar.scrolled .nav-link {
+.navbar.scrolled .nav-link,
+.navbar.force-scrolled .nav-link,
+.navbar.dark-hero .nav-link {
     color: rgba(255, 255, 255, 0.9);
 }
 
-.navbar.scrolled .nav-link:hover {
+.navbar.scrolled .nav-link:hover,
+.navbar.force-scrolled .nav-link:hover,
+.navbar.dark-hero .nav-link:hover {
     color: #ffffff;
 }
 
-.navbar.scrolled .mobile-toggle {
+.navbar.scrolled .mobile-toggle,
+.navbar.force-scrolled .mobile-toggle,
+.navbar.dark-hero .mobile-toggle {
     color: #ffffff;
 }
 
@@ -246,6 +256,22 @@
     /* Dark text on hover */
 }
 
+
 .mobile-sublink:hover {
     color: #fff;
+}
+
+/* Ensure client login button is white on dark hero/scrolled */
+.navbar.scrolled .btn-sm.border-2,
+.navbar.force-scrolled .btn-sm.border-2,
+.navbar.dark-hero .btn-sm.border-2 {
+    border-color: rgba(255, 255, 255, 0.3);
+    color: #ffffff;
+}
+
+.navbar.scrolled .btn-sm.border-2:hover,
+.navbar.force-scrolled .btn-sm.border-2:hover,
+.navbar.dark-hero .btn-sm.border-2:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: #ffffff;
 }

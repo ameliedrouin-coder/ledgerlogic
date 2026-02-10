@@ -24,6 +24,8 @@ const nextConfig = {
     async redirects() {
         return [
             { source: '/tools/xero-canada', destination: '/xero-accounting-canada', permanent: true },
+            { source: '/xero-support', destination: '/xero-migration', permanent: true },
+            { source: '/xero-support/', destination: '/xero-migration', permanent: true },
             { source: '/home', destination: '/', permanent: true },
             { source: '/our-services', destination: '/', permanent: true },
             { source: '/clients', destination: '/', permanent: true },
@@ -40,6 +42,11 @@ const nextConfig = {
             {
                 source: '/blog/quickbooks-vs-xero-a-comparative-analysis-for-canadian-smes',
                 destination: '/blog/xero-vs-quickbooks-canada',
+                permanent: true,
+            },
+            {
+                source: '/blog/xero-pricing-for-canadian-businesses-what-you-need-to-know-before-subscribing',
+                destination: '/blog/xero-pricing-canada',
                 permanent: true,
             },
             {

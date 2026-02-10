@@ -28,6 +28,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         '/tools/synder-review',
         '/tools/venn-canada-review',
         '/xero-accounting-canada',
+        '/xero-migration',
     ].map((route) => ({
         url: `${baseUrl}${route}`,
         lastModified: new Date().toISOString().split('T')[0],

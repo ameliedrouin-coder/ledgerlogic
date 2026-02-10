@@ -18,10 +18,12 @@ const PILLAR_MAP: Record<string, { slug: string; title: string; category: string
     // Cluster A: Xero
     'should-i-switch-to-xero': { slug: '/xero-accounting-canada', title: 'Xero for Canadian Businesses (2026)', category: 'Cloud Accounting' },
     'xero-pricing-for-canadian-businesses-what-you-need-to-know-before-subscribing': { slug: '/xero-accounting-canada', title: 'Xero for Canadian Businesses (2026)', category: 'Cloud Accounting' },
+    'xero-pricing-canada': { slug: '/xero-accounting-canada', title: 'Xero for Canadian Businesses (2026)', category: 'Cloud Accounting' },
     'can-i-use-xero-for-multiple-companies': { slug: '/xero-accounting-canada', title: 'Xero for Canadian Businesses (2026)', category: 'Cloud Accounting' },
     'how-long-does-it-take-to-learn-xero': { slug: '/xero-accounting-canada', title: 'Xero for Canadian Businesses (2026)', category: 'Cloud Accounting' },
     'streamline-your-invoicing-how-xero-transforms-the-process-for-canadian-companies': { slug: '/xero-accounting-canada', title: 'Xero for Canadian Businesses (2026)', category: 'Cloud Accounting' },
     'quickbooks-vs-xero-a-comparative-analysis-for-canadian-smes': { slug: '/xero-accounting-canada', title: 'Xero for Canadian Businesses (2026)', category: 'Cloud Accounting' },
+    'xero-vs-quickbooks-canada': { slug: '/xero-accounting-canada', title: 'Xero for Canadian Businesses (2026)', category: 'Cloud Accounting' },
     'is-xero-easy-to-use': { slug: '/xero-accounting-canada', title: 'Xero for Canadian Businesses (2026)', category: 'Cloud Accounting' },
 
     // Cluster B: Incorporation
@@ -42,6 +44,40 @@ const PILLAR_MAP: Record<string, { slug: string; title: string; category: string
     'does-cra-audit-your-bank-account': { slug: 'tax-filing-deadlines-in-canada-a-comprehensive-guide', title: 'Tax Filing Deadlines: Comprehensive Guide', category: 'Compliance' },
     'how-far-back-can-cra-audit': { slug: 'tax-filing-deadlines-in-canada-a-comprehensive-guide', title: 'Tax Filing Deadlines: Comprehensive Guide', category: 'Compliance' },
 };
+
+// Extract FAQ Q&A pairs from blog post HTML content for FAQPage schema
+function extractFAQs(content: string): { question: string; answer: string }[] {
+    const faqs: { question: string; answer: string }[] = [];
+    // Find the FAQ section - starts at <h2...>Frequently Asked Questions</h2>
+    const faqSectionMatch = content.match(
+        /<h2[^>]*>\s*Frequently Asked Questions\s*<\/h2>([\s\S]*?)(?=<h2[^>]*>|$)/i
+    );
+    if (!faqSectionMatch) return faqs;
+
+    const faqSection = faqSectionMatch[1];
+    // Match each <h3>question</h3> followed by content until the next <h3> or end
+    const questionBlocks = faqSection.split(/<h3[^>]*>/).slice(1);
+
+    for (const block of questionBlocks) {
+        const questionMatch = block.match(/^(.*?)<\/h3>/);
+        if (!questionMatch) continue;
+        const question = questionMatch[1].replace(/<[^>]+>/g, '').trim();
+
+        // Get the answer text between </h3> and the end of this block
+        const answerHtml = block.replace(/^.*?<\/h3>/, '').trim();
+        // Strip HTML tags for the schema answer text
+        const answer = answerHtml
+            .replace(/<[^>]+>/g, '')
+            .replace(/\\n/g, ' ')
+            .replace(/\s+/g, ' ')
+            .trim();
+
+        if (question && answer) {
+            faqs.push({ question, answer });
+        }
+    }
+    return faqs;
+}
 
 // Shortcode Parser Component
 const BlogPostContent = ({
@@ -412,6 +448,31 @@ const BlogPost: React.FC<BlogPostProps> = ({ post, relatedPosts }) => {
                         })
                     }}
                 />
+
+                {/* FAQ PAGE SCHEMA — auto-extracted from content */}
+                {(() => {
+                    const faqs = extractFAQs(post.content);
+                    if (faqs.length === 0) return null;
+                    return (
+                        <script
+                            type="application/ld+json"
+                            dangerouslySetInnerHTML={{
+                                __html: JSON.stringify({
+                                    "@context": "https://schema.org",
+                                    "@type": "FAQPage",
+                                    "mainEntity": faqs.map(faq => ({
+                                        "@type": "Question",
+                                        "name": faq.question,
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": faq.answer
+                                        }
+                                    }))
+                                })
+                            }}
+                        />
+                    );
+                })()}
 
                 {/* 1. SPLIT HERO HEADER */}
                 <header className="premium-post-header">

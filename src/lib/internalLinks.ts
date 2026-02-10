@@ -21,7 +21,7 @@ export const keywordMap: Record<string, string> = {
     'Is Xero Easy': '/blog/is-xero-easy-to-use',
     'Xero Review': '/blog/is-xero-easy-to-use',
     'Switch to Xero': '/blog/should-i-switch-to-xero',
-    'Xero Pricing': '/blog/xero-pricing-for-canadian-businesses-what-you-need-to-know-before-subscribing',
+    'Xero Pricing': '/blog/xero-pricing-canada',
     'Learn Xero': '/blog/how-long-does-it-take-to-learn-xero',
     'Xero Invoicing': '/blog/streamline-your-invoicing-how-xero-transforms-the-process-for-canadian-companies',
     'QuickBooks vs Xero': '/blog/quickbooks-vs-xero-a-comparative-analysis-for-canadian-smes',

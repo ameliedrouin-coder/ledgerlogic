@@ -17,6 +17,8 @@ const Navbar: React.FC = () => {
   const pathname = usePathname();
   const isBlogPage = pathname?.startsWith('/blog');
 
+  const isXeroMigration = pathname === '/xero-migration';
+
   useEffect(() => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 20);
@@ -39,7 +41,7 @@ const Navbar: React.FC = () => {
 
   return (
     <>
-      <nav className={`navbar ${scrolled ? 'scrolled' : ''} ${isBlogPage ? 'blog-navbar' : ''}`}>
+      <nav className={`navbar ${scrolled ? 'scrolled' : ''} ${isBlogPage ? 'blog-navbar' : ''} ${isXeroMigration ? 'dark-hero' : ''}`}>
         <div className="container navbar-container">
           <Link href="/" className="logo">
             Ledger<span className="text-accent">Logic</span>

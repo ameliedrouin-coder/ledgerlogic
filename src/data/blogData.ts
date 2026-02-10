@@ -2314,70 +2314,192 @@ export const blogPosts: BlogPost[] = [
         "image": "/images/blog-heroes/hero_need_cpa_business.png"
     },
     {
-        "id": "xero-pricing-for-canadian-businesses-what-you-need-to-know-before-subscribing",
-        "slug": "xero-pricing-for-canadian-businesses-what-you-need-to-know-before-subscribing",
-        "title": "Xero Pricing for Canadian Businesses: Essential Subscription Details",
+        "id": "xero-pricing-canada",
+        "slug": "xero-pricing-canada",
+        "title": "Xero Pricing Canada 2026: Plans, Costs & What CPAs Actually Recommend",
         "atAGlance": {
             "title": "At a Glance",
             "items": [
-                {
-                    "label": "Read Time",
-                    "text": "5 min read"
-                },
-                {
-                    "label": "Target",
-                    "text": "Canadian Business Owners"
-                },
-                {
-                    "label": "Topic",
-                    "text": "Xero"
-                },
-                {
-                    "label": "Insight",
-                    "text": "Selecting the right accounting software is a critical dec..."
-                }
+                { "label": "Read Time", "text": "10 min read" },
+                { "label": "Target", "text": "Canadian SMEs evaluating Xero" },
+                { "label": "Topic", "text": "Xero pricing plans in Canada" },
+                { "label": "Plans", "text": "Starter $25 · Standard $55 · Premium $75 CAD/mo" },
+                { "label": "Current Promo", "text": "90% off for 6 months" },
+                { "label": "Verdict", "text": "Standard is the best value for most Canadian businesses" }
             ]
         },
-        "excerpt": "Selecting the right accounting software is a critical decision for Canadian businesses, and Xero's pricing plans demand careful consideration. Xero, a...",
-        "content": "<p>Selecting the <a href=\"/blog/choosing-the-right-accounting-software-for-your-e-commerce-business\">right accounting software</a> is a critical decision for Canadian businesses, and <a href=\"/blog\">Xero's pricing plans</a> demand careful consideration. Xero, a global leader in cloud-based accounting software, has tailored its pricing options to cater to various business sizes and needs in Canada. Understanding the nuances of these plans can help potential subscribers make an informed decision that aligns with their business requirements and budget constraints.</p>\n<p>For new Canadian businesses <a href=\"/blog/should-i-switch-to-xero\">considering Xero</a>, the company offers introductory pricing incentives, such as a limited-time discount off the list price for consecutive months after subscription. It's important for businesses to review Xero's pricing structures, which typically include features like invoicing, tax deductions, and support, and be aware that after promotional periods, standard rates apply. Additionally, having the flexibility to manage multiple organizations under one account can be advantageous for businesses looking after several entities, and discounts for such arrangements are available.</p>\n<p>Managing your business finances can be challenging, but finding the right tools can make all the difference. That's why we're excited to share an exclusive offer: <strong>50% off Xero for 3 months</strong> with this <a href=\"https://xero5440.partnerlinks.io/lc4v5f7lmse2\"><strong>Xero coupon code</strong></a>. This deal makes it easier than ever to simplify your accounting while saving money.\n<a href=\"https://xero5440.partnerlinks.io/lc4v5f7lmse2\">Get 90% off Xero for 4 months</a></p>[[CTA_CONSULT]]\n<h3 id=\"key-takeaways\">Key Takeaways</h3>\n<li>Xero provides various pricing plans suited for different business needs in Canada.</li>\n<li>New subscribers may receive initial discounts, but should be mindful of standard rates post-promotion.</li>\n<li>Businesses can <a href=\"/blog/can-i-use-xero-for-multiple-companies\">manage multiple Xero organizations</a> and may be eligible for multi-organization discounts.</li>\n<h2 id=\"understanding-xero-pricing-structures\">Understanding Xero Pricing Structures</h2>\n<p><a href=\"/xero-support/\">Xero offers a range of subscription options</a> tailored to different business needs in Canada, each with distinct features and prices.\n<h3 id=\"overview-of-xero-subscriptions\">Overview of Xero Subscriptions</h3></p>\n<p>Xero's subscriptions cater to varying business sizes and requirements. A key point for Canadian businesses is the availability of plans in Canadian dollars, excluding the relevant taxes. Subscribers can elect to start with a <a href=\"/blog/is-xero-easy-to-use\">free 30-day trial</a> and may add multiple organizations with discounts applied for subscribing to more than one Business Edition organization.\n<h3 id=\"comparing-plan-features\">Comparing Plan Features</h3></p>\n<p>Here's a brief comparison of what Canadian businesses can expect from different Xero plans:\n<li><strong>Starter:</strong> This plan is designed for small businesses, limiting the number of transactions and bank reconciliations. It's optimal for entrepreneurs just beginning to <a href=\"/blog/how-to-start-accounting-for-a-new-business-in-canada\">automate their accounting processes</a>.</li>\n<li><strong>Standard:</strong> The Standard plan builds upon the Starter, providing additional transactions and cash coding capabilities, making it suitable for growing businesses.</li>\n<li><strong>Premium:</strong> This top-tier plan includes everything in the Standard plan, plus features like Analytics Plus and multicurrency support, which cater to established businesses with more complex needs.</li></p>\n<h3 id=\"additional-charges-and-add-ons\">Additional Charges and Add-Ons</h3>\n<p>Businesses should be aware of the potential for additional costs:\n<li><strong>Extra Charges:</strong> Specific actions, such as adding organizations, may incur extra charges.</li>\n<li><strong>Add-Ons:</strong> Xero offers various add-ons like Hubdoc for receipt and bill capture to enhance the functionality of any plan.</li></p>\n<p>All plans come with Hubdoc included, providing a valuable tool across the pricing tiers to manage document capture and organization.\n<h2 id=\"getting-started-with-xero\">Getting Started with Xero</h2></p>\n<p>When Canadian businesses opt for Xero as their accounting solution, initiating service revolves around a straightforward sign-up and setup process that ensures all accounting essentials are covered.\n<h3 id=\"sign-up-process-for-canadian-businesses\">Sign Up Process for Canadian Businesses</h3></p>\n<p>Canadian businesses begin their journey with Xero by selecting a pricing plan that fits their requirements. Preceding the selection, businesses should be aware that promotional offers may be available, such as a 50% discount on the plan for an initial six months, provided the purchase is made by a specific date. The sign-up involves providing basic business information and choosing a subscription level, which can vary based on features such as <strong>Cash Coding</strong>, <strong>Analytics Plus</strong>, and <strong>multicurrency</strong> options included in higher-tier plans.\n<h3 id=\"setting-up-your-xero-account\">Setting Up Your Xero Account</h3></p>\n<p>After signing up, setting up the Xero account involves several key steps. Businesses need to:\n<li>Enter their company details and financial information.</li>\n<li>Connect bank accounts to streamline transaction recording, reconciliations, and financial reporting.</li>\n<li>Customize user roles to manage access and maintain security, ensuring the right personnel have the appropriate levels of access to the Xero tools and features.</li>\n<li>Familiarization with the dashboard and core functions is crucial to make effective use of <a href=\"/blog/why-is-xero-the-best\">Xero's capabilities</a>.</li></p>\n<p><a href=\"https://xero5440.partnerlinks.io/lc4v5f7lmse2\"><img src=\"https://ledgerlogic.ca/wp-content/uploads/2025/10/90-for-4-500-x-1500-px-300x300.png\" alt=\"\" class=\"img-fluid\" /></a></p>\n<h2 id=\"managing-your-xero-subscription\">Managing Your Xero Subscription</h2>\n<p>In managing a Xero subscription for Canadian businesses, subscribers can effortlessly upgrade or downgrade their plans and are advised to understand the <a href=\"/terms-and-conditions/\">cancellation and refund policies</a>.\n<h3 id=\"upgrading-or-downgrading-plans\">Upgrading or Downgrading Plans</h3></p>\n<p>Subscribers looking to adjust their Xero service level can easily modify their subscription. To upgrade a plan, allowing access to additional features, one navigates to the organization's settings, selects <strong>\"Subscription and billing\"</strong>, and then proceeds by clicking <strong>\"Change plan\"</strong>. Downgrading a plan follows a similar process, in which a subscriber chooses a lower-tier plan that better aligns with their business needs.\n<h3 id=\"cancellation-and-refund-policies\">Cancellation and Refund Policies</h3></p>\n<p>When considering the cancellation of a Xero subscription, subscribers should be aware of Xero's refund policies. Cancellations can be performed online through the account settings by navigating to the <strong>\"Subscription and billing\"</strong> area. Refunds are typically not issued for cancellations, and subscribers are encouraged to ensure they are absolutely certain before proceeding with subscription termination.\n<h2 id=\"cost-analysis-and-considerations\">Cost Analysis and Considerations</h2></p>\n<p>When evaluating Xero's pricing for Canadian businesses, it is crucial to consider both the immediate and long-term financial implications, as well as the anticipated <a href=\"/blog/is-xero-worth-it\">return on investment</a> (ROI).\n<h3 id=\"long-term-costs\">Long-Term Costs</h3></p>\n<p>For Canadian businesses, Xero offers various pricing plans tailored to different needs. It is important for a company to assess not only the initial cost but also the recurring expenses associated with their chosen plan:\n<li><strong>Early Plan</strong>: Ideal for small operations, this plan may include limitations on the number of invoices and bills per month.</li>\n<li><strong>Growing Plan</strong>: Offers unlimited invoices, bills, and bank transactions, suitable for expanding businesses. The users should account for the monthly fee escalation post any introductory offers.</li></p>\n<h3 id=\"return-on-investment-for-your-business\">Return on Investment for Your Business</h3>\n<p>Investing in Xero can lead to significant ROI through:\n<li><strong>Efficiency Savings</strong>: Time saved on automating accounting functions may outweigh the costs of the subscription.</li>\n<li><strong>Scalability</strong>: The ability to choose a plan that grows with the business avoids the need for costly platform changes later.</li></p>\n<p>Businesses should analyze these factors in relation to their unique operations to determine the most cost-effective decision.\n<h2 id=\"support-and-resources\">Support and Resources</h2></p>\n<p>Choosing a Xero pricing plan includes access to various support options and educational resources to ensure users can make the most of the <a href=\"/#services\">accounting software</a>.\n<h3 id=\"customer-support-options\">Customer Support Options</h3></p>\n<p>Xero provides <strong>24/7 online support</strong> for its subscribers. Users can leverage this round-the-clock assistance to resolve any issues they might encounter with the software. Additionally, Xero's commitment to customer service ensures that assistance is just a few clicks away.\n<h3 id=\"training-and-education-resources\">Training and Education Resources</h3></p>\n<p>Subscribers have access to a wealth of <strong>training and educational resources</strong>. These resources are designed to help users understand how to use Xero effectively. From <strong>step-by-step guides</strong> to <strong>webinars and tutorials</strong>, Xero empowers users to educate themselves on how to best utilize the software for their business's accounting needs.\n<h2 id=\"compliance-and-security\">Compliance and Security</h2></p>\n<p>Choosing a financial platform like Xero demands a rigorous evaluation of the platform's compliance and security features. Canadian businesses need to ensure that their data is protected and that the platform adheres to relevant Canadian regulations.\n<h3 id=\"data-security-measures\">Data Security Measures</h3></p>\n<p>Xero's commitment to data security is exemplified by its certification with <strong>ISO/IEC 27001:2013</strong>, the leading global standard for information security management systems (ISMS). Additionally, they have secured a <strong>Service Organization Control (SOC 2 Type II) report</strong>, demonstrating the effectiveness of their security measures over time.\n<li><strong>ISO/IEC 27001:2013 Certification</strong>: This certification ensures the implementation of an exhaustive security management program that safeguards customer data.</li>\n<li><strong>SOC 2 Type II report</strong>: Provides transparency into the security controls and processes Xero has in place, reassuring users of its commitment to data protection.</li></p>\n<h3 id=\"compliance-with-canadian-regulations\">Compliance with Canadian Regulations</h3>\n<p>Xero's services are tailored to meet the specific regulatory requirements faced by Canadian businesses. Their subscription plans and processes are designed to comply with Canadian financial and tax regulations, which is crucial for businesses when handling their accounting needs.\n<li><strong>Pricing in Canadian Dollars</strong>: All prices for Canadian businesses are in Canadian dollars, making it straightforward to manage finances without currency conversion concerns.</li>\n<li><strong><a href=\"/tax-compliance-and-advisory/\">Tax Compliance</a></strong>: As Xero's pricing plans exclude applicable taxes, businesses need to be aware that they will be charged in accordance with Canadian tax laws.</li></p>\n<h2 id=\"frequently-asked-questions\">Frequently Asked Questions</h2>\n<p>Before subscribing to Xero for managing your business finances in Canada, it's important to understand how its pricing works, what features are included, and how it caters to managing multiple organizations.\n<h3 id=\"how-does-xero-pricing-compare-with-quickbooks-for-canadian-businesses-\">How does Xero pricing compare with QuickBooks for Canadian businesses?</h3></p>\n<p>Xero's pricing plans are designed to accommodate a range of business sizes and needs. When compared to QuickBooks, Xero offers competitive pricing that can include various features such as invoicing, payroll, and multi-currency support, depending on the chosen plan. Xero also provides promotional discounts, like a 60% discount for the first four months for new subscribers.\n<h3 id=\"does-the-xero-subscription-include-canadian-payroll-capabilities-\">Does the Xero subscription include Canadian payroll capabilities?</h3></p>\n<p>Certain Xero pricing plans include <a href=\"/blog/managing-payroll-taxes-in-canadian-small-businesses\">Canadian payroll features</a>, allowing businesses to <a href=\"/payroll-services/\">manage payroll</a> directly through the platform. This includes processing pay runs, tracking vacation time, and adhering to Canadian tax requirements.\n<h3 id=\"can-i-manage-multiple-businesses-with-a-single-xero-subscription-\">Can I manage multiple businesses with a single Xero subscription?</h3></p>\n<p>Xero allows for the management of multiple organizations with separate subscriptions. Discounts are provided for those who subscribe to more than one Business Edition organization. However, each organization requires its pricing plan selection.\n<h3 id=\"what-are-the-differences-between-the-various-xero-pricing-plans-\">What are the differences between the various Xero pricing plans?</h3></p>\n<p>Xero offers different pricing plans, each tailored to specific business needs. Key features across all plans might include access to invoicing, bank reconciliation, and bill payments, with higher-tier plans offering more advanced features, like Analytics Plus, multicurrency, and higher limits on transactions.\n<h3 id=\"are-there-any-additional-fees-for-invoicing-through-xero-in-canada-\">Are there any additional fees for invoicing through Xero in Canada?</h3></p>\n<p>Xero's plans often encompass core features without additional fees for general invoicing. However, additional transaction fees could apply if using payment gateways or processing payments within the platform.\n<h3 id=\"how-many-users-can-access-a-xero-account-with-one-subscription-\">How many users can access a Xero account with one subscription?</h3></p>\n<p>Xero plans typically allow for multiple users to access an account without extra per-user fees. This flexibility ensures that relevant team members can collaborate within the platform. Limits on the number of users may apply based on the selected pricing plan.</p>",
+        "excerpt": "A CPA's honest breakdown of Xero pricing in Canada for 2026. Compare Starter ($25), Standard ($55), and Premium ($75) plans, hidden costs, add-ons, and the best current promotions.",
+        "content": `<p>If you've Googled "xero pricing canada," you've probably landed on Xero's own pricing page and thought: <em>Okay, but what does this actually cost me once I factor in add-ons, taxes, and the stuff they don't mention upfront?</em></p>
+<p>Fair question. As a CPA who sets up and manages Xero for dozens of Canadian businesses, I'll walk you through exactly what each plan costs, what's included (and what isn't), and which plan I actually recommend based on your business size and complexity.</p>
+<p><strong>All prices below are in Canadian dollars (CAD), exclusive of GST/HST.</strong> Pricing verified against <a href="https://www.xero.com/ca/pricing/" target="_blank" rel="noopener">xero.com/ca</a> as of February 2026.</p>
+[[CTA_CONSULT]]
+<h2 id="key-takeaways">Key Takeaways</h2>
+<ul>
+<li>Xero offers three plans in Canada: <strong>Starter ($25/mo)</strong>, <strong>Standard ($55/mo)</strong>, and <strong>Premium ($75/mo)</strong></li>
+<li>All plans include <strong>unlimited users</strong>, Hubdoc, and bank connections — no per-seat fees</li>
+<li>The <strong>Standard plan</strong> is the best value for most Canadian small businesses</li>
+<li>Current promo: <strong>90% off for 6 months</strong> — effectively $2.50–$7.50/mo to start</li>
+<li>Watch for hidden costs: payment processing fees, third-party payroll, and optional add-ons</li>
+</ul>
+
+<h2 id="xero-pricing-plans-canada-2026">Xero Pricing Plans in Canada (2026)</h2>
+<p>Xero offers three subscription tiers in Canada. Here's what each plan costs and includes:</p>
+<table>
+<thead>
+<tr><th>Feature</th><th>Starter</th><th>Standard</th><th>Premium</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Monthly Price</strong></td><td>$25 CAD</td><td>$55 CAD</td><td>$75 CAD</td></tr>
+<tr><td><strong>Promo Price (3 mo)</strong></td><td>$2.50</td><td>$5.50</td><td>$7.50</td></tr>
+<tr><td>Invoices & Quotes</td><td>20/month</td><td>Unlimited</td><td>Unlimited</td></tr>
+<tr><td>Bills</td><td>5/month</td><td>Unlimited</td><td>Unlimited</td></tr>
+<tr><td>Bank Reconciliation</td><td>20 transactions/mo</td><td>Unlimited</td><td>Unlimited</td></tr>
+<tr><td>Bank Connections</td><td>✓</td><td>✓</td><td>✓</td></tr>
+<tr><td>Hubdoc (Receipt Capture)</td><td>✓</td><td>✓</td><td>✓</td></tr>
+<tr><td>Short-Term Cash Flow</td><td>✓</td><td>✓</td><td>✓</td></tr>
+<tr><td>Bulk Reconcile</td><td>—</td><td>✓</td><td>✓</td></tr>
+<tr><td>Multi-Currency</td><td>—</td><td>—</td><td>✓</td></tr>
+<tr><td>Analytics Plus</td><td>—</td><td>—</td><td>✓</td></tr>
+<tr><td>Unlimited Users</td><td>✓</td><td>✓</td><td>✓</td></tr>
+</tbody>
+</table>
+
+<h3 id="starter-plan-25-month">Starter Plan — $25/month</h3>
+<p>The Starter plan is Xero's entry-level option, designed for <a href="/blog/how-to-start-accounting-for-a-new-business-in-canada">brand-new businesses</a> or sole proprietors with minimal transaction volume. At $25 CAD per month, it's affordable but comes with hard limits: 20 invoices, 5 bills, and 20 bank reconciliations per month.</p>
+<p><strong>Who it's for:</strong> Freelancers, sole proprietors, or pre-revenue startups who send fewer than 20 invoices per month and have simple accounting needs.</p>
+<p><strong>My honest take:</strong> Most businesses outgrow this plan within 3–6 months. If you're already operating and have regular clients, skip straight to Standard. The $30/month difference saves you the hassle of upgrading mid-quarter.</p>
+
+<h3 id="standard-plan-55-month">Standard Plan — $55/month</h3>
+<p>The Standard plan is where <a href="/blog/is-xero-easy-to-use">Xero really shines</a> for Canadian businesses. Unlimited invoicing, unlimited bill entry, unlimited bank reconciliation, and bulk reconcile — this is the plan we recommend to the vast majority of our clients.</p>
+<p><strong>Who it's for:</strong> Growing businesses with regular invoicing, multiple bank accounts, and a need for proper financial reporting. This covers most Canadian SMEs: consultants, agencies, professional services, retail, and e-commerce.</p>
+<p><strong>My honest take:</strong> At $55/month, this is the sweet spot. You get everything you need for day-to-day accounting without paying for multi-currency features most domestic businesses don't use.</p>
+
+<h3 id="premium-plan-75-month">Premium Plan — $75/month</h3>
+<p>The Premium plan adds <strong>multi-currency support</strong> and <strong>Analytics Plus</strong> on top of everything in Standard. If you invoice clients in USD, EUR, or other currencies — or if you pay international suppliers — this is the plan you need.</p>
+<p><strong>Who it's for:</strong> Businesses with international clients or suppliers, import/export operations, and companies that need advanced cash flow forecasting through Analytics Plus.</p>
+<p><strong>My honest take:</strong> Only upgrade to Premium if you genuinely deal in multiple currencies. If all your business is in CAD, Standard gives you everything you need for $20/month less.</p>
+
+<h2 id="whats-included-in-every-xero-plan">What's Included in Every Xero Plan</h2>
+<p>Regardless of which plan you choose, every Xero subscription in Canada includes:</p>
+<ul>
+<li><strong>Unlimited users</strong> — Add your bookkeeper, accountant, and team members at no extra cost. This is a major advantage over <a href="/blog/xero-vs-quickbooks-canada">QuickBooks Online</a>, which charges per-user fees on most plans.</li>
+<li><strong>Hubdoc</strong> — Xero's built-in document capture tool. Snap photos of receipts, forward bills via email, and Hubdoc automatically extracts the data and files it in Xero.</li>
+<li><strong>Bank connections</strong> — Connect directly to major Canadian banks (TD, RBC, Scotiabank, BMO, CIBC, and others) for automatic transaction imports.</li>
+<li><strong>Short-term cash flow forecasting</strong> — A basic but useful view of your expected cash position based on invoices and bills.</li>
+<li><strong>Mobile app</strong> — Full-featured iOS and Android apps for invoicing, expense capture, and bank reconciliation on the go.</li>
+<li><strong>Xero-to-Xero network</strong> — Send invoices directly to other Xero users for faster payment processing.</li>
+<li><strong>24/7 online support</strong> — Email and chat support available around the clock.</li>
+</ul>
+
+<h2 id="xero-add-on-costs">Xero Add-On Costs</h2>
+<p>Beyond the base subscription, Xero offers optional add-ons that may increase your total cost:</p>
+<table>
+<thead>
+<tr><th>Add-On</th><th>Price (CAD/month)</th><th>What It Does</th></tr>
+</thead>
+<tbody>
+<tr><td>Xero Expenses</td><td>From $5/active user</td><td>Expense claims and reimbursement workflow</td></tr>
+<tr><td>Xero Projects</td><td>From $10/active user</td><td>Time tracking, project costing, job profitability</td></tr>
+</tbody>
+</table>
+<p><strong>Important note on payroll:</strong> Xero does not offer built-in Canadian payroll. You'll need a third-party integration like <strong>Wagepoint</strong> or <strong>Rise People</strong>, which typically cost $20–$40/month plus per-employee fees. For more detail, see our guide on <a href="/blog/managing-payroll-taxes-in-canadian-small-businesses">managing payroll taxes</a> in Canada.</p>
+
+<h2 id="hidden-costs-to-watch">Hidden Costs to Watch</h2>
+<p>Xero's published pricing is straightforward, but there are a few costs that catch businesses off guard:</p>
+<ul>
+<li><strong>Payment processing fees</strong> — If you enable Stripe or GoCardless payments on your Xero invoices, you'll pay standard processing fees (typically 2.9% + $0.30 per transaction for credit cards). These fees are charged by the payment provider, not Xero.</li>
+<li><strong>Third-party integrations</strong> — Popular add-ons like <a href="/blog/how-to-do-accounting-for-a-shopify-store">A2X for e-commerce</a>, Dext for advanced receipt capture, or payroll apps each carry their own monthly fees.</li>
+<li><strong>Migration costs</strong> — If you're <a href="/blog/should-i-switch-to-xero">switching from another platform</a>, converting your chart of accounts, historical data, and open invoices can take time. Consider working with a Xero-certified advisor (like us) to handle the migration cleanly.</li>
+<li><strong>Training time</strong> — While <a href="/blog/how-long-does-it-take-to-learn-xero">Xero is intuitive to learn</a>, there's still a learning curve. Budget a few hours for your team to get comfortable with bank reconciliation, invoicing, and reporting workflows.</li>
+<li><strong>GST/HST on the subscription</strong> — Xero's listed prices exclude tax. Add 13% HST (Ontario) or your applicable provincial rate to the monthly cost. On the Standard plan, that's an extra ~$7.15/month.</li>
+</ul>
+
+<h2 id="current-xero-promotions">Current Xero Promotions in Canada</h2>
+<p>Xero regularly runs promotional offers for new subscribers. Here's the current deal:</p>
+<div style="background: linear-gradient(135deg, #0d333f 0%, #1a5c6e 100%); border-radius: 12px; padding: 32px; margin: 24px 0; color: #ffffff; text-align: center;">
+<p style="font-size: 1.5rem; font-weight: 700; margin-bottom: 8px; color: #ffffff;">🎉 90% Off Xero for 6 Months</p>
+<p style="margin-bottom: 16px; color: #e0f0f0;">Use our partner link below for the discount to apply automatically.</p>
+<p style="margin-bottom: 8px;"><strong>Starter:</strong> $2.50/mo · <strong>Standard:</strong> $5.50/mo · <strong>Premium:</strong> $7.50/mo</p>
+<p style="margin-top: 16px;"><a href="https://referrals.xero.com/qp622xbmjhis-q1e71" target="_blank" rel="noopener" style="background: #ffffff; color: #0d333f; padding: 12px 32px; border-radius: 8px; font-weight: 700; text-decoration: none; display: inline-block;">Try Xero — 90% Off →</a></p>
+</div>
+<p><strong>Heads up:</strong> Standard and Premium plan prices are increasing from <strong>April 1, 2026</strong>. If you're on the fence, locking in now at the current rate (with the 90% promo on top) is the smart move.</p>
+
+<h2 id="xero-vs-quickbooks-pricing-comparison">Xero vs QuickBooks: Pricing Comparison</h2>
+<p>Wondering how Xero stacks up against <a href="/blog/xero-vs-quickbooks-canada">QuickBooks Online in Canada</a>? Here's a side-by-side look at monthly pricing:</p>
+<table>
+<thead>
+<tr><th></th><th>Xero</th><th>QuickBooks Online</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Entry Plan</strong></td><td>Starter — $25/mo</td><td>Simple Start — $21/mo</td></tr>
+<tr><td><strong>Mid Plan</strong></td><td>Standard — $55/mo</td><td>Essentials — $42/mo</td></tr>
+<tr><td><strong>Top Plan</strong></td><td>Premium — $75/mo</td><td>Plus — $63/mo</td></tr>
+<tr><td>Users Included</td><td>Unlimited</td><td>1 / 3 / 5</td></tr>
+<tr><td>Multi-Currency</td><td>Premium only</td><td>All plans</td></tr>
+<tr><td>Built-in Payroll</td><td>No (third-party)</td><td>Yes (add-on)</td></tr>
+<tr><td>Hubdoc / Receipt Capture</td><td>Included</td><td>Included</td></tr>
+</tbody>
+</table>
+<p><strong>The bottom line:</strong> QuickBooks appears cheaper on sticker price, but once you add extra users ($11–$13/user/month on QBO), Xero's unlimited-user model often works out more affordable for teams of 3 or more. For a deeper dive, read our full <a href="/blog/xero-vs-quickbooks-canada">Xero vs QuickBooks Canada comparison</a>.</p>
+
+<h2 id="which-xero-plan-should-you-choose">Which Xero Plan Should You Choose?</h2>
+<p>Here's our straightforward recommendation based on business type:</p>
+<table>
+<thead>
+<tr><th>Business Type</th><th>Recommended Plan</th><th>Why</th></tr>
+</thead>
+<tbody>
+<tr><td>Freelancer / Side hustle</td><td>Starter ($25)</td><td>Low volume, simple needs</td></tr>
+<tr><td>Sole proprietor (active)</td><td>Standard ($55)</td><td>Unlimited invoicing, proper reporting</td></tr>
+<tr><td>Small business (1–10 staff)</td><td>Standard ($55)</td><td>Best value, covers all core needs</td></tr>
+<tr><td>E-commerce business</td><td>Premium ($75)</td><td>Multi-currency for USD sales</td></tr>
+<tr><td>Import/export business</td><td>Premium ($75)</td><td>Multi-currency is essential</td></tr>
+<tr><td><a href="/blog/can-i-use-xero-for-multiple-companies">Multi-entity corporation</a></td><td>Standard or Premium</td><td>Separate subscription per entity</td></tr>
+</tbody>
+</table>
+<p><strong>Pro tip:</strong> If you're unsure, start with Standard. You can always upgrade to Premium later if you begin invoicing in other currencies — and Xero prorates the difference.</p>
+
+<h2 id="frequently-asked-questions">Frequently Asked Questions</h2>
+
+<h3 id="faq-how-much-does-xero-cost-per-month-in-canada">How much does Xero cost per month in Canada?</h3>
+<p>Xero offers three plans in Canada: Starter at $25 CAD/month, Standard at $55 CAD/month, and Premium at $75 CAD/month. All prices exclude GST/HST. New subscribers can get 90% off for the first 6 months with the current promotion.</p>
+
+<h3 id="faq-is-xero-free-for-small-business">Is Xero free for small businesses?</h3>
+<p>Xero does not offer a permanently free plan, but you can start with a free 30-day trial on any plan. After the trial, the 90% off promotion reduces costs to as low as $2.50/month for 6 months — making it very affordable to evaluate.</p>
+
+<h3 id="faq-does-xero-include-payroll-in-canada">Does Xero include payroll in Canada?</h3>
+<p>No. Unlike QuickBooks Online, Xero does not include built-in Canadian payroll. You'll need a third-party integration like Wagepoint ($20+/month) or Rise People. However, these dedicated payroll platforms often provide superior Canadian compliance features, including ROE filing and T4 generation.</p>
+
+<h3 id="faq-can-i-use-xero-for-multiple-businesses">Can I use Xero for multiple businesses?</h3>
+<p>Yes, but each business requires its own Xero subscription. There's no "multi-org discount" anymore — each entity is billed separately. The good news is that you can manage multiple organizations from a single Xero login, and your accountant can access all of them through their advisor dashboard.</p>
+
+<h3 id="faq-is-xero-worth-it-for-a-canadian-business">Is Xero worth the price for a Canadian business?</h3>
+<p>For most Canadian SMEs, yes. Xero's unlimited users, included Hubdoc, strong bank connections, and clean interface make it excellent value — especially on the Standard plan. The main consideration is whether you need built-in payroll (advantage: QuickBooks) or prefer unlimited users and a better app ecosystem (advantage: Xero). See our <a href="/blog/is-xero-worth-it">detailed analysis of whether Xero is worth it</a>.</p>
+
+<h3 id="faq-what-happens-after-the-xero-promo-ends">What happens after the Xero promotional period ends?</h3>
+<p>After the 6-month promotional period, your subscription automatically renews at the full list price (e.g., $55/month for Standard). Xero will notify you before the promotional rate expires. You can downgrade, cancel, or continue at the standard rate — no long-term commitment is required.</p>
+
+<h2 id="final-verdict">Final Verdict</h2>
+<p>Xero pricing in Canada is competitive and transparent. For most Canadian businesses, the <strong>Standard plan at $55/month</strong> offers the best balance of features and value. Add the current 90% off promotion, and you're looking at just $5.50/month for your first six months — hard to beat.</p>`,
         "toc": [
-            {
-                "id": "understanding-xero-pricing-structures",
-                "title": "Understanding Xero Pricing Structures"
-            },
-            {
-                "id": "getting-started-with-xero",
-                "title": "Getting Started with Xero"
-            },
-            {
-                "id": "managing-your-xero-subscription",
-                "title": "Managing Your Xero Subscription"
-            },
-            {
-                "id": "cost-analysis-and-considerations",
-                "title": "Cost Analysis and Considerations"
-            },
-            {
-                "id": "support-and-resources",
-                "title": "Support and Resources"
-            },
-            {
-                "id": "compliance-and-security",
-                "title": "Compliance and Security"
-            },
-            {
-                "id": "frequently-asked-questions",
-                "title": "Frequently Asked Questions"
-            }
+            { "id": "key-takeaways", "title": "Key Takeaways" },
+            { "id": "xero-pricing-plans-canada-2026", "title": "Xero Pricing Plans in Canada (2026)" },
+            { "id": "whats-included-in-every-xero-plan", "title": "What's Included in Every Plan" },
+            { "id": "xero-add-on-costs", "title": "Add-On Costs" },
+            { "id": "hidden-costs-to-watch", "title": "Hidden Costs to Watch" },
+            { "id": "current-xero-promotions", "title": "Current Promotions" },
+            { "id": "xero-vs-quickbooks-pricing-comparison", "title": "Xero vs QuickBooks Pricing" },
+            { "id": "which-xero-plan-should-you-choose", "title": "Which Plan Should You Choose?" },
+            { "id": "frequently-asked-questions", "title": "Frequently Asked Questions" },
+            { "id": "final-verdict", "title": "Final Verdict" }
         ],
         "author": "Seb Prost, CPA",
-        "date": "February 14, 2024",
-        "readTime": "5 min read",
-        "tags": [
-            "Xero"
-        ],
+        "date": "February 9, 2026",
+        "readTime": "10 min read",
+        "tags": ["Xero", "Pricing", "Accounting Software", "Canada"],
         "category": "Accounting Tools",
-        "image": "/images/blog-heroes/hero_xero_pricing_canada.png"
+        "image": "/images/blog-heroes/hero_xero_pricing_canada.png",
+        "featured": true
     },
     {
         "id": "how-to-do-accounting-for-a-shopify-store",
