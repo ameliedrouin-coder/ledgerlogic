@@ -3261,8 +3261,6 @@ export const blogPosts: BlogPost[] = [
 
 <h2 id="final-thoughts">Final Thoughts</h2>
 <p>Need help with EHT compliance? LedgerLogic's payroll services handle EHT registration, instalment calculations, and annual return filing for businesses in Ontario and BC.</p>
-<p><a href="/contact" class="text-teal-600 font-bold hover:underline">Book a Free Consultation</a></p>
-<p><em>Managing employee tax forms too? See our step-by-step TD1 and TD1BC guide.</em></p>
 `,
         "toc": [
             { "id": "quick-reference-comparison-table", "title": "Quick-Reference Comparison Table" },
