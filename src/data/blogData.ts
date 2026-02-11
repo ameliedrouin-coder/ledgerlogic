@@ -2757,7 +2757,7 @@ export const blogPosts: BlogPost[] = [
 <p>You can submit a new TD1 to your employer at any time during the year. There is no deadline — your employer must process the new form for the next pay period after receiving it. Common reasons for a mid-year update include getting married or entering a common-law relationship, birth or adoption of a child, separation or divorce, a dependant turning 18 or leaving your household, and receiving CRA approval for the Disability Tax Credit.</p>
 <p>If your employer handles payroll through a professional service, the updated TD1 information is typically reflected in the very next pay cycle.</p>
 
-[[CTA_CONSULT]]
+
 
 <h2 id="frequently-asked-questions">Frequently Asked Questions</h2>
 <h3 id="do-i-need-to-fill-out-a-td1-every-year">Do I need to fill out a TD1 every year?</h3>
@@ -2778,7 +2778,7 @@ export const blogPosts: BlogPost[] = [
 <h3 id="how-do-i-request-reduced-tax-deductions-at-source">How do I request reduced tax deductions at source?</h3>
 <p>If you have deductions not listed on the TD1 (such as RRSP contributions, childcare expenses, or support payments), you can request a letter of authority from the CRA by filing Form T1213 (Request to Reduce Tax Deductions at Source). Once approved, give the letter to your employer and they will reduce your tax withholdings accordingly. Note: you do not need a letter of authority if your employer deducts RRSP contributions directly from your pay.</p>
 
-<p class="mt-8 p-4 bg-gray-50 rounded-lg border-l-4 border-primary"><strong>Dealing with employer health tax obligations too?</strong> Read our guide to <a href="/blog/employer-health-tax-eht-ontario-and-bc">Employer Health Tax (EHT) in Ontario and BC</a>.</p>`,
+`,
         "toc": [
             { id: "when-must-you-fill-out-a-td1-form", title: "When Must You Fill Out a TD1 Form?" },
             { id: "step-by-step-filling-out-the-federal-td1-2026", title: "Filling Out the Federal TD1 (2026)" },
