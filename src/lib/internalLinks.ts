@@ -14,7 +14,7 @@ export const keywordMap: Record<string, string> = {
     'Incorporation': '/services/incorporation',
     'Holding Company': '/services/holding-company',
     'Personal Tax': '/services/personal-tax',
-    'Corporate Tax': '/services/corporate-tax',
+
 
     // --- Cornerstone Blog Posts (Cross-linking) ---
     // Cluster A: Cloud Accounting & Xero
@@ -50,6 +50,7 @@ export const keywordMap: Record<string, string> = {
     'Bank Audit': '/blog/does-cra-audit-your-bank-account',
 
     // General
+    'GST/HST Rates': '/blog/current-gst-hst-rate-canada-and-by-provinces',
     'GST/HST': '/blog/gst-hst-tips-for-small-business-owners',
     'Sales Tax': '/blog/gst-hst-tips-for-small-business-owners',
     'Payroll Taxes': '/blog/managing-payroll-taxes-in-canadian-small-businesses',
