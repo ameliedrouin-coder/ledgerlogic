@@ -6528,7 +6528,7 @@ export const blogPosts: BlogPost[] = [
     {
         "id": "how-far-back-can-cra-audit",
         "slug": "how-far-back-can-cra-audit",
-        "title": "How Far Back Can CRA Audit: The Limits of Tax Assessments",
+        "title": "How Far Back Can CRA Audit? Canadian Reassessment Periods in 2026",
         "atAGlance": {
             "title": "At a Glance",
             "items": [
@@ -6542,53 +6542,140 @@ export const blogPosts: BlogPost[] = [
                 },
                 {
                     "label": "Topic",
-                    "text": "CorporateTax"
+                    "text": "CRA Audit"
                 },
                 {
                     "label": "Insight",
-                    "text": "Understanding the scope and timeframe of Canada Revenue A..."
+                    "text": "CRA can audit 3 years back for most taxpayers, 6 years for certain claims, and holds no time limit for fraud."
                 }
             ]
         },
-        "excerpt": "Understanding the scope and timeframe of Canada Revenue Agency's (CRA) authority to conduct audits is a key component of tax compliance. Generally, th...",
-        "content": "<p>Understanding the scope and timeframe of Canada Revenue Agency's (CRA) authority to conduct audits is a key component of <a href=\"/tax-compliance/\">tax compliance</a>. Generally, the CRA has the ability to audit tax returns up to three years (four years for non-CCPCs) after the original filing date. This period, known as the standard reassessment period, begins from the end of the tax year for which the return was filed. For instance, if an individual filed their 2018 tax return and was assessed on April 30, 2019, the CRA could potentially review and audit that return until April 30 2022.</p>\n<p>However, there are certain conditions where the CRA may extend this period pursuant to <a href=\"https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-152.html\">subsection 152(4) of the Income Tax Act</a>. In cases where there is evidence of misrepresentation due to neglect, carelessness, or willful default, the CRA possesses the discretion to audit beyond the initial three-year period. This could encompass instances of suspected fraud or significant non-compliance with tax laws. Additionally, it is important for taxpayers to be aware that the retention period for all tax documents and returns is six years from the end of the tax year to which the records relate.</p>\n<p>Taxpayers should also recognize that proactive engagement during the audit process can be beneficial. It is often advised to respond promptly to CRA inquiries and to keep thorough records to support tax claims. This approach can facilitate a smoother audit experience and potentially minimize the likelihood of the CRA needing to extend its investigation into earlier tax years.\n<h2 id=\"overview-of-cra-audit-time-limits\">Overview of CRA Audit Time Limits</h2></p>[[CTA_CONSULT]]\n<img src=\"https://ledgerlogic.ca/wp-content/uploads/2023/12/DALL·E-2023-12-01-08.23.15-An-evocative-image-showing-a-time-capsule-being-opened-symbolizing-the-long-term-impact-and-historical-record-of-government-audits.-The-time-capsule-.png\" alt=\"\" class=\"img-fluid\" />\n<p>The <strong>Canada Revenue Agency (CRA)</strong> has explicit guidelines regarding the period they can examine a taxpayer's filings through an audit. Under normal circumstances, the CRA evaluates returns from the <strong>most recent three years</strong>. However, should they identify substantial errors or omissions, these assessments can extend beyond this period.</p>\n<p>When discussing the reassessment period it's important to clarify the difference between a review and an audit:\n<li><strong>Review</strong>: A process for promoting tax law awareness and compliance, not as comprehensive as an audit.</li>\n<li><a href=\"/blog/chances-of-getting-audited-by-cra\"><strong>Audit</strong></a>: A more detailed examination to ensure adherence to tax laws and correct tax return self-assessment.</li></p>\n<p>In the case of <strong>false statements or omissions</strong>, the CRA can audit records from <strong>any previous tax year</strong>. However, these actions are only taken if there's evidence of non-compliance with tax obligations.</p>\n<p><strong>Key points</strong> to remember about CRA audit time limits:\n<li>Standard reassessment period: <strong>three years</strong> from the date of the initial assessment notice.</li>\n<li>Extended reassessment period: <strong>six years</strong> in cases where a corporation wants to carry back a loss or credit from a later tax year.</li>\n<li>No limit: CRA may audit any year if there is a <strong>false statement</strong> due to misrepresentation arising from carelessness, neglect, or willful default.</li></p>\n<p>Taxpayers must ensure they keep their financial records for at least <strong>six years</strong> from the end of the last tax year they relate to, as advised by the CRA, to support their filings in the case of an audit.\n<h2 id=\"determining-factors-for-audit-periods\">Determining Factors for Audit Periods</h2></p>\n<p>In Canada, the Canada Revenue Agency (CRA) follows specific rules to determine the period during which they can audit a taxpayer. These rules vary based on statutory limits and can be extended in certain cases.\n<h3 id=\"statute-barred-year\">Statute-Barred Year</h3></p>\n<p>The CRA generally has the authority to audit a tax return within <strong>three years</strong> from the date of the initial assessment notice. This period is known as the \"normal reassessment period.\" For individual taxpayers and Canadian-controlled private corporations (CCPCs), it means that the CRA can usually review returns filed within the last three years. For corporations that are non-CCPCs, the period extends to four years.\n<h3 id=\"special-cases-extending-the-period\">Special Cases Extending the Period</h3></p>\n<p>In certain situations, the CRA has the right to go beyond the standard reassessment period. These situations include:\n<li><strong>Misrepresentation due to carelessness, neglect, or willful default</strong>: If a taxpayer has made a false statement or omission, the CRA can audit years beyond the normal limit.</li>\n<li><strong>Tax evasion</strong>: If the CRA suspects a taxpayer of tax evasion, there is no time limit on how far back the audit can extend.</li>\n<li><strong>Foreign property</strong>: For cases involving foreign property worth over $100,000, the CRA may be able to extend the reassessment period by three years. This is the case when the taxpayer has not reported income from a specified foreign property on their return and <a href=\"/blog/t1135-reporting-requirements\">Form T1135</a> was not filed on time.</li></p>\n<p>In all cases, the CRA's extended audit rights underscore the importance of maintaining accurate records and compliance with tax laws.\n<h2 id=\"audit-process-and-taxpayer-notifications\">Audit Process and Taxpayer Notifications</h2></p>\n<img src=\"https://ledgerlogic.ca/wp-content/uploads/2023/12/DALL·E-2023-12-01-08.21.22-A-creative-depiction-of-a-chess-clock-to-symbolize-the-strategic-and-timed-nature-of-the-auditing-process.-The-chess-clock-should-be-prominently-displ.png\" alt=\"\" class=\"img-fluid\" />\n<p>When initiating an audit, the Canada Revenue Agency (CRA) follows a structured process to notify taxpayers and review their financial records. Taxpayers are expected to keep their records up to date and readily available for examination.\n<h3 id=\"initial-cra-contact\">Initial CRA Contact</h3></p>\n<p>Upon selecting a taxpayer for an audit, the <strong>CRA</strong> will make <strong>initial contact</strong> typically by <strong>mail or phone</strong>. The taxpayer will be informed about the specific years or periods under review and the type of audit being conducted. This initial communication will also include instructions on how the taxpayer should provide the necessary documentation.\n<h3 id=\"record-keeping-requirements\">Record Keeping Requirements</h3></p>\n<p>The CRA requires taxpayers to maintain <strong>accurate and complete records</strong> for a minimum of six years from the end of the last tax year they relate to. These records must be kept in a format that is accessible and readable by the CRA upon request.</p>\n<p><strong>Record types include, but are not limited to:</strong>\n<li>Invoices</li>\n<li>Receipts</li>\n<li>Contracts</li>\n<li>Bank Statements</li></p>\n<h3 id=\"audit-completion-timeline\">Audit Completion Timeline</h3>\n<p>A CRA audit may vary in duration depending on the complexity of the taxpayer’s situation. Taxpayers will be given a <strong>deadline</strong> for submitting their documentation to the CRA, and the agency will complete its review within a reasonable timeframe after receiving all necessary information. Once the audit is finalized, the CRA will issue a <strong>Notice of Assessment</strong> or <strong>Reassessment</strong> explaining any changes to the taxpayer's filing.\n<h2 id=\"common-triggers-for-extended-audits\">Common Triggers for Extended Audits</h2></p>\n<p>The Canada Revenue Agency (CRA) may extend the audit period beyond the standard timeframe when certain red flags or indicators of non-compliance are present.\n<h3 id=\"suspected-fraud-or-misrepresentation\">Suspected Fraud or Misrepresentation</h3></p>\n<p>When there is an indication of <strong>fraud</strong> or <strong>intentional misrepresentation</strong>, the CRA has the authority to open an audit at any point. This can include:\n<li>Discrepancies between reported information and third-party data.</li>\n<li>Inconsistencies in financial statements over multiple years.</li></p>\n<h3 id=\"large-or-unusual-deductions\">Large or Unusual Deductions</h3>\n<p>The CRA pays close attention to:\n<li>Deductions that are significantly higher than industry norms.</li>\n<li><strong>Unusual</strong> or <strong>inconsistent</strong> claims.</li></p>\n<h3 id=\"foreign-income-and-assets-reporting\">Foreign Income and Assets Reporting</h3>\n<p>Taxpayers must report foreign income and disclose certain foreign assets. The CRA is vigilant for:\n<li>Lack of reporting on <strong>worldwide income</strong>.</li>\n<li>Inadequacies in <strong>Form T1135</strong> - Foreign Income Verification Statement filings.</li></p>\n<h2 id=\"legal-implications-and-rights\">Legal Implications and Rights</h2>\n<p>When dealing with audits from the Canada Revenue Agency (CRA), taxpayers have specific legal avenues they can pursue and rights that protect them throughout the process.\n<h3 id=\"taxpayer-s-legal-recourse\">Taxpayer's Legal Recourse</h3></p>\n<p>A taxpayer in Canada has the right to challenge the CRA’s findings post-audit through the objection process. They can file a formal dispute, or <a href=\"/blog/notice-of-objection-cra\">objection</a>, if they believe the assessment or reassessment is incorrect. Following the objection, if the taxpayer still disagrees with the CRA’s decision, they may appeal to the Tax Court of Canada. Records should be kept for at least six years, as audits usually cover this period; however, if fraud or misrepresentation is suspected, the CRA has the authority to audit further back.\n<h3 id=\"protection-under-the-taxpayer-bill-of-rights\">Protection under the Taxpayer Bill of Rights</h3></p>\n<p><strong>The Taxpayer Bill of Rights</strong> outlines 16 rights affirming that taxpayers deserve to be treated with respect and have their cases examined impartially. Key rights include:\n<li><strong>Right to Privacy and Confidentiality</strong>: Taxpayers' information is strictly confidential and protected from unauthorized access.</li>\n<li><strong>Right to be Informed</strong>: Taxpayers have the right to know what to expect during audits and what information is required from them.</li>\n<li><strong>Right to Challenge</strong>: Taxpayers are entitled to lodge formal objections and receive clear explanations of the CRA's decisions.</li>\n<li><strong>Right to Fair and Equitable Treatment</strong>: Taxpayers should expect fairness without discrimination, and decisions made according to the law.</li></p>\n<h2 id=\"preparation-for-a-cra-audit\">Preparation for a CRA Audit</h2>\n<img src=\"https://ledgerlogic.ca/wp-content/uploads/2023/12/DALL·E-2023-12-01-08.23.16-A-conceptual-image-depicting-ancient-navigational-tools-like-a-compass-and-an-astrolabe-to-represent-the-guidance-and-direction-required-in-navigatin.png\" alt=\"\" class=\"img-fluid\" />\n<p>When faced with a CRA audit, the key to a smooth process is meticulous preparation. Taxpayers should focus on two primary areas: ensuring their financial records are complete and organized, and seeking qualified professional advice to navigate the audit efficiently.\n<h3 id=\"organizing-financial-records\">Organizing Financial Records</h3></p>\n<p>Taxpayers should consolidate all relevant financial documents to prepare for a Canada Revenue Agency (CRA) audit. Maintaining organized records <a href=\"/blog/how-do-you-deal-with-a-cra-audit\">simplifies the audit process</a>. This includes:\n<li><a href=\"/blog/does-cra-audit-your-bank-account\"><strong>Bank Statements</strong></a></li>\n<li><strong>Receipts</strong></li>\n<li><strong>Tax Returns</strong> from previous years</li>\n<li><strong>Business Expense Reports</strong></li>\n<li><strong>Ledgers and Books</strong></li>\n<li><strong>Income Statements</strong></li>\n<li><strong>Supporting Documentation</strong> for deductions or credits claimed</li></p>\n<p>It is advisable to review these records for accuracy and to ensure they are organized chronologically. Doing so facilitates the auditor's work and reflects the taxpayer's commitment to transparency.\n<h3 id=\"seeking-professional-advice\">Seeking Professional Advice</h3></p>\n<p>Professional guidance during a CRA audit can be invaluable. Taxpayers should:\n<li>Consult with a <strong>Certified Accountant</strong> or a <strong>Tax Attorney</strong> who is familiar with audit procedures.</li>\n<li>Ensure the professional has experience dealing with the CRA and is knowledgeable about the latest tax laws and regulations.</li>\n<li>Discuss any concerns with the advisor to better understand their tax situation and the potential implications of the audit.</li></p>\n<p>This strategic preparation can help taxpayers protect their rights and interests while fulfilling their obligations under the CRA's scrutiny.\n<h2 id=\"frequently-asked-questions\">Frequently Asked Questions</h2></p>\n<p>The Canada Revenue Agency (CRA) has clear guidelines for audits and reassessments, and understanding these can help taxpayers prepare and comply with tax laws.\n<h3 id=\"what-triggers-an-audit-from-the-cra-\">What triggers an audit from the CRA?</h3></p>\n<p>An audit by the CRA can be triggered by a variety of factors such as discrepancies between filed returns and information received from third-party sources, frequent losses on self-employed returns, types of deductions or credits claimed, and random selection.\n<h3 id=\"how-many-years-back-does-the-cra-typically-review-when-conducting-an-audit-\">How many years back does the CRA typically review when conducting an audit?</h3></p>\n<p>The CRA generally reviews the last three years of returns for an individual taxpayer. However, if they suspect a misrepresentation due to carelessness or willful actions, they can audit returns from any year.\n<h3 id=\"what-are-the-penalties-for-discrepancies-found-in-a-cra-audit-\">What are the penalties for discrepancies found in a CRA audit?</h3></p>\n<p>If discrepancies are found during an audit, the <a href=\"/blog/cra-audit-penalties\">CRA may impose penalties</a> and interest. These penalties can range from 5% of the unpaid tax to 200% of the tax avoided in cases of gross negligence or fraud.\n<h3 id=\"for-how-many-years-can-you-file-back-taxes-in-canada-\">For how many years can you file back taxes in Canada?</h3></p>\n<p>In Canada, one can file back taxes for up to 10 years. However, the CRA routinely processes only the last six years of returns unless specific circumstances prompt the assessment of earlier returns.\n<h3 id=\"what-are-the-odds-of-being-audited-by-the-cra-\">What are the odds of being audited by the CRA?</h3></p>\n<p><a href=\"/blog/chances-of-getting-audited-by-cra\">The odds of being audited by the CRA</a> are generally low for the average taxpayer. Specific risk factors such as high income, large or uncommon deductions, and owning a business can increase the likelihood of an audit.\n<h3 id=\"are-there-different-audit-time-limits-for-individuals-and-corporations-with-the-cra-\">Are there different audit time limits for individuals and corporations with the CRA?</h3></p>\n<p>Yes, the normal reassessment period is three years for individuals and corporations. However, this period can vary, and the CRA can reassess beyond three years if they find misrepresentations that amount to negligence or fraud.</p>",
+        "excerpt": "CRA can audit 3 years back for most taxpayers, 6 years for certain claims, and has no time limit for fraud. Learn the exact reassessment periods, what triggers an audit, and how to protect yourself.",
+        "content": `
+<p>For most individual taxpayers and Canadian-Controlled Private Corporations (CCPCs), the Canada Revenue Agency can reassess your tax return up to 3 years from the date of the original Notice of Assessment. For other corporations, the period is 4 years. In cases involving loss carrybacks or foreign property, CRA can go back 6 years. And if CRA suspects fraud or misrepresentation, there is no time limit.</p>
+<p>Understanding these reassessment windows is essential for knowing how long you need to keep records, when you are "in the clear" for a given tax year, and what your rights are if CRA contacts you about an older return.</p>
+
+<h2 id="reassessment-period-summary">Reassessment Period Summary</h2>
+<div class="overflow-x-auto min-w-full align-middle">
+<table class="min-w-full divide-y divide-gray-300">
+<thead>
+<tr>
+<th scope="col" class="py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-gray-900 sm:pl-0">Situation</th>
+<th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">CRA Can Reassess Up To...</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-gray-200">
+<tr class="bg-white">
+<td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">Standard — individuals and CCPCs</td>
+<td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">3 years from date of original Notice of Assessment</td>
+</tr>
+<tr class="bg-gray-50">
+<td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">Standard — other corporations</td>
+<td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">4 years from date of original Notice of Assessment</td>
+</tr>
+<tr class="bg-white">
+<td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">Loss carryback claims</td>
+<td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">6 years</td>
+</tr>
+<tr class="bg-gray-50">
+<td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">Foreign property (Form T1135)</td>
+<td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">6 years</td>
+</tr>
+<tr class="bg-white">
+<td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">Transfer pricing adjustments</td>
+<td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">6 years</td>
+</tr>
+<tr class="bg-gray-50">
+<td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">Taxpayer relief request (T1-ADJ)</td>
+<td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">10 years (taxpayer-initiated, not CRA-initiated)</td>
+</tr>
+<tr class="bg-white">
+<td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">Fraud or misrepresentation</td>
+<td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">No time limit</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<h2 id="the-standard-3-year-reassessment-period">The Standard 3-Year Reassessment Period</h2>
+<p>Under subsection 152(3.1) of the Income Tax Act, CRA's standard "normal reassessment period" is 3 years from the date of mailing of the original Notice of Assessment for individuals and CCPCs, and 4 years for other corporations.</p>
+<p>This means if you filed your 2023 personal tax return and received your Notice of Assessment on June 15, 2024, CRA can reassess that return until June 15, 2027.</p>
+<p>It is important to note that the clock starts from the date of the Notice of Assessment, not from the filing deadline or the date you filed. If you filed late and received your assessment on a later date, the reassessment period extends accordingly.</p>
+<p>Within this 3-year window, CRA can review any aspect of your return — income, deductions, credits, and supporting documentation. After the period expires, CRA generally cannot issue a reassessment unless one of the extended periods applies.</p>
+
+<h2 id="the-6-year-extended-reassessment-period">The 6-Year Extended Reassessment Period</h2>
+<p>Several situations allow CRA to reach back 6 years instead of 3:</p>
+<ul role="list">
+<li><strong>Loss carryback claims:</strong> If you carry a loss back to a prior year, CRA can reassess the prior year within 3 years of the date you filed the return that created the loss — effectively extending the window.</li>
+<li><strong>Foreign property reporting (Form T1135):</strong> If you hold specified foreign property with a total cost exceeding $100,000 at any time during the year and you either failed to file Form T1135 or did not report the income from that property, CRA can reassess up to 6 years from the date of the original assessment.</li>
+<li><strong>Transfer pricing:</strong> If your transactions with non-arm's length non-resident parties are reassessed under the transfer pricing rules, the reassessment period is extended to 6 years.</li>
+</ul>
+
+<h2 id="the-10-year-taxpayer-relief-window">The 10-Year Taxpayer Relief Window</h2>
+<p>The 10-year period is often confused with CRA audit powers, but it is actually a taxpayer relief measure. Under subsection 152(4.2) of the Income Tax Act and the CRA's taxpayer relief provisions, you can request adjustments to your returns for up to 10 calendar years back.</p>
+<p>This is useful if you forgot to claim a deduction or credit, made an error on a past return, or discovered that you overpaid tax in a prior year. You submit a T1-ADJ request (or use CRA's Change My Return online service), and CRA may reassess the return in your favour.</p>
+<p>This 10-year window does not give CRA additional audit power — it is a relief mechanism for taxpayers. For details on how CRA uses the 10-year rule, see our dedicated guide on the <a href="/blog/cra-10-year-limit">CRA 10-year limit</a>.</p>
+
+<h2 id="no-time-limit-fraud-and-misrepresentation">No Time Limit: Fraud and Misrepresentation</h2>
+<p>Under subsection 152(4)(a)(i) of the Income Tax Act, CRA can reassess at any time if the taxpayer "made any misrepresentation that is attributable to neglect, carelessness, or wilful default or has committed any fraud in filing the return or in supplying any information under this Act."</p>
+<p>This is the broadest reassessment power, and it has no time limit. CRA has successfully reassessed returns more than 10 years old under this provision.</p>
+<p>What constitutes "misrepresentation" is broader than outright fraud. It includes failing to report income (even unintentionally, if it resulted from neglect or carelessness), making false claims for deductions or credits, and providing misleading information to CRA.</p>
+<p>If you are concerned about potential misrepresentations in past filings, the CRA's <a href="/blog/cra-voluntary-disclosure">Voluntary Disclosures Program (VDP)</a> allows taxpayers to come forward and correct errors before CRA discovers them. A successful VDP application can result in reduced penalties (though interest will still apply). Our tax compliance team can advise on whether a voluntary disclosure is appropriate for your situation.</p>
+
+<h2 id="how-long-must-you-keep-tax-records">How Long Must You Keep Tax Records?</h2>
+<p>CRA requires that you retain all books, records, and supporting documents for at least 6 years from the end of the last tax year they relate to. For example, records for your 2025 tax year must be kept until at least December 31, 2031.</p>
+<p>If you have filed an objection or appeal, you must keep records until the matter is fully resolved and the time for further appeal has expired. If you have not filed a return for a particular year, there is no time limit on how long records must be retained.</p>
+<p>For practical purposes, many accountants (including our team at LedgerLogic) recommend keeping records for 7 years to provide a buffer, and keeping records indefinitely for any year in which there may be a risk of misrepresentation allegations.</p>
+
+<h2 id="what-triggers-a-cra-audit">What Triggers a CRA Audit?</h2>
+<p>While this page focuses on reassessment time limits, it is helpful to understand what prompts CRA to look at your file in the first place. Common triggers include large year-over-year changes in income or deductions, claims that are unusual for your industry or income level, inconsistencies between reported income and information from third-party slips (T4, T5, etc.), repeated errors or late filings, and random selection through CRA's risk assessment system.</p>
+<p>For a more detailed discussion of audit likelihood and how to reduce your risk, see our guide on the <a href="/blog/chances-of-getting-audited-by-cra">chances of getting audited by CRA</a>.</p>
+
+<h2 id="your-rights-during-a-cra-audit">Your Rights During a CRA Audit</h2>
+<p>If CRA contacts you about an audit, you have specific rights under the Taxpayer Bill of Rights, including the right to be treated professionally, the right to complete and accurate information about your obligations and entitlements, the right to privacy and confidentiality, and the right to object to an assessment and appeal to an independent body.</p>
+<p>You are also entitled to have a representative (such as a CPA or tax lawyer) deal with CRA on your behalf. For a complete guide to navigating the audit process, see our article on <a href="/blog/how-do-you-deal-with-a-cra-audit">how to deal with a CRA audit</a>.</p>
+<p>If CRA has assessed penalties as part of a reassessment, you can learn about the specific penalty provisions in our guide to <a href="/blog/cra-audit-penalties">CRA audit penalties</a>.</p>
+
+<h2 id="frequently-asked-questions">Frequently Asked Questions</h2>
+<h3 id="can-cra-audit-more-than-3-years-back">Can CRA audit more than 3 years back?</h3>
+<p>Yes. While the standard reassessment period is 3 years from the date of the original Notice of Assessment (4 years for non-CCPC corporations), CRA can go back 6 years in cases involving loss carrybacks, foreign property, or transfer pricing. There is no time limit if CRA suspects fraud or misrepresentation.</p>
+
+<h3 id="is-there-a-statute-of-limitations-on-cra-audits">Is there a statute of limitations on CRA audits?</h3>
+<p>Canada does not have a statute of limitations on tax fraud. For standard reassessments, CRA is limited to 3 years (individuals and CCPCs) or 4 years (other corporations) from the date of the original assessment. However, if the taxpayer made a misrepresentation due to neglect, carelessness, or wilful default, or committed fraud, CRA can reassess at any time.</p>
+
+<h3 id="how-far-back-can-cra-audit-a-small-business">How far back can CRA audit a small business?</h3>
+<p>For a Canadian-Controlled Private Corporation (CCPC), the standard reassessment period is 3 years. For corporations that are not CCPCs, it is 4 years. If the business claimed loss carrybacks or has foreign property reporting obligations, CRA can go back 6 years. Fraud or misrepresentation has no time limit.</p>
+
+<h3 id="can-cra-audit-you-after-10-years">Can CRA audit you after 10 years?</h3>
+<p>Only in cases of fraud or misrepresentation, which have no time limit. The 10-year period refers to the taxpayer relief provisions, which allow taxpayers (not CRA) to request adjustments to their returns for up to 10 calendar years back. This is a taxpayer-initiated process, not a CRA audit power.</p>
+
+<h3 id="what-triggers-a-cra-audit-faq">What triggers a CRA audit?</h3>
+<p>Common triggers include significant year-over-year changes in income or expenses, claiming unusually high deductions relative to income, inconsistencies between reported income and lifestyle indicators, repeated errors on returns, industry-specific targeting, and random selection. For more detail on audit triggers and likelihood, see our guide on the <a href="/blog/chances-of-getting-audited-by-cra">chances of getting audited by CRA</a>.</p>
+
+<h3 id="how-long-do-you-need-to-keep-tax-records-in-canada">How long do you need to keep tax records in Canada?</h3>
+<p>CRA requires you to keep all supporting documents and records for at least 6 years from the end of the last tax year they relate to. If you have filed late or are involved in an objection or appeal, you must keep records until the matter is fully resolved and the time for any further appeal has expired.</p>
+
+<p>Facing a CRA audit or concerned about past filings? LedgerLogic's CPAs have direct experience with CRA audit procedures, including voluntary disclosures and objections. We handle everything from document preparation to CRA correspondence.</p>
+`,
         "toc": [
-            {
-                "id": "overview-of-cra-audit-time-limits",
-                "title": "Overview of CRA Audit Time Limits"
-            },
-            {
-                "id": "determining-factors-for-audit-periods",
-                "title": "Determining Factors for Audit Periods"
-            },
-            {
-                "id": "audit-process-and-taxpayer-notifications",
-                "title": "Audit Process and Taxpayer Notifications"
-            },
-            {
-                "id": "common-triggers-for-extended-audits",
-                "title": "Common Triggers for Extended Audits"
-            },
-            {
-                "id": "legal-implications-and-rights",
-                "title": "Legal Implications and Rights"
-            },
-            {
-                "id": "preparation-for-a-cra-audit",
-                "title": "Preparation for a CRA Audit"
-            },
-            {
-                "id": "frequently-asked-questions",
-                "title": "Frequently Asked Questions"
-            }
+            { "id": "reassessment-period-summary", "title": "Reassessment Period Summary" },
+            { "id": "the-standard-3-year-reassessment-period", "title": "The Standard 3-Year Reassessment Period" },
+            { "id": "the-6-year-extended-reassessment-period", "title": "The 6-Year Extended Reassessment Period" },
+            { "id": "the-10-year-taxpayer-relief-window", "title": "The 10-Year Taxpayer Relief Window" },
+            { "id": "no-time-limit-fraud-and-misrepresentation", "title": "No Time Limit: Fraud and Misrepresentation" },
+            { "id": "how-long-must-you-keep-tax-records", "title": "How Long Must You Keep Tax Records?" },
+            { "id": "what-triggers-a-cra-audit", "title": "What Triggers a CRA Audit?" },
+            { "id": "your-rights-during-a-cra-audit", "title": "Your Rights During a CRA Audit" },
+            { "id": "frequently-asked-questions", "title": "Frequently Asked Questions" }
         ],
-        "author": "Seb Prost, CPA",
-        "date": "October 4, 2023",
+        "author": "Sebastien Prost, CPA",
+        "date": "October 1, 2023",
+        "dateModified": "February 10, 2026",
         "readTime": "5 min read",
         "tags": [
-            "Corporate Tax",
-            "Cra",
-            "Personal Tax"
+            "CRA Audit",
+            "Tax Compliance",
+            "Canada"
         ],
         "category": "Tax",
         "image": "/images/blog-heroes/hero_ledgerlogic_audit_limit.png"

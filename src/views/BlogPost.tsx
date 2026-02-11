@@ -387,6 +387,7 @@ const BlogPost: React.FC<BlogPostProps> = ({ post, relatedPosts }) => {
 
     // ISO Date for Schema
     const isoDate = new Date(post.date).toISOString();
+    const isoDateModified = post.dateModified ? new Date(post.dateModified).toISOString() : isoDate;
 
     return (
         <>
@@ -408,7 +409,7 @@ const BlogPost: React.FC<BlogPostProps> = ({ post, relatedPosts }) => {
                                 `https://ledgerlogic.ca${post.image}`
                             ],
                             "datePublished": isoDate,
-                            "dateModified": isoDate, // Should track actual modification date in future
+                            "dateModified": isoDateModified,
                             "author": [{
                                 "@type": "Person",
                                 "name": post.author,
@@ -494,7 +495,7 @@ const BlogPost: React.FC<BlogPostProps> = ({ post, relatedPosts }) => {
                                 <div className="premium-post-meta">
                                     <span className="meta-text">By <strong>{post.author}</strong> <span className="text-teal-600 text-[10px] font-bold uppercase ml-1.5 bg-teal-50 px-2 py-0.5 rounded border border-teal-100 align-middle">CPA, Ex-CRA</span></span>
                                     <span className="meta-dot">·</span>
-                                    <span className="meta-text">{post.date}</span>
+                                    <span className="meta-text">{post.dateModified ? `Last Updated: ${post.dateModified}` : post.date}</span>
                                     <span className="meta-dot">·</span>
                                     <span className="meta-text">{post.readTime} read</span>
                                 </div>
