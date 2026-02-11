@@ -39,10 +39,10 @@ const PILLAR_MAP: Record<string, { slug: string; title: string; category: string
     'are-dividends-taxable-in-canada': { slug: 'what-is-a-holding-company-in-canada', title: 'What is a Holding Company in Canada?', category: 'Adv. Tax' },
 
     // Cluster D: CRA
-    'chances-of-getting-audited-by-cra': { slug: 'tax-filing-deadlines-in-canada-a-comprehensive-guide', title: 'Tax Filing Deadlines: Comprehensive Guide', category: 'Compliance' },
-    'how-do-you-deal-with-a-cra-audit': { slug: 'tax-filing-deadlines-in-canada-a-comprehensive-guide', title: 'Tax Filing Deadlines: Comprehensive Guide', category: 'Compliance' },
-    'does-cra-audit-your-bank-account': { slug: 'tax-filing-deadlines-in-canada-a-comprehensive-guide', title: 'Tax Filing Deadlines: Comprehensive Guide', category: 'Compliance' },
-    'how-far-back-can-cra-audit': { slug: 'tax-filing-deadlines-in-canada-a-comprehensive-guide', title: 'Tax Filing Deadlines: Comprehensive Guide', category: 'Compliance' },
+    'chances-of-getting-audited-by-cra': { slug: 'small-business-tax-rate-canada', title: 'Corporate Tax Deadlines & Rates', category: 'Compliance' },
+    'how-do-you-deal-with-a-cra-audit': { slug: 'small-business-tax-rate-canada', title: 'Corporate Tax Deadlines & Rates', category: 'Compliance' },
+    'does-cra-audit-your-bank-account': { slug: 'small-business-tax-rate-canada', title: 'Corporate Tax Deadlines & Rates', category: 'Compliance' },
+    'how-far-back-can-cra-audit': { slug: 'small-business-tax-rate-canada', title: 'Corporate Tax Deadlines & Rates', category: 'Compliance' },
 };
 
 // Extract FAQ Q&A pairs from blog post HTML content for FAQPage schema
