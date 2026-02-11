@@ -3070,68 +3070,231 @@ export const blogPosts: BlogPost[] = [
         "image": "/images/blog-heroes/hero_ledgerlogic_accounting_new_business.png"
     },
     {
-        "id": "managing-payroll-taxes-in-canadian-small-businesses",
-        "slug": "managing-payroll-taxes-in-canadian-small-businesses",
-        "title": "Managing Payroll Taxes in Canadian Small Businesses: A Comprehensive Guide",
+        "id": "employer-health-tax-eht-ontario-and-bc",
+        "slug": "employer-health-tax-eht-ontario-and-bc",
+        "title": "Employer Health Tax (EHT): Ontario & BC Rates, Thresholds & Rules (2026)",
+        "excerpt": "2026 Employer Health Tax rates and exemption thresholds for Ontario and BC. Ontario: 0.98-1.95% over $1M payroll. BC: 1.95% over $1.5M. Includes calculation examples, filing deadlines, and small business exemptions.",
+        "content": `
+<p>The Employer Health Tax is a provincial payroll tax that funds public health care. Both Ontario and British Columbia require employers to pay EHT on remuneration paid to employees, but the rate structures, exemption rules, and filing deadlines differ between the two provinces.</p>
+<p>If you run payroll in either province, here is what you need to know about your 2026 EHT obligations.</p>
+
+<h2 id="quick-reference-comparison-table">Quick-Reference Comparison Table (Above the Fold)</h2>
+<div class="overflow-x-auto min-w-full align-middle">
+<table class="min-w-full divide-y divide-gray-300">
+<thead>
+<tr>
+<th scope="col" class="py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-gray-900 sm:pl-0"></th>
+<th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Ontario</th>
+<th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">British Columbia</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-gray-200">
+<tr class="bg-white">
+<td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">Exemption threshold</td>
+<td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">$1,000,000</td>
+<td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">$1,000,000</td>
+</tr>
+<tr class="bg-gray-50">
+<td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">Rate below exemption</td>
+<td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">0% (exempt)</td>
+<td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">0% (exempt)</td>
+</tr>
+<tr class="bg-white">
+<td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">Transition/notch zone</td>
+<td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">Graduated 0.98%-1.95% on payroll above exemption</td>
+<td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">5.85% on payroll $1M-$1.5M</td>
+</tr>
+<tr class="bg-gray-50">
+<td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">Standard rate</td>
+<td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">1.95% on payroll above exemption</td>
+<td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">1.95% on total payroll (if over $1.5M)</td>
+</tr>
+<tr class="bg-white">
+<td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">No exemption if payroll exceeds</td>
+<td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">$5,000,000</td>
+<td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">$1,500,000</td>
+</tr>
+<tr class="bg-gray-50">
+<td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">Filing deadline</td>
+<td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">March 15</td>
+<td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">March 31</td>
+</tr>
+<tr class="bg-white">
+<td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">Instalment threshold</td>
+<td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">$1,200,000 annual payroll</td>
+<td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">Required if payroll > $1M</td>
+</tr>
+<tr class="bg-gray-50">
+<td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">Exemption applies to</td>
+<td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">Payroll above $1M (deducted)</td>
+<td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">Only payroll under $1M (lost if over $1.5M)</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<h2 id="ontario-employer-health-tax-rates-and-rules">Ontario Employer Health Tax — Rates and Rules</h2>
+<p>Ontario's EHT is governed by the Employer Health Tax Act and applies to all employers with a permanent establishment in Ontario. The tax is calculated on total remuneration paid to employees who report for work in Ontario or are paid from an Ontario location. Remuneration includes salaries, wages, bonuses, commissions, taxable benefits, and stock options.</p>
+
+<h3 id="ontario-eht-exemption">Ontario EHT Exemption</h3>
+<p>Eligible employers whose total Ontario payroll (including any associated employers) is less than $5,000,000 can claim a $1,000,000 exemption. Only payroll above $1 million is subject to EHT.</p>
+<p>This exemption was permanently increased from $490,000 during the COVID-19 pandemic in 2020. It remains at $1 million through 2028, with the next scheduled inflation adjustment on January 1, 2029.</p>
+<p>Employers are not eligible for the exemption if they are controlled by any level of government (with certain exceptions for organizations whose boards are independently elected) or if their total Ontario payroll (including associated employers) reaches or exceeds $5 million. Registered charities can claim the exemption regardless of payroll size.</p>
+
+<h3 id="ontario-eht-rate-structure">Ontario EHT Rate Structure</h3>
+<p>Ontario uses a graduated rate that increases with the amount of taxable payroll (payroll above the $1M exemption):</p>
+<div class="overflow-x-auto min-w-full align-middle">
+<table class="min-w-full divide-y divide-gray-300">
+<thead>
+<tr>
+<th scope="col" class="py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-gray-900 sm:pl-0">Taxable Payroll (Above Exemption)</th>
+<th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">EHT Rate</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-gray-200">
+<tr class="bg-white">
+<td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">First $200,000</td>
+<td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">0.98%</td>
+</tr>
+<tr class="bg-gray-50">
+<td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">$200,001 to $400,000</td>
+<td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">Graduated (increases toward 1.95%)</td>
+</tr>
+<tr class="bg-white">
+<td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">Over $400,000</td>
+<td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">1.95%</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>For employers with total payroll exceeding $5M (no exemption), the rate is 1.95% on all Ontario payroll.</p>
+
+[[CTA_CONSULT]]
+
+<h3 id="ontario-eht-calculation-example">Ontario EHT Calculation Example</h3>
+<p><strong>Employer with $2,500,000 Ontario payroll, no associated employers:</strong></p>
+<p class="font-mono bg-gray-100 p-4 rounded-md text-sm">Taxable payroll = $2,500,000 - $1,000,000 = $1,500,000<br>Since taxable payroll exceeds $400,000, the effective rate is 1.95%:<br>EHT = $1,500,000 x 0.0195 = $29,250</p>
+<p><strong>Employer with $800,000 Ontario payroll:</strong></p>
+<p class="font-mono bg-gray-100 p-4 rounded-md text-sm">Payroll is below the $1M exemption = $0 EHT owing<br>(Must still file annual return to claim exemption.)</p>
+
+<h3 id="ontario-filing-and-payment">Ontario Filing and Payment</h3>
+<p>The annual return is due March 15 of the following year. Employers with Ontario remuneration exceeding $1,200,000 must make monthly instalment payments by the 15th of the following month. The first instalment is not required until payroll exceeds the $1.2M threshold during the year.</p>
+<p>Pro tip from our CPA team: Even if your payroll is below $1M and you owe no EHT, you should still file the annual return in Ontario to formally claim the exemption. Failing to file can trigger compliance inquiries from the Ontario Ministry of Finance.</p>
+
+<h2 id="british-columbia-employer-health-tax-rates-and-rules">British Columbia Employer Health Tax — Rates and Rules</h2>
+<p>BC's EHT replaced Medical Services Plan (MSP) premiums and has been in effect since January 1, 2019. The rate structure was significantly updated effective January 1, 2024, when the exemption threshold doubled from $500,000 to $1,000,000.</p>
+
+<h3 id="bc-eht-rate-structure-2024-onward">BC EHT Rate Structure (2024 Onward)</h3>
+<div class="overflow-x-auto min-w-full align-middle">
+<table class="min-w-full divide-y divide-gray-300">
+<thead>
+<tr>
+<th scope="col" class="py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-gray-900 sm:pl-0">BC Remuneration</th>
+<th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">EHT Calculation</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-gray-200">
+<tr class="bg-white">
+<td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">$1,000,000 or less</td>
+<td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">Exempt — no tax payable</td>
+</tr>
+<tr class="bg-gray-50">
+<td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">$1,000,001 to $1,500,000</td>
+<td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">5.85% on the amount over $1,000,000 (notch rate)</td>
+</tr>
+<tr class="bg-white">
+<td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">Over $1,500,000</td>
+<td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">1.95% on total BC remuneration</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Critical difference from Ontario: In BC, once your payroll exceeds $1.5M, you pay 1.95% on your entire payroll — the $1M exemption disappears entirely. In Ontario, the $1M exemption is always deducted from payroll (as long as total payroll is under $5M).</p>
+<p>This makes the $1.5M threshold in BC particularly punishing. An employer with $1,499,999 in BC payroll pays $29,250 in EHT (5.85% on $499,999). An employer with $1,500,001 pays $29,250 in EHT (1.95% on $1,500,001). But an employer at exactly $1.5M would be at the transition point. Careful payroll planning around this threshold can be worthwhile.</p>
+
+<h3 id="bc-eht-calculation-examples">BC EHT Calculation Examples</h3>
+<p><strong>Employer with $1,300,000 BC remuneration:</strong></p>
+<p class="font-mono bg-gray-100 p-4 rounded-md text-sm">Payroll is in the notch zone ($1M-$1.5M):<br>Taxable amount = $1,300,000 - $1,000,000 = $300,000<br>EHT = $300,000 x 0.0585 = $17,550</p>
+<p><strong>Employer with $3,000,000 BC remuneration:</strong></p>
+<p class="font-mono bg-gray-100 p-4 rounded-md text-sm">Payroll exceeds $1.5M, so 1.95% applies on total:<br>EHT = $3,000,000 x 0.0195 = $58,500</p>
+<p><strong>Employer with $900,000 BC remuneration:</strong></p>
+<p class="font-mono bg-gray-100 p-4 rounded-md text-sm">Payroll is under $1M = $0 EHT owing (no registration or filing required)</p>
+
+<h3 id="bc-filing-and-payment">BC Filing and Payment</h3>
+<p>The annual return is due March 31 of the following year. Employers must make instalment payments on June 15, September 15, and December 15 during the calendar year, with the remaining balance due with the annual return.</p>
+<p>Employers whose first year of EHT obligation begins mid-year must register by December 31 of that year and prorate the exemption and notch rate amounts based on the number of days they had a permanent establishment in BC.</p>
+
+<h2 id="do-i-need-to-pay-eht-decision-flowchart">Do I Need to Pay EHT? Decision Flowchart</h2>
+<div class="bg-blue-50 border-l-4 border-blue-500 p-4 my-4">
+<ol class="list-decimal list-inside space-y-2">
+<li><strong>Step 1: Do you have employees working in Ontario or BC?</strong><br>→ No: EHT does not apply.<br>→ Yes: Continue.</li>
+<li><strong>Step 2: What is your total payroll in the province?</strong><br>→ Under $1,000,000: You are exempt in both provinces.<br>→ $1,000,001 to $1,500,000: You owe EHT (5.85% notch rate in BC; graduated rate in Ontario).<br>→ Over $1,500,000: You owe EHT at 1.95% (on total in BC; on amount above exemption in Ontario).<br>→ Over $5,000,000 in Ontario: You owe 1.95% on total Ontario payroll with no exemption.</li>
+<li><strong>Step 3: Are you associated with other employers?</strong><br>→ Yes: The $1M exemption must be shared among all associated group members.</li>
+</ol>
+</div>
+<p>If you operate in both provinces and need help with multi-province payroll compliance, our team can ensure your EHT obligations are calculated and filed correctly in each jurisdiction.</p>
+
+<h2 id="associated-employers-and-the-shared-exemption">Associated Employers and the Shared Exemption</h2>
+<p>Both Ontario and BC require associated employers to share the $1M exemption. Employers are generally considered associated if they are connected through common ownership (one controls the other, or both are controlled by the same person or group) or family relationships.</p>
+<p>In Ontario, the associated group allocates the $1M exemption in any proportion they agree on. If the group's combined Ontario payroll exceeds $5M, no member can claim any exemption.</p>
+<p>In BC, the associated group must also share the exemption. If the combined BC remuneration of the group exceeds $1.5M, the exemption is lost entirely for all members, and each pays 1.95% on their own payroll.</p>
+<p>Pro tip: If you operate multiple related corporations and your combined payroll is approaching these thresholds, consult with your CPA about payroll structuring. Our Virtual CFO service regularly helps clients with multi-entity tax planning that includes EHT optimization.</p>
+
+<h2 id="frequently-asked-questions">Frequently Asked Questions</h2>
+<h3 id="what-is-the-eht-exemption-threshold-in-ontario-for-2026">What is the EHT exemption threshold in Ontario for 2026?</h3>
+<p>$1,000,000 for eligible employers whose total Ontario payroll (including associated employers) is less than $5,000,000. The exemption has been at $1M since 2020 and is scheduled for inflation adjustment on January 1, 2029.</p>
+
+<h3 id="what-is-the-eht-rate-in-bc-for-2026">What is the EHT rate in BC for 2026?</h3>
+<p>Employers with BC remuneration of $1,000,000 or less are exempt. Those with payroll between $1,000,001 and $1,500,000 pay a 5.85% notch rate on the amount above $1M. Employers with payroll over $1,500,000 pay 1.95% on their total BC remuneration.</p>
+
+<h3 id="do-small-businesses-have-to-pay-employer-health-tax">Do small businesses have to pay employer health tax?</h3>
+<p>In both Ontario and BC, employers with payroll under $1,000,000 are exempt. Ontario employers should still file to formally claim the exemption. BC employers under the threshold do not need to register or file.</p>
+
+<h3 id="when-is-the-eht-filing-deadline">When is the EHT filing deadline?</h3>
+<p>Ontario: March 15. BC: March 31. Ontario employers with payroll over $1.2M must also make monthly instalments.</p>
+
+<h3 id="is-eht-the-same-in-ontario-and-bc">Is EHT the same in Ontario and BC?</h3>
+<p>No. The key structural difference is that Ontario deducts the $1M exemption from payroll before applying the tax rate, while BC provides a full exemption under $1M but removes it entirely once payroll exceeds $1.5M. Filing deadlines, instalment schedules, and the rate structures also differ.</p>
+
+<h3 id="can-associated-employers-share-the-eht-exemption">Can associated employers share the EHT exemption?</h3>
+<p>Yes, in both provinces. The $1M exemption must be allocated among associated group members. In Ontario, the allocation is flexible. In BC, if the group's combined payroll exceeds $1.5M, all members lose the exemption.</p>
+
+<h2 id="final-thoughts">Final Thoughts</h2>
+<p>Need help with EHT compliance? LedgerLogic's payroll services handle EHT registration, instalment calculations, and annual return filing for businesses in Ontario and BC.</p>
+<p><a href="/contact" class="text-teal-600 font-bold hover:underline">Book a Free Consultation</a></p>
+<p><em>Managing employee tax forms too? See our step-by-step TD1 and TD1BC guide.</em></p>
+`,
+        "toc": [
+            { "id": "quick-reference-comparison-table", "title": "Quick-Reference Comparison Table" },
+            { "id": "ontario-employer-health-tax-rates-and-rules", "title": "Ontario Employer Health Tax — Rates and Rules" },
+            { "id": "ontario-eht-exemption", "title": "Ontario EHT Exemption" },
+            { "id": "ontario-eht-rate-structure", "title": "Ontario EHT Rate Structure" },
+            { "id": "ontario-eht-calculation-example", "title": "Ontario EHT Calculation Example" },
+            { "id": "ontario-filing-and-payment", "title": "Ontario Filing and Payment" },
+            { "id": "british-columbia-employer-health-tax-rates-and-rules", "title": "British Columbia Employer Health Tax — Rates and Rules" },
+            { "id": "bc-eht-rate-structure-2024-onward", "title": "BC EHT Rate Structure (2024 Onward)" },
+            { "id": "bc-eht-calculation-examples", "title": "BC EHT Calculation Examples" },
+            { "id": "bc-filing-and-payment", "title": "BC Filing and Payment" },
+            { "id": "do-i-need-to-pay-eht-decision-flowchart", "title": "Do I Need to Pay EHT? Decision Flowchart" },
+            { "id": "associated-employers-and-the-shared-exemption", "title": "Associated Employers and the Shared Exemption" },
+            { "id": "frequently-asked-questions", "title": "Frequently Asked Questions" }
+        ],
         "atAGlance": {
             "title": "At a Glance",
             "items": [
-                {
-                    "label": "Read Time",
-                    "text": "5 min read"
-                },
-                {
-                    "label": "Target",
-                    "text": "Taxpayers & Business Owners"
-                },
-                {
-                    "label": "Topic",
-                    "text": "Payroll"
-                },
-                {
-                    "label": "Insight",
-                    "text": "Payroll tax management is a pivotal part of operating a s..."
-                }
+                { "label": "Read Time", "text": "12 min read" },
+                { "label": "Target", "text": "Taxpayers & Business Owners" },
+                { "label": "Topic", "text": "Payroll Tax (EHT)" },
+                { "label": "Insight", "text": "2026 EHT rates and exemptions for Ontario and BC." },
+                { "label": "Ontario Deadline", "text": "March 15" },
+                { "label": "BC Deadline", "text": "March 31" }
             ]
         },
-        "excerpt": "The Employer Health Tax (EHT) is a payroll tax imposed by the provinces of Ontario and British Columbia on employers. This tax is levied to fund their...",
-        "content": "<p>The <a href=\"/blog\">Employer Health Tax (EHT)</a> is a payroll tax imposed by the provinces of Ontario and British Columbia on employers. This tax is levied to fund their respective provincial health care programs, ensuring that medical services are provided to residents without direct charges at the point of care. In both provinces, EHT is calculated as a percentage of the total payroll, with the rates and exemption thresholds varying between Ontario and BC.</p>\n<p>In Ontario, EHT was introduced in 1990 and is paid by employers who have a permanent establishment in the province. The tax is applicable to employers with an annual payroll above a certain exemption limit, which is adjusted periodically. Employers with payrolls below this threshold are exempt from EHT, providing relief to small businesses. Employers are required to calculate their EHT liability and file an annual return with the Ontario Ministry of Finance.</p>\n<p>British Columbia's EHT, introduced more recently, mirrors the intent of Ontario’s tax, but with its own set of rates and exemption thresholds. BC's approach also aims to distribute the tax burden fairly among businesses of various sizes while ensuring that health care funding is sustained. Employers in BC must register, calculate, and remit EHT based on their payroll, similar to the process in Ontario, but must adhere to the specific requirements set out by the BC Ministry of Finance.\n<h2 id=\"overview-of-employer-health-tax\">Overview of Employer Health Tax</h2></p>[[CTA_CONSULT]]\n<p>The Employer Health Tax (EHT) is a payroll tax levied on employers in Ontario and British Columbia to fund provincial health services. It is vital for employers to understand the tax's components and its impact on their financial responsibilities.\n<h3 id=\"definition-and-purpose\">Definition and Purpose</h3></p>\n<p><strong>Employer Health Tax (EHT)</strong> refers to a provincial tax that employers in Ontario and British Columbia must pay based on the total remuneration paid to employees and former employees. In Ontario, it helps fund the health care system, whereas in British Columbia, it replaced the Medical Services Plan (MSP) premiums that were previously paid by residents.</p>\n<p>The primary purpose of the EHT is to generate revenue for provincial health services. Employers are responsible for calculating and remitting the tax to the provincial government. The rate and exemption threshold can vary among provinces, with specific rules governing what constitutes taxable remuneration.\n<h2 id=\"eht-in-ontario\">EHT in Ontario</h2></p>\n<p>The Employer Health Tax (EHT) is a payroll tax imposed on employers operating in Ontario. It plays a crucial role in funding the province's health services.\n<h3 id=\"current-rates-and-thresholds\">Current Rates and Thresholds</h3></p>\n<p>For 2023, the EHT rate varies from 0.98% to 1.95%, depending on the employer's total annual Ontario payroll. Businesses with a payroll under $1,000,000 are usually exempt. Here are the specific rates:\n<li><strong>$1,000,000 or less:</strong> Exempt</li>\n<li><strong>Over $1,000,000 up to $1,400,000:</strong> Between 0.98% and 1.95% depending on income (see the <a href=\"https://www.ontario.ca/document/employer-health-tax-eht#section-3\">Ontario government's website</a> for more details)</li>\n<li><strong>Over $1,400,000:</strong> 1.95%</li></p>\n<p>The $1,000,000 exemption does not apply to employers with more than $5,000,000 in annual payroll meaning that the full amount of payroll would be subject to the EHT.\n<h3 id=\"eligibility-and-exemptions\">Eligibility and Exemptions</h3></p>\n<p>Employers are eligible to pay EHT if they have employees working at a permanent establishment in Ontario or employees who are paid from or through a permanent establishment in the province. Private-sector employers with an annual Ontario payroll over $1,000,000 must pay EHT. Various exemptions apply, including:\n<li><strong>Public sector entities</strong></li>\n<li><strong>Registered charities</strong></li>\n<li><strong>Employers with annual payrolls under the exemption threshold</strong></li></p>\n<h3 id=\"calculation-and-payment\">Calculation and Payment</h3>\n<p>Employers calculate EHT based on total remuneration paid to employees. Remuneration includes salaries, wages, bonuses, and many benefits. Employers with an annual payroll above $1,000,000 must make installment payments, either monthly or quarterly, based on their remuneration. The annual tax return is due March 15 of the following year.\n<h3 id=\"special-rules-for-ontario-employers\">Special Rules for Ontario Employers</h3></p>\n<p>Ontario has special rules to accommodate different types of employers and circumstances:\n<li><strong>Associates:</strong> Groups of associated employers must share the exemption threshold.</li>\n<li><strong>Status Changes:</strong> When a business's status changes, such as becoming associated or disassociated, or when there is an acquisition or merger, special rules and calculations apply for EHT.</li>\n<li><strong>Successor Employers:</strong> Successor employers may have specific rules for calculating their EHT obligations.</li></p>\n<h2 id=\"eht-in-british-columbia\">EHT in British Columbia</h2>\n<p>In British Columbia, the Employer Health Tax (EHT) is a payroll tax that funds the province’s health services. This tax is applicable to employers with a payroll over a certain threshold and varies according to the total payroll amount.\n<h3 id=\"current-rates-and-thresholds-for-bc\">Current Rates and Thresholds for BC</h3></p>\n<p>The EHT rate in British Columbia for businesses with payrolls between $500,000 and $1,500,000 is <strong>2.925%</strong> but must be calculated net of the $500,000 exemption. For BC employers with an annual payroll over $1,500,000, the EHT rate of 1.95% applies on the full amount of the payroll as the $500,000 exemption does not apply. Employers with payrolls of $500,000 or less are exempt from the EHT.</p>\n<p>The threshold level is:\n<li><strong>$500,000</strong> for private-sector employers.</li>\n<li><strong>$1,500,000</strong> for registered charities and non-profit organizations.</li></p>\n<h3 id=\"calculation-and-payment-in-bc\">Calculation and Payment in BC</h3>\n<p>Employers must calculate their EHT based on the total remuneration paid to employees who report to work at a permanent establishment of the employer in BC. It includes all forms of cash and non-cash compensation such as:\n<li>Salaries and wages.</li>\n<li>Bonuses.</li>\n<li>Commissions.</li>\n<li>Vacation pay.</li></p>\n<p>Payments must be made in instalments throughout the year if the total EHT exceeds $2,925 annually, coinciding with the employer's remittance frequency for BC’s provincial revenue agency.\n<h3 id=\"special-rules-for-british-columbia-employers\">Special Rules for British Columbia Employers</h3></p>\n<p>Several special rules apply to specific situations in BC, such as:\n<li><strong>Associated Employers</strong>: If two or more corporations are associated during the year, the EHT threshold is shared between them.</li>\n<li><strong>Successor Employers</strong>: When a business acquires the status of successor employer, the EHT implications on payroll must be carefully considered to ensure compliance.</li></p>\n<h2 id=\"compliance-and-enforcement\">Compliance and Enforcement</h2>\n<p>Employer health tax (EHT) compliance in Ontario and BC mandates adherence to specific regulations, and enforcement relies on systematic audit and review processes. Non-compliance triggers penalties and interest charges.\n<h3 id=\"audit-and-review-process\">Audit and Review Process</h3></p>\n<p>In both Ontario and BC, the Ministry of Finance can <strong>audit</strong> employers at any time to verify EHT compliance. These audits may include the examination of records, books, and supporting documents within a <strong>four-year period</strong> from the date the tax became payable. If discrepancies are found or tax is unpaid:\n<li>Records may be corrected.</li>\n<li>Additional tax may be assessed.</li>\n<li>Employers may be guided to prevent future discrepancies.</li></p>\n<h3 id=\"penalties-and-interest-for-non-compliance\">Penalties and Interest for Non-Compliance</h3>\n<p>In BC, employers who fail to comply with EHT obligations may face <strong>penalties and interest</strong>. Specific non-compliance instances include:\n<li><strong>Failing to register</strong> for EHT.</li>\n<li><strong>Late filing</strong> or failure to file returns.</li>\n<li><strong>Underpayment</strong> of taxes due.</li></p>\n<p>| Non-Compliance Type | Penalty/Interest |\n| --- | --- |\n| Late Filing | <em>5% of unpaid tax</em> plus 1% per month, max 12 months |\n| Underpayment | <em>Prime plus 3 percent</em> |</p>\n<p>Interest compounds daily and penalties are calculated based on the period of non-compliance and the amount of tax owing.\n<h2 id=\"interjurisdictional-employers\">Interjurisdictional Employers</h2></p>\n<p>Interjurisdictional employers in Ontario and British Columbia face particular responsibilities regarding Employer Health Tax (EHT). They must allocate payroll accurately between provinces and comply with differing jurisdictional regulations.\n<h2 id=\"potential-changes-and-impacts\">Potential Changes and Impacts</h2></p>\n<p>The section provides insights into recent legislative proposals and their potential effects on businesses in the context of the Employer Health Tax (EHT).\n<h3 id=\"legislative-updates\">Legislative Updates</h3></p>\n<p>In Ontario, proposed adjustments to the EHT include increasing the exemption threshold. Small businesses might benefit from this, as it could result in lower tax liabilities. For BC, new legislation may alter the current rate, potentially leading to an increment in the tax burden for certain businesses depending on their payroll size.\n<h3 id=\"economic-effects-on-businesses\">Economic Effects on Businesses</h3></p>\n<p>Economically, changes to the EHT can significantly influence businesses. For instance:\n<li><strong>Increased Rates</strong>: Businesses may see a rise in operational costs, which could result in <strong>budget reallocations</strong> or <strong>reductions in workforce</strong>.</li>\n<li><strong>Exemption Thresholds</strong>: A higher exemption limit enables small businesses to <strong>deploy capital towards growth or improvement strategies</strong>, possibly <strong>enhancing their competitive position</strong>.</li></p>\n<p>Businesses must stay informed on these developments to manage their finances effectively and align with regulatory compliance.\n<h2 id=\"frequently-asked-questions\">Frequently Asked Questions</h2></p>\n<p>This section provides critical information on the Employer Health Tax (EHT) in Ontario and British Columbia, including calculations, rates, remuneration subjects, exemptions, obligations, and filing requirements.\n<h3 id=\"how-is-the-employer-health-tax-calculated-in-british-columbia-\">How is the Employer Health Tax calculated in British Columbia?</h3></p>\n<p>In British Columbia, the Employer Health Tax is calculated by multiplying the total B.C. remuneration paid to employees by the applicable tax rate. The rate varies depending on the employer's total B.C. remuneration.\n<h3 id=\"what-are-the-current-rates-for-the-employer-health-tax-in-ontario-for-2023-\">What are the current rates for the Employer Health Tax in Ontario for 2023?</h3></p>\n<p>For 2023, the Employer Health Tax rates in Ontario varies between 0.98% and 1.95% depending on the amount of annual payroll.\n<h3 id=\"which-types-of-remuneration-are-subject-to-the-employer-health-tax-in-ontario-\">Which types of remuneration are subject to the Employer Health Tax in Ontario?</h3></p>\n<p>In Ontario, the Employer Health Tax applies to various types of remuneration, including salaries, wages, bonuses, commissions, and other similar payments paid to employees or former employees.\n<h3 id=\"are-there-any-exemptions-to-the-employer-health-tax-in-bc-\">Are there any exemptions to the Employer Health Tax in BC?</h3></p>\n<p>Certain exemptions apply to the Employer Health Tax in BC. These include payroll costs below the exemption threshold, registered charities, and qualifying public institutions such as schools and hospitals, subject to specific criteria.\n<h3 id=\"how-can-employers-in-ontario-determine-their-total-eht-obligation-\">How can employers in Ontario determine their total EHT obligation?</h3></p>\n<p>To determine their total Employer Health Tax obligation, Ontario employers must first calculate their total annual payroll for all employees, then apply the applicable EHT rate to this amount after considering any allowable exemptions such as the small employer threshold.\n<h3 id=\"what-are-the-filing-requirements-for-the-employer-health-tax-in-british-columbia-\">What are the filing requirements for the Employer Health Tax in British Columbia?</h3></p>\n<p>Employers must file an Employer Health Tax return and pay any EHT owing within three months of the end of the calendar year if their annual B.C. remuneration exceeds the payroll threshold. Those with monthly tax remittances are required to file and pay more frequently.</p>",
-        "toc": [
-            {
-                "id": "overview-of-employer-health-tax",
-                "title": "Overview of Employer Health Tax"
-            },
-            {
-                "id": "eht-in-ontario",
-                "title": "EHT in Ontario"
-            },
-            {
-                "id": "eht-in-british-columbia",
-                "title": "EHT in British Columbia"
-            },
-            {
-                "id": "compliance-and-enforcement",
-                "title": "Compliance and Enforcement"
-            },
-            {
-                "id": "interjurisdictional-employers",
-                "title": "Interjurisdictional Employers"
-            },
-            {
-                "id": "potential-changes-and-impacts",
-                "title": "Potential Changes and Impacts"
-            },
-            {
-                "id": "frequently-asked-questions",
-                "title": "Frequently Asked Questions"
-            }
-        ],
         "author": "Seb Prost, CPA",
         "date": "January 9, 2024",
-        "readTime": "5 min read",
-        "tags": [
-            "Payroll"
-        ],
+        "dateModified": "February 10, 2026",
+        "readTime": "12 min read",
+        "tags": ["Payroll", "EHT", "Ontario", "BC"],
         "category": "Tax",
         "image": "/images/blog-heroes/hero_ledgerlogic_employer_health_tax.png"
     },

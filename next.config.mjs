@@ -50,6 +50,17 @@ const nextConfig = {
                 permanent: true,
             },
             {
+                source: '/blog/managing-payroll-taxes-in-canadian-small-businesses',
+                destination: '/blog/employer-health-tax-eht-ontario-and-bc',
+                permanent: true,
+            },
+            {
+                source: '/blog/what-is-employer-health-tax-eht-in-ontario-and-bc',
+                destination: '/blog/employer-health-tax-eht-ontario-and-bc',
+                permanent: true,
+            },
+
+            {
                 // Specific redirect for Regulation 105 (Location changed)
                 source: '/:year(\\d{4})/:month(\\d{2})/:day(\\d{2})/regulation-102-105-withholdings-for-payments-to-non-residents-canada',
                 destination: '/regulation-105-refund',
