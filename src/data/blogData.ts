@@ -2633,70 +2633,168 @@ export const blogPosts: BlogPost[] = [
     {
         "id": "how-to-fill-out-td1-and-td1bc-forms",
         "slug": "how-to-fill-out-td1-and-td1bc-forms",
-        "title": "How to Fill Out TD1 and TD1BC Forms: A Step-by-Step Guide",
+        "title": "How to Fill Out TD1 & TD1BC Forms (2026): Step-by-Step Guide",
         "atAGlance": {
             "title": "At a Glance",
             "items": [
-                {
-                    "label": "Read Time",
-                    "text": "5 min read"
-                },
-                {
-                    "label": "Target",
-                    "text": "Taxpayers & Business Owners"
-                },
-                {
-                    "label": "Topic",
-                    "text": "Payroll"
-                },
-                {
-                    "label": "Insight",
-                    "text": "Filling out the TD1 and TD1BC forms is an important annua..."
-                }
+                { "label": "Read Time", "text": "8 min read" },
+                { "label": "Target", "text": "Employees & Employers" },
+                { "label": "Topic", "text": "Payroll & Tax Forms" },
+                { "label": "Insight", "text": "Step-by-step guide to filling out the 2026 TD1 and TD1BC forms with updated personal amounts." }
             ]
         },
-        "excerpt": "Filling out the TD1 and TD1BC forms is an important annual task for employees in Canada. These forms determine the amount of tax to be deducted from a...",
+        "excerpt": "Learn how to fill out the 2026 TD1 and TD1BC forms with our step-by-step guide. Covers every line: basic personal amount ($16,452 federal, $13,216 BC), dependant credits, disability, and when to update your forms.",
         "image": "/images/blog-heroes/hero_td1_forms_guide.png",
-        "content": "<p>Filling out the TD1 and TD1BC forms is an important annual task for employees in Canada. These forms determine the amount of tax to be deducted from an individual's income, ensuring that the correct tax amount is withheld by employers throughout the year. The TD1, also known as the Personal Tax Credits Return, is a federal form, while the TD1BC is its provincial counterpart for residents of British Columbia. Both forms take into account various credits and deductions that individuals can claim based on their personal situation.</p>\n<p>To complete these forms accurately, it's essential to understand the different sections and the types of information they require. The forms provide clear instructions on how to claim tax credits, such as the basic personal amount, education, and disability credits. Employees must consider their eligibility for each credit and fill out the forms with precise and current information to reflect their entitlements.</p>\n<p>New employees or those who experience a change in their personal circumstances, like marriage, or having a child, should pay particular attention to the TD1 and TD1BC forms. By correctly filling out these documents, they ensure their employer withholds an appropriate amount of tax from their pay. Incorrect or outdated information can lead to under- or over-withholding of taxes, resulting in a balance owing or a refund when filing an annual income tax return.\n<h2 id=\"understanding-td1-and-td1bc-forms\">Understanding TD1 and TD1BC Forms</h2></p>[[CTA_CONSULT]]\n<p>The TD1, Personal Tax Credits Return, and the TD1BC, British Columbia Personal Tax Credits Return, are crucial for accurate tax deduction calculations by employers in Canada.\n<h3 id=\"purpose-of-td1-and-td1bc\">Purpose of TD1 and TD1BC</h3></p>\n<p>The purpose of the <strong>TD1</strong> and <strong>TD1BC</strong> forms is to determine the amount of tax to be deducted from an individual's employment income or pension during a tax year. They take into account various <strong>tax credits</strong> that an individual is eligible for, such as the basic personal amount and education-related credits.</p>\n<p>Employers use the information from these forms to ascertain the correct amount of tax to withhold from the employee's paychecks. <strong>Employees</strong> should fill out new forms if their personal tax credit amounts change or if they start a new job.\n<h3 id=\"who-needs-to-fill-out-the-forms\">Who Needs to Fill Out the Forms</h3></p>\n<li><strong>New employees</strong> must complete the TD1 and TD1BC forms as part of their hiring process.</li>\n<li><strong>Existing employees</strong> should fill out new forms if their situation changes, leading to a change in tax credits, such as a marital status change or the birth of a child.</li>\n<li><strong>Pension recipients</strong> may also need to fill out these forms to adjust their tax withholdings on their pension income.</li>\n<p>Employees or pensioners who don’t fill out the forms will have taxes deducted using only the basic personal amount, potentially resulting in higher tax withheld than necessary.\n<h2 id=\"preparing-to-fill-out-td1-and-td1bc\">Preparing to Fill Out TD1 and TD1BC</h2></p>\n<p>Before beginning the TD1 and TD1BC forms, it is crucial to compile the necessary information and understand the <a href=\"/blog\">tax credits</a> available to the individual.\n<h3 id=\"gathering-required-information\">Gathering Required Information</h3></p>\n<p>One must gather their personal information, including their Social Insurance Number (SIN) and details of their current employment. If changes have occurred in one's personal life, such as a marriage, those details are relevant as well.</p>\n<p><strong>Documents to collect:</strong>\n<li>Social Insurance Number (SIN)</li>\n<li>Last year’s income tax return</li>\n<li>Information regarding other income sources</li>\n<li>Details of taxable benefits and educational status, if applicable</li></p>\n<h3 id=\"understanding-tax-credits\">Understanding Tax Credits</h3>\n<p>Understanding the available tax credits is essential for accurate completion of the TD1 and TD1BC forms.</p>\n<p><strong>Common tax credits include:</strong>\n<li>Basic personal amount</li>\n<li>Age amount for individuals 65 years of age or older</li>\n<li>Pension income amounts for those who receive eligible pension income</li></p>\n<p>Each credit should be carefully evaluated by the taxpayer to ensure they are claiming the correct amounts based on their eligibility.\n<h2 id=\"step-by-step-guide-to-completing-td1-form\">Step-by-Step Guide to Completing TD1 Form</h2></p>\n<p>The TD1 form, known as the Personal Tax Credits Return, is a document needed for every employee or pensioner in Canada. It determines the amount of tax to be deducted from one's income.\n<h3 id=\"personal-tax-credits-return\">Personal Tax Credits Return</h3></p>\n<p>An individual must complete the TD1 form when they start a new job or when their personal or financial situation changes. This form has sections for entering personal information such as name, social insurance number, and date of birth. The form requires taxpayers to fill out the basic personal amount, which is the amount an individual can earn without paying federal income tax.\n<h3 id=\"claiming-personal-amounts\">Claiming Personal Amounts</h3></p>\n<p>| Section | Description |\n| --- | --- |\n| <strong>Basic Personal Amount</strong> | Every taxpayer is entitled to claim this non-refundable tax credit. |\n| <strong>Age Amount</strong> | Taxpayers 65 or over by the end of the year are eligible to claim this amount. |\n| <strong>Disability Amount</strong> | Those with a prolonged impairment in physical or mental functions may claim this amount. |\n| <strong>Tuition Amount</strong> | Post-secondary education students may claim tuition fees. |</p>\n<p>Taxpayers should consult the TD1 instructions for a complete list of available credits and conditions under which they can claim each.\n<h3 id=\"declaration-of-conditions\">Declaration of Conditions</h3></p>\n<p>Upon completion of claiming personal amounts, there's a section of the TD1 form where an individual declares that the information provided is true and complete. They are required to sign and date the form. Employers are not required to send this form to the Canada Revenue Agency (CRA), but they must keep it on file for at least six years in case the CRA asks to see it.\n<h2 id=\"step-by-step-guide-to-completing-td1bc-form\">Step-by-Step Guide to Completing TD1BC Form</h2></p>\n<p>The TD1BC form is used to determine the amount of tax to be deducted from an individual's income in the province of British Columbia. Each section must be completed accurately to ensure proper tax deductions.\n<h3 id=\"british-columbia-tax-credits\">British Columbia Tax Credits</h3></p>\n<p>To accurately claim British Columbia tax credits, the individual must:\n1. <strong>Personal Tax Credits Return</strong>: Begin by entering personal information in the designated areas at the top of the form.\n2. <strong>Basic Personal Amount</strong>: Every resident of British Columbia can claim a basic personal amount.\n3. <strong>Age Amount</strong>: If the individual is 65 years or older by the end of the year, they can claim an additional credit, provided his or her net income is below a certain threshold.\n4. <strong>Spouse or Common-Law Partner Amount</strong>: This credit is available if the individual supports a spouse or common-law partner with a net income less than a specified amount.\n5. <strong>Child Amount</strong>: Claimants can obtain a credit for each dependent child younger than 18.\n6. <strong>Other Credits</strong>: Include any other applicable amounts such as the disability amount, caregiver amount, or tuition and education amounts if eligible.</p>\n<p>Each credit has a calculated value that the individual should input into the corresponding field.\n<h3 id=\"calculating-additional-credits\">Calculating Additional Credits</h3></p>\n<p>For additional credits, the individual must:\n1. <strong>Review Detailed Information</strong>: Review the form's instructions for specific criteria for other claimable credits.\n2. <strong>Worksheet</strong>: Use the provided worksheet to calculate the total of the additional credits.\n3. <strong>Enter the Total</strong>: Transfer the total from the worksheet to the designated line on the TD1BC form.</p>\n<p>Careful calculation is crucial in this section to ensure all eligible credits are claimed and accurately reflected in the total.\n<h2 id=\"special-circumstances-and-exemptions\">Special Circumstances and Exemptions</h2></p>\n<p>When filling out the TD1 and TD1BC forms, individuals may be eligible for certain exemptions or may find themselves in situations warranting reduced tax deductions at the source. It is important to understand how to navigate these circumstances to ensure one pays the correct amount of tax.\n<h3 id=\"reduced-deduction-at-source\">Reduced Deduction at Source</h3></p>\n<p>Individuals who anticipate a lower income tax liability for the year, due to various credits or deductions, can request a reduction in tax withheld at the source. To do so, they must complete <strong>Form T1213</strong>, Request to Reduce Tax Deductions at Source, and receive approval from the Canada Revenue Agency (CRA) prior to adjusting the amount on their TD1 form. This might apply to individuals who contribute significantly to RRSPs, have large tuition expenses, or incur substantial child care costs.\n<h3 id=\"claiming-deductions-for-dependents\">Claiming Deductions for Dependents</h3></p>\n<p>Taxpayers with dependents can claim additional allowances on their TD1 and TD1BC forms. These deductions apply if they support a spouse, common-law partner, or eligible dependent who has little or no income.</p>\n<p>One must provide the dependent's net income information accurately; if the dependent's income changes during the year, the taxpayer should update their forms accordingly.\n<h2 id=\"finalizing-and-submitting-the-forms\">Finalizing and Submitting the Forms</h2></p>\n<p>Careful review and proper submission of the TD1 and TD1BC forms are crucial to ensure accurate tax withholdings.\n<h3 id=\"double-checking-form-entries\">Double-Checking Form Entries</h3></p>\n<p>Before submission, one must verify all information on their TD1 and TD1BC forms. It's important to ensure that:\n<li><strong>Personal information</strong> is accurate, including full name, date of birth, and Social Insurance Number.</li>\n<li>The <strong>total income claimed</strong> is correct and matches the documents you have.</li>\n<li>All <strong>applicable tax credits</strong> are accurately calculated and claimed.</li></p>\n<p>One should particularly review the sections for tuition, disability, and dependant information if they apply.\n<h3 id=\"submitting-forms-to-employer\">Submitting Forms to Employer</h3></p>\n<p>Once the forms are complete and double-checked:\n<li><strong>Print</strong> the forms if they were filled out electronically.</li>\n<li>Sign and <strong>date</strong> each form on the designated line.</li></p>\n<p>The forms must then be submitted directly to one's employer. It's advisable to:\n<li>Hand them personally to the HR department or the person responsible for payroll.</li>\n<li>Obtain a <strong>confirmation of receipt</strong> to ensure the documents have been received and will be processed.</li></p>\n<h2 id=\"post-submission-steps\">Post-Submission Steps</h2>\n<p>After submitting the TD1 and TD1BC forms, it is crucial for individuals to manage these documents properly for future reference and to accommodate any changes in their personal or financial situation.\n<h3 id=\"keeping-copies-of-forms\">Keeping Copies of Forms</h3></p>\n<p>Employees should maintain a copy of their completed TD1 and TD1BC forms for their records. Keeping digital or physical copies ensures they have access to the information if queries arise from their employer or the Canada Revenue Agency (CRA). It is recommended to:\n<li><strong>Store copies securely:</strong> Either save scanned copies in a password-protected digital format or keep paper copies in a safe, accessible place.</li>\n<li><strong>Record the submission date:</strong> Note the date forms were given to the employer, which can be helpful during tax season or in case of discrepancies.</li></p>\n<h3 id=\"updating-forms-for-new-circumstances\">Updating Forms for New Circumstances</h3>\n<p>Individuals are responsible for updating their TD1 and TD1BC forms if there are changes to their personal tax situation. Instances that may necessitate an update include:\n<li><strong>Life changes:</strong> Marriage, divorce, the birth of a child, or the death of a spouse require form adjustments.</li>\n<li><strong>Financial adjustments:</strong> Changes such as significant tuition payments or a variation in income sources should be reflected.</li></p>\n<p>To update the forms:\n1. Fill out new TD1 and TD1BC forms with the current information.\n2. Submit the updated forms to the employer promptly.</p>\n<p>Regular updating guarantees that the tax withheld from an employee’s income aligns with their current obligations, avoiding unexpected tax bills or penalties.\n<h2 id=\"frequently-asked-questions\">Frequently Asked Questions</h2></p>\n<p>This section addresses common queries related to filling out the TD1 and TD1BC forms, with step-by-step answers for precise and error-free submissions.\n<h3 id=\"what-steps-are-involved-in-completing-the-td1-personal-tax-credits-return-form-\">What steps are involved in completing the TD1 Personal Tax Credits Return form?</h3></p>\n<p>Completing the TD1 form involves identifying personal tax credit amounts, such as the basic personal amount and other credits pertinent to an individual’s situation. One must calculate these credits accurately and enter the total on the form.\n<h3 id=\"can-the-td1-form-be-submitted-electronically-and-if-so-how-is-this-done-\">Can the TD1 form be submitted electronically, and if so, how is this done?</h3></p>\n<p>Yes, the TD1 form can be submitted electronically if an employer offers this option. Employees usually fill out the form online via a secure portal and submit it directly to their employer's payroll system.\n<h3 id=\"what-specific-instructions-should-be-followed-when-filling-out-the-td1-form-for-a-second-job-\">What specific instructions should be followed when filling out the TD1 form for a second job?</h3></p>\n<p>When filling out the TD1 form for a second job, one should not claim the basic personal amount if it has already been claimed with the first employer. Additional tax may need to be deducted to ensure the correct total tax is withheld for the year.\n<h3 id=\"are-there-any-differences-when-completing-the-td1-form-as-a-new-employee-\">Are there any differences when completing the TD1 form as a new employee?</h3></p>\n<p>As a new employee, one must complete the TD1 form with the current year's tax credit amounts. It's important to review all the available personal tax credits and claim them accurately, ensuring the employer deducts the correct amount of tax.\n<h3 id=\"how-does-the-td1bc-form-differ-from-the-regular-td1-and-when-should-each-be-used-\">How does the TD1BC form differ from the regular TD1, and when should each be used?</h3></p>\n<p>The TD1BC form is the British Columbia Personal Tax Credits Return, specific to residents of British Columbia for provincial tax credits. It should be used alongside the federal TD1 form, ensuring one claims all provincial and federal tax credits applicable.\n<h3 id=\"what-are-the-implications-of-incorrectly-filling-out-the-td1-or-td1bc-forms-and-how-can-one-avoid-them-\">What are the implications of incorrectly filling out the TD1 or TD1BC forms and how can one avoid them?</h3></p>\n<p>Incorrectly filling out these forms may result in the incorrect calculation of tax withholdings, possibly leading to a tax balance owing or a larger refund during tax season. Carefully reviewing one's entitlements and seeking clarification on unclear aspects can help avoid such discrepancies.</p>",
+        "content": `<p>Every employee in Canada must complete a federal <strong>TD1 form (Personal Tax Credits Return)</strong> when they start a new job. If you work in British Columbia, you also need to fill out a <strong>TD1BC form</strong>. These forms tell your employer how much income tax to withhold from each paycheque based on the personal tax credits you are entitled to claim.</p>
+<p>This guide walks through every line of both the federal TD1 and the BC TD1BC for 2026, with the updated personal amounts that took effect on January 1, 2026.</p>
+
+<div class="bg-gray-50 p-6 rounded-lg border border-gray-200 my-8">
+    <h3 class="mt-0 mb-4 text-primary font-bold">2026 Key Figures at a Glance</h3>
+    <div class="overflow-x-auto">
+        <table class="w-full text-left border-collapse">
+            <thead>
+                <tr class="border-b border-gray-300">
+                    <th class="py-2 font-semibold">Credit</th>
+                    <th class="py-2 font-semibold">Federal (TD1)</th>
+                    <th class="py-2 font-semibold">BC (TD1BC)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="border-b border-gray-200">
+                    <td class="py-2">Basic personal amount</td>
+                    <td class="py-2">$16,452</td>
+                    <td class="py-2">$13,216</td>
+                </tr>
+                <tr class="border-b border-gray-200">
+                    <td class="py-2">Age amount (65+)</td>
+                    <td class="py-2">$9,208</td>
+                    <td class="py-2">$5,927</td>
+                </tr>
+                <tr class="border-b border-gray-200">
+                    <td class="py-2">Disability amount</td>
+                    <td class="py-2">$10,341</td>
+                    <td class="py-2">$10,341</td>
+                </tr>
+                <tr class="border-b border-gray-200">
+                    <td class="py-2">Pension income amount</td>
+                    <td class="py-2">Up to $2,000</td>
+                    <td class="py-2">Up to $1,000</td>
+                </tr>
+                <tr>
+                    <td class="py-2">Lowest tax bracket rate</td>
+                    <td class="py-2">14%</td>
+                    <td class="py-2">5.06%</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<h2 id="when-must-you-fill-out-a-td1-form">When Must You Fill Out a TD1 Form?</h2>
+<p>You are required to complete a new TD1 (and the applicable provincial TD1) when any of the following apply:
+<ul>
+    <li>You start a new job or begin receiving pension income.</li>
+    <li>Your personal situation changes in a way that affects your tax credits — for example, you get married or separated, a dependant is born, a dependant turns 18, you or a family member becomes eligible for the disability tax credit, or you begin attending post-secondary education.</li>
+    <li>You want to increase or decrease the amount of tax withheld from your paycheque.</li>
+    <li>You have a second concurrent employer or payer.</li>
+</ul>
+</p>
+<p>If none of these apply and you filed a TD1 with your current employer in a previous year, <strong>you do not need to submit a new one</strong>. Your employer will automatically index the basic personal amount and other credit amounts for 2026.</p>
+<p><strong>Pro tip from our CPA team:</strong> If you had a major life change in 2025 (marriage, new child, separation) and did not update your TD1 at the time, you should submit a new one now. Waiting until year-end means you will have been over- or under-taxed on your paycheques for months.</p>
+
+<h2 id="step-by-step-filling-out-the-federal-td1-2026">Step-by-Step: Filling Out the Federal TD1 (2026)</h2>
+<p>The federal TD1 form has 13 lines plus a section for additional tax withholding. Here is what each line asks for and how to complete it.</p>
+
+<h3 id="line-1-basic-personal-amount">Line 1 — Basic Personal Amount</h3>
+<p>Every Canadian resident can claim <strong>$16,452</strong>. Enter this amount on Line 1.</p>
+<p>However, if your net income from all sources will exceed $181,440 in 2026, the basic personal amount is gradually reduced (or "clawed back"). If your income will be above $181,440 but below $258,482, you should use the <strong>TD1-WS worksheet</strong> to calculate a partial claim. If your income will exceed $258,482, your basic personal amount is reduced to $14,829.</p>
+<p>For most employees with a single job earning under $181,440, simply enter $16,452.</p>
+
+<h3 id="line-2-canada-caregiver-amount">Line 2 — Canada Caregiver Amount for Infirm Children Under 18</h3>
+<p>If you have a child born in 2009 or later who has a physical or mental impairment and who lives with you, you can claim <strong>$2,740</strong> per eligible child. Only one parent can claim this amount per child. If both parents live with the child, decide between yourselves who will claim it. If the child does not live with both parents, the parent claiming the "eligible dependant" amount on Line 8 can also claim this amount.</p>
+
+<h3 id="line-3-age-amount">Line 3 — Age Amount</h3>
+<p>If you will be 65 or older on December 31, 2026, and your net income for the year from all sources will be $46,432 or less, enter <strong>$9,208</strong>. If your net income will be between $46,432 and $107,819, use the TD1-WS worksheet to calculate a partial amount. If your income exceeds $107,819, you cannot claim the age amount.</p>
+
+<h3 id="line-4-pension-income-amount">Line 4 — Pension Income Amount</h3>
+<p>If you receive regular pension payments from a registered pension plan or fund (not including CPP, QPP, OAS, or GIS), enter the lesser of your annual pension income or <strong>$2,000</strong>.</p>
+
+<h3 id="line-5-tuition">Line 5 — Tuition</h3>
+<p>If you are a full-time or part-time student at a qualifying post-secondary institution and will pay more than $100 in tuition fees in 2026, enter the total tuition fees you expect to pay. This includes tuition for the current year only — carry-forward amounts from previous years are claimed on your annual tax return, not on the TD1.</p>
+
+<h3 id="line-6-disability-amount">Line 6 — Disability Amount</h3>
+<p>If you have an approved <strong>T2201 (Disability Tax Credit Certificate)</strong> on file with the CRA, enter <strong>$10,341</strong>. Do not claim this amount unless the CRA has approved your T2201 — submitting the TD1 with a disability claim that has not been approved can result in under-withholding and a balance owing at year-end.</p>
+
+<h3 id="line-7-spouse-or-common-law-partner-amount">Line 7 — Spouse or Common-Law Partner Amount</h3>
+<p>If you are supporting a spouse or common-law partner whose net income for the year will be less than $16,452, you can claim the difference. For example, if your spouse's income will be $5,000, your claim is $16,452 - $5,000 = $11,452. If your spouse has a physical or mental impairment, you may be able to claim an additional caregiver amount — use the TD1-WS worksheet to calculate.</p>
+
+<h3 id="line-8-eligible-dependant">Line 8 — Amount for an Eligible Dependant</h3>
+<p>If you are single, divorced, separated, or widowed and you support a dependent relative who lives with you, you can claim this amount. The dependent must be your (or your spouse's) parent or grandparent, or a child under 18. The calculation is similar to the spouse amount — claim $16,452 minus the dependant's net income.</p>
+
+<h3 id="lines-9-12-additional-credits">Lines 9-12 — Additional Credits</h3>
+<p>Line 9 covers amounts transferred from your spouse or common-law partner (unused age, pension, tuition, or disability amounts). Line 10 is for amounts transferred from a dependant. Line 11 is for northern residents who live in a prescribed zone. Line 12 allows you to enter any additional tax credits authorized by the CRA.</p>
+
+<h3 id="line-13-total-claim-amount">Line 13 — Total Claim Amount</h3>
+<p>Add up all the amounts from Lines 1 through 12. This is the total that your employer will use, along with the CRA's payroll deduction tables, to determine how much federal tax to withhold from each pay.</p>
+<p><strong>Important:</strong> If you have more than one employer at the same time, you can only claim personal credits on one TD1. On the TD1 for your second (and any additional) employer, check the box indicating multiple employers and enter $0 on Line 13. This ensures you are not under-withheld.</p>
+
+<h2 id="step-by-step-filling-out-the-td1bc-2026">Step-by-Step: Filling Out the TD1BC (2026)</h2>
+<p>The TD1BC follows a similar structure but with different amounts reflecting British Columbia's provincial tax credits.</p>
+<p>The <strong>BC basic personal amount for 2026 is $13,216</strong>. You must enter this on Line 1 of the TD1BC (unless you have more than one employer, in which case you enter $0 on the second form).</p>
+<p>The remaining lines mirror the federal form but with BC-specific amounts. The <strong>BC age amount is $5,927</strong>, the BC pension income amount is up to $1,000, and other credits have their own BC-specific values. Refer to the TD1BC-WS worksheet if you need to calculate partial amounts for any line.</p>
+<p>As with the federal TD1, if your total claim on the TD1BC is only the basic personal amount ($13,216), you do not need to complete the rest of the form — your employer will use the default basic amount.</p>
+
+<h2 id="common-mistakes">Common Mistakes When Filling Out TD1 and TD1BC Forms</h2>
+<ul>
+    <li><strong>Claiming credits on multiple TD1 forms when you have two jobs.</strong> If you work two jobs simultaneously, you can only claim the full personal tax credits on one TD1. The second employer's TD1 must show $0 on Line 13. Failing to do this results in under-withholding and a tax bill at year-end.</li>
+    <li><strong>Not updating the form after a life change.</strong> If you get married, have a child, or your spouse starts earning income, your credits change. Failing to update your TD1 can result in months of incorrect withholding.</li>
+    <li><strong>Claiming the disability amount without an approved T2201.</strong> The disability amount is only available if the CRA has approved your Disability Tax Credit Certificate. Claiming it prematurely will result in too little tax being withheld.</li>
+    <li><strong>Confusing the TD1 with your annual tax return.</strong> The TD1 only determines how much tax your employer withholds. It does not replace filing your annual T1 return. You may still owe additional tax or receive a refund at year-end regardless of what you claim on the TD1.</li>
+    <li><strong>Using last year's amounts on the current year's form.</strong> The basic personal amount and other credits are indexed annually. Always use the current year's form, available from Canada.ca.</li>
+</ul>
+
+<h2 id="when-to-submit-a-td1-mid-year">When to Submit a TD1 Mid-Year</h2>
+<p>You can submit a new TD1 to your employer at any time during the year. There is no deadline — your employer must process the new form for the next pay period after receiving it. Common reasons for a mid-year update include getting married or entering a common-law relationship, birth or adoption of a child, separation or divorce, a dependant turning 18 or leaving your household, and receiving CRA approval for the Disability Tax Credit.</p>
+<p>If your employer handles payroll through a professional service, the updated TD1 information is typically reflected in the very next pay cycle.</p>
+
+[[CTA_CONSULT]]
+
+<h2 id="frequently-asked-questions">Frequently Asked Questions</h2>
+<h3 id="do-i-need-to-fill-out-a-td1-every-year">Do I need to fill out a TD1 every year?</h3>
+<p>No. You only need to file a new TD1 when your personal tax credit situation changes — for example, when you start a new job, gain or lose a dependant, get married or separated, or become eligible for the disability amount. Your employer will automatically index the basic personal amount each year. However, if you want to ensure accuracy, you can submit a new form at any time.</p>
+
+<h3 id="what-happens-if-i-dont-fill-out-a-td1-form">What happens if I don't fill out a TD1 form?</h3>
+<p>If you do not submit a TD1 form to your employer, they will deduct taxes using only the basic personal amount (Claim Code 1). You will not receive credit for any additional amounts you may be entitled to, such as the spouse amount, disability amount, or tuition credits. This means more tax will be withheld from each paycheque, though you would receive the difference as a refund when you file your annual tax return.</p>
+
+<h3 id="what-is-the-basic-personal-amount-for-2026">What is the basic personal amount for 2026?</h3>
+<p>The 2026 federal basic personal amount is $16,452 for individuals with net income of $181,440 or less. For higher-income individuals, the amount is gradually reduced to $14,829. The BC basic personal amount for 2026 is $13,216.</p>
+
+<h3 id="can-i-claim-the-disability-tax-credit-on-my-td1">Can I claim the disability tax credit on my TD1?</h3>
+<p>Yes, if you have an approved Form T2201 (Disability Tax Credit Certificate) on file with the CRA. The 2026 federal disability amount is $10,341. You enter this on Line 9 of the federal TD1. A corresponding provincial disability amount can be claimed on the TD1BC.</p>
+
+<h3 id="what-is-the-difference-between-td1-and-td1bc">What is the difference between TD1 and TD1BC?</h3>
+<p>The TD1 is the federal Personal Tax Credits Return — it determines how much federal tax is withheld from your pay. The TD1BC is the British Columbia provincial version — it determines how much BC provincial tax is withheld. Both must be completed by BC employees. The amounts and credits differ between the two forms. Similar provincial forms exist for every province (TD1ON for Ontario, TD1AB for Alberta, etc.).</p>
+
+<h3 id="how-do-i-request-reduced-tax-deductions-at-source">How do I request reduced tax deductions at source?</h3>
+<p>If you have deductions not listed on the TD1 (such as RRSP contributions, childcare expenses, or support payments), you can request a letter of authority from the CRA by filing Form T1213 (Request to Reduce Tax Deductions at Source). Once approved, give the letter to your employer and they will reduce your tax withholdings accordingly. Note: you do not need a letter of authority if your employer deducts RRSP contributions directly from your pay.</p>
+
+<p class="mt-8 p-4 bg-gray-50 rounded-lg border-l-4 border-primary"><strong>Dealing with employer health tax obligations too?</strong> Read our guide to <a href="/blog/employer-health-tax-eht-ontario-and-bc">Employer Health Tax (EHT) in Ontario and BC</a>.</p>`,
         "toc": [
-            {
-                "id": "understanding-td1-and-td1bc-forms",
-                "title": "Understanding TD1 and TD1BC Forms"
-            },
-            {
-                "id": "preparing-to-fill-out-td1-and-td1bc",
-                "title": "Preparing to Fill Out TD1 and TD1BC"
-            },
-            {
-                "id": "step-by-step-guide-to-completing-td1-form",
-                "title": "Step-by-Step Guide to Completing TD1 Form"
-            },
-            {
-                "id": "step-by-step-guide-to-completing-td1bc-form",
-                "title": "Step-by-Step Guide to Completing TD1BC Form"
-            },
-            {
-                "id": "special-circumstances-and-exemptions",
-                "title": "Special Circumstances and Exemptions"
-            },
-            {
-                "id": "finalizing-and-submitting-the-forms",
-                "title": "Finalizing and Submitting the Forms"
-            },
-            {
-                "id": "post-submission-steps",
-                "title": "Post-Submission Steps"
-            },
-            {
-                "id": "frequently-asked-questions",
-                "title": "Frequently Asked Questions"
-            }
+            { id: "when-must-you-fill-out-a-td1-form", title: "When Must You Fill Out a TD1 Form?" },
+            { id: "step-by-step-filling-out-the-federal-td1-2026", title: "Filling Out the Federal TD1 (2026)" },
+            { id: "step-by-step-filling-out-the-td1bc-2026", title: "Filling Out the TD1BC (2026)" },
+            { id: "common-mistakes", title: "Common Mistakes" },
+            { id: "when-to-submit-a-td1-mid-year", title: "When to Submit Mid-Year" },
+            { id: "frequently-asked-questions", title: "FAQ" }
         ],
         "author": "Seb Prost, CPA",
         "date": "February 1, 2024",
-        "readTime": "5 min read",
+        "dateModified": "February 10, 2026",
+        "readTime": "8 min read",
         "tags": [
-            "Payroll"
+            "Payroll",
+            "Tax Planning",
+            "TD1"
         ],
         "category": "Tax"
     },
