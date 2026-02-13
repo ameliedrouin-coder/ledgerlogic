@@ -22,7 +22,7 @@ const PILLAR_MAP: Record<string, { slug: string; title: string; category: string
     'can-i-use-xero-for-multiple-companies': { slug: '/xero-accounting-canada', title: 'Xero for Canadian Businesses (2026)', category: 'Cloud Accounting' },
     'how-long-does-it-take-to-learn-xero': { slug: '/xero-accounting-canada', title: 'Xero for Canadian Businesses (2026)', category: 'Cloud Accounting' },
     'streamline-your-invoicing-how-xero-transforms-the-process-for-canadian-companies': { slug: '/xero-accounting-canada', title: 'Xero for Canadian Businesses (2026)', category: 'Cloud Accounting' },
-    'quickbooks-vs-xero-a-comparative-analysis-for-canadian-smes': { slug: '/xero-accounting-canada', title: 'Xero for Canadian Businesses (2026)', category: 'Cloud Accounting' },
+
     'xero-vs-quickbooks-canada': { slug: '/xero-accounting-canada', title: 'Xero for Canadian Businesses (2026)', category: 'Cloud Accounting' },
     'is-xero-easy-to-use': { slug: '/xero-accounting-canada', title: 'Xero for Canadian Businesses (2026)', category: 'Cloud Accounting' },
 

@@ -21,10 +21,16 @@ const nextConfig = {
     compiler: {
         removeConsole: process.env.NODE_ENV === 'production',
     },
+    trailingSlash: false,
     async redirects() {
         return [
             { source: '/tools/xero-canada', destination: '/xero-accounting-canada', permanent: true },
             { source: '/xero-support', destination: '/xero-migration', permanent: true },
+            {
+                source: '/blog/streamline-your-invoicing-how-xero-transforms-the-process-for-canadian-companies',
+                destination: '/blog/xero-invoicing-canada',
+                permanent: true,
+            },
             { source: '/xero-support/', destination: '/xero-migration', permanent: true },
             { source: '/home', destination: '/', permanent: true },
             { source: '/our-services', destination: '/', permanent: true },
@@ -70,6 +76,11 @@ const nextConfig = {
                 // Strict regex to match ONLY /YYYY/MM/DD/slug and NOT /images/...
                 source: '/:year(\\d{4})/:month(\\d{2})/:day(\\d{2})/:slug*',
                 destination: '/blog/:slug*',
+                permanent: true,
+            },
+            {
+                source: '/blog/xero-vs-quickbooks-canada',
+                destination: '/blog/is-xero-worth-it',
                 permanent: true,
             },
         ];

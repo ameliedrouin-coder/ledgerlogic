@@ -337,6 +337,20 @@
     /* Ensures no inline spacing issues */
 }
 
+/* Link Styling - Exclude buttons/CTAs */
+.premium-prose a:not(.inline-flex) {
+    color: #13B5EA;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    font-weight: 600;
+    transition: color 0.2s;
+}
+
+.premium-prose a:not(.inline-flex):hover {
+    color: #0e9ac8;
+    text-decoration: underline;
+}
+
 /* Table Styling */
 .premium-prose table {
     width: 100%;

@@ -3,10 +3,10 @@
 export const keywordMap: Record<string, string> = {
     // --- Tools & Services ---
     'Xero': '/xero-accounting-canada',
-    'QuickBooks': '/blog/xero-vs-quickbooks-canada', // Redirects to blog post
+    'QuickBooks': '/blog/is-xero-worth-it', // Redirects to blog post
     // I see 'xero-canada' and 'quickbooks-vs-xero-canada' in tools.
     // Let's stick to safe bets.
-    'QuickBooks Online': '/blog/xero-vs-quickbooks-canada', // Mapping to comparison as it's a high value page
+    'QuickBooks Online': '/blog/is-xero-worth-it', // Mapping to comparison as it's a high value page
     'Tax Planning': '/services/tax-planning', // Assuming standard URL structure or will verify
     'Bookkeeping': '/services/bookkeeping',
     'CFO': '/services/cfo',
@@ -24,7 +24,7 @@ export const keywordMap: Record<string, string> = {
     'Xero Pricing': '/blog/xero-pricing-canada',
     'Learn Xero': '/blog/how-long-does-it-take-to-learn-xero',
     'Xero Invoicing': '/blog/streamline-your-invoicing-how-xero-transforms-the-process-for-canadian-companies',
-    'QuickBooks vs Xero': '/blog/quickbooks-vs-xero-a-comparative-analysis-for-canadian-smes',
+    'QuickBooks vs Xero': '/blog/is-xero-worth-it',
 
     // Cluster B: Incorporation & Structuring
     'Incorporating in Canada': '/blog/tax-benefits-and-disadvantages-of-incorporating-in-canada',

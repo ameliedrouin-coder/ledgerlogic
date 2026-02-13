@@ -312,7 +312,7 @@ export default function XeroCanadaView() {
                     <section id="comparison" className="mb-20">
                         <span className="text-teal-600 font-bold tracking-wider text-sm uppercase mb-2 block">Platform Comparison</span>
                         <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">
-                            <Link href="/blog/xero-vs-quickbooks-canada" className="hover:text-teal-600 transition-colors">Xero vs. QuickBooks Online</Link> in Canada: <span className="text-teal-600">An Honest Comparison</span>
+                            <Link href="/blog/is-xero-worth-it" className="hover:text-teal-600 transition-colors">Xero vs. QuickBooks Online</Link> in Canada: <span className="text-teal-600">An Honest Comparison</span>
                         </h2>
                         <p className="text-lg text-slate-700 leading-relaxed mb-8">
                             This is the most common question we hear from Canadian business owners evaluating accounting software. Both are strong cloud platforms. Here is how they compare on the features that matter most to Canadian SMEs.

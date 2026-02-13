@@ -15,7 +15,7 @@ const inter = Inter({ subsets: ['latin'], variable: '--font-inter', display: 'sw
 const outfit = Outfit({ subsets: ['latin'], variable: '--font-outfit', display: 'swap' });
 
 export const metadata: Metadata = {
-    metadataBase: new URL('https://ledgerlogic.ca'),
+    metadataBase: new URL('https://www.ledgerlogic.ca'),
     title: {
         template: '%s | LedgerLogic',
         default: 'LedgerLogic | Modern Accounting & Virtual CFO for Canadian Business',

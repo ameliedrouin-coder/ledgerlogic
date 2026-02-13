@@ -5,24 +5,31 @@ export default function BlogJsonLd({ post }: { post: BlogPost }) {
     // Ensure image is absolute for Schema.org
     const imageUrl = post.image.startsWith('http') ? post.image : `${siteUrl}${post.image}`;
 
-    const jsonLd = {
-        '@context': 'https://schema.org',
-        '@type': 'BlogPosting',
+    const articleSchema = {
+        '@type': 'Article',
         headline: post.title,
         image: [imageUrl],
         datePublished: post.date,
-        dateModified: post.date, // Ideally track modifications, but initial publish date is safe fallback
+        dateModified: post.dateModified || post.date,
         author: [{
             '@type': 'Person',
             name: post.author,
-            url: `${siteUrl}/about` // Optional: Link to about/team page if exists
+            url: `${siteUrl}/chartered-professional-accountant/`, // Updated per prompt request for specific author URL
+            jobTitle: "CPA",
+            description: "Licensed CPA with 10+ years of experience including time at the CRA and in public practice. Founder of LedgerLogic.",
+            worksFor: {
+                '@type': 'Organization',
+                name: 'LedgerLogic',
+                url: siteUrl
+            }
         }],
         publisher: {
             '@type': 'Organization',
             name: 'LedgerLogic',
+            url: siteUrl,
             logo: {
                 '@type': 'ImageObject',
-                url: `${siteUrl}/logo.png` // Using root logo path, verify existence or use standard path
+                url: `${siteUrl}/logo.png`
             }
         },
         description: post.excerpt,
@@ -32,10 +39,30 @@ export default function BlogJsonLd({ post }: { post: BlogPost }) {
         }
     };
 
+    const faqSchema = post.faq ? {
+        '@type': 'FAQPage',
+        mainEntity: post.faq.map(item => ({
+            '@type': 'Question',
+            name: item.question,
+            acceptedAnswer: {
+                '@type': 'Answer',
+                text: item.answer
+            }
+        }))
+    } : null;
+
+    const schemaGraph = {
+        '@context': 'https://schema.org',
+        '@graph': [
+            articleSchema,
+            ...(faqSchema ? [faqSchema] : [])
+        ]
+    };
+
     return (
         <script
             type="application/ld+json"
-            dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaGraph) }}
         />
     );
 }

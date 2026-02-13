@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next';
 import { blogPosts } from '../src/data/blogData';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-    const baseUrl = 'https://ledgerlogic.ca';
+    const baseUrl = 'https://www.ledgerlogic.ca';
 
     // Static pages
     const routes = [
@@ -20,7 +20,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
         // Tool Reviews / Pages
         '/tools/dext-canada',
         '/tools/float-canada-review',
-        '/tools/ownr-canada-review',
         '/tools/ownr-canada-review',
         '/tools/ramp-canada-review',
         '/tools/shopify-accounting-apps',

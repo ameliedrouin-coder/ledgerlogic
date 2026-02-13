@@ -68,7 +68,7 @@ Float offers robust **expense management** and tracking features that help teams
 ### Accounting Software Integration
 
 
-Float integrates seamlessly with major accounting software like **[QuickBooks](https://ledgerlogic.ca/2024/02/22/quickbooks-vs-xero-a-comparative-analysis-for-canadian-smes/)**, **[Xero](https://ledgerlogic.ca/2024/02/25/5-reasons-why-xero-bookkeeping-is-essential-for-your-business-in-canada/)**, and **NetSuite**. These integrations allow for automatic syncing of transactions, reducing the need for manual data entry. Businesses can streamline their bookkeeping processes, making it easier to reconcile expenses and prepare financial statements. The synergy between Float and accounting tools helps maintain precise and up-to-date financial records.
+Float integrates seamlessly with major accounting software like **[QuickBooks](https://ledgerlogic.ca/2024/02/22/xero-vs-quickbooks-canada/)**, **[Xero](https://ledgerlogic.ca/2024/02/25/5-reasons-why-xero-bookkeeping-is-essential-for-your-business-in-canada/)**, and **NetSuite**. These integrations allow for automatic syncing of transactions, reducing the need for manual data entry. Businesses can streamline their bookkeeping processes, making it easier to reconcile expenses and prepare financial statements. The synergy between Float and accounting tools helps maintain precise and up-to-date financial records.
 ### Spend Management Solutions
 
 

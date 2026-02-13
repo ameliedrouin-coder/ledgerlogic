@@ -8,7 +8,7 @@ type Props = {
 const AuthorBox = ({ author }: Props) => {
     // In a real app, this would come from a CMS or author database
     const authorBio = author === "Seb Prost, CPA"
-        ? "Seb is the founder of LedgerLogic and a CPA dedicated to simplifying finances for Canadian entrepreneurs. He specializes in setting up automated accounting stacks for e-commerce and agency owners."
+        ? "Licensed CPA with 10+ years of experience, including work with the Canada Revenue Agency. Founder of LedgerLogic, a cloud accounting firm serving Canadian SMEs. Xero Certified Advisor."
         : "The LedgerLogic Editorial Team is dedicated to providing accurate, up-to-date financial advice for Canadian small businesses.";
 
     return (

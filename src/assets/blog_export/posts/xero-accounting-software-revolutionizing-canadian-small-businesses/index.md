@@ -243,7 +243,7 @@ Xero includes features that cater to the specific needs of [Canadian payroll](ht
 ### What are the primary differences between Xero and QuickBooks for small businesses?
 
 
-The key differences between [Xero and QuickBooks](https://ledgerlogic.ca/2024/02/22/quickbooks-vs-xero-a-comparative-analysis-for-canadian-smes/) often center around usability, pricing, and specific features offered. Xero is recognized for its robust user experience and extensive third-party app integrations, while QuickBooks is known for its in-depth reporting capabilities.
+The key differences between [Xero and QuickBooks](https://ledgerlogic.ca/2024/02/22/xero-vs-quickbooks-canada/) often center around usability, pricing, and specific features offered. Xero is recognized for its robust user experience and extensive third-party app integrations, while QuickBooks is known for its in-depth reporting capabilities.
 ### What options are available for small businesses seeking free accounting software alternatives to Xero?
 
 
