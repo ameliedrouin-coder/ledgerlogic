@@ -14,7 +14,7 @@ export default function BlogJsonLd({ post }: { post: BlogPost }) {
         author: [{
             '@type': 'Person',
             name: post.author,
-            url: `${siteUrl}/chartered-professional-accountant/`, // Updated per prompt request for specific author URL
+            url: `${siteUrl}/chartered-professional-accountant/`,
             jobTitle: "CPA",
             description: "Licensed CPA with 10+ years of experience including time at the CRA and in public practice. Founder of LedgerLogic.",
             worksFor: {
@@ -51,11 +51,57 @@ export default function BlogJsonLd({ post }: { post: BlogPost }) {
         }))
     } : null;
 
+    const howToSchema = post.howTo ? {
+        '@type': 'HowTo',
+        name: post.howTo.name,
+        description: post.howTo.description,
+        ...(post.howTo.totalTime ? { totalTime: post.howTo.totalTime } : {}),
+        ...(post.howTo.estimatedCost ? {
+            estimatedCost: {
+                '@type': 'MonetaryAmount',
+                currency: post.howTo.estimatedCost.currency,
+                value: post.howTo.estimatedCost.value
+            }
+        } : {}),
+        step: post.howTo.steps.map((step, i) => ({
+            '@type': 'HowToStep',
+            position: i + 1,
+            name: step.name,
+            text: step.text
+        }))
+    } : null;
+
+    const breadcrumbSchema = {
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+            {
+                '@type': 'ListItem',
+                position: 1,
+                name: 'Home',
+                item: siteUrl
+            },
+            {
+                '@type': 'ListItem',
+                position: 2,
+                name: 'Blog',
+                item: `${siteUrl}/blog`
+            },
+            {
+                '@type': 'ListItem',
+                position: 3,
+                name: post.title,
+                item: `${siteUrl}/blog/${post.slug}`
+            }
+        ]
+    };
+
     const schemaGraph = {
         '@context': 'https://schema.org',
         '@graph': [
             articleSchema,
-            ...(faqSchema ? [faqSchema] : [])
+            ...(faqSchema ? [faqSchema] : []),
+            ...(howToSchema ? [howToSchema] : []),
+            breadcrumbSchema
         ]
     };
 

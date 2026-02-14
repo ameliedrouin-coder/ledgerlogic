@@ -1,0 +1,147 @@
+{
+    "id": "quickbooks-to-xero-migration-canada",
+    "slug": "quickbooks-to-xero-migration-canada",
+    "title": "QuickBooks to Xero Migration Canada: A CPA's Step-by-Step Guide",
+    "atAGlance": {
+        "title": "At a Glance",
+        "items": [
+            {
+                "label": "Migration Time",
+                "text": "1–5 business days (depending on method)"
+            },
+            {
+                "label": "Cost",
+                "text": "Free for up to 2 years of history (Xero subsidises Jet Convert)"
+            },
+            {
+                "label": "Key Risk",
+                "text": "Incorrect GST/HST mapping — get a CPA to verify"
+            },
+            {
+                "label": "Best Time",
+                "text": "Start of a new fiscal quarter or calendar year"
+            }
+        ]
+    },
+    "excerpt": "Step-by-step guide to migrating from QuickBooks to Xero in Canada. Covers Jet Convert, fresh start conversion, GST/HST tax code mapping, and the post-migration verification steps most guides skip.",
+    "content": "<p>We migrate QuickBooks files to Xero every month at LedgerLogic. Some go smoothly in a day. Others turn into a week-long project because of messy data, unmapped tax codes, or payroll complications that nobody planned for.</p>\n<p>If you have already decided that Xero is the right fit — and if you have not, <a href=\"/blog/xero-vs-quickbooks-canada/\">our full Xero vs QuickBooks comparison</a> walks through the decision in detail — this guide covers the practical reality of making that switch as a Canadian business. We will walk through data prep, the three conversion methods, Canadian-specific tax pitfalls, and the post-migration verification steps that most guides skip entirely.</p>\n<p>If you are coming from Sage rather than QuickBooks, we have a separate guide on <a href=\"/blog/sage-to-xero-migration/\">migrating from Sage to Xero</a> that covers the differences in that process.</p>\n<p>This is not a theoretical overview. It is the process we follow with our own clients, written so you can either do it yourself or understand what your accountant should be doing for you.</p>\n<h2 id=\"why-canadian-businesses-are-switching\">Why Canadian Businesses Are Switching from QuickBooks to Xero</h2>\n<p>We will keep this section brief because the comparison has been covered thoroughly elsewhere. If you want the detailed breakdown, read <a href=\"/blog/xero-vs-quickbooks-canada/\">our Xero vs QuickBooks comparison for Canadian businesses</a>.</p>\n<p>The short version: Canadian businesses are switching from QuickBooks to Xero for a few consistent reasons.</p>\n<p>First, Xero includes unlimited users on the Standard plan and above. In a country where accounting firms, bookkeepers, and business owners all need concurrent access, this matters. QuickBooks charges per user on most plans, and costs add up quickly when your bookkeeper, your CPA, and two partners all need login access.</p>\n<p>Second, Xero's integration ecosystem is stronger for e-commerce and modern SaaS businesses. If you sell on Shopify, Amazon, or WooCommerce, tools like A2X and Synder integrate more cleanly with Xero than with QuickBooks. For a deeper look at <a href=\"/xero-accounting-canada/\">Xero's full capabilities for Canadian businesses</a>, we have a dedicated resource.</p>\n<p>Third, Hubdoc is included free with every Xero Business Edition subscription. This receipt capture and document management tool would otherwise cost you a separate subscription. It integrates directly into your Xero workflow for expense tracking and audit-ready record keeping.</p>\n<p>And fourth, the Xero Partner ecosystem in Canada has grown significantly. More Canadian CPA firms now support Xero as their primary platform, meaning you are more likely to find an accountant who actually knows the software rather than one who has to learn it alongside you.</p>\n<p>That said, QuickBooks still wins on built-in payroll and advanced reporting. If those are priorities for your business, the switch may not make sense. Be honest about your needs.</p>\n<h2 id=\"three-ways-to-migrate\">Three Ways to Migrate from QuickBooks to Xero: Which One Fits Your Business</h2>\n<p>There is no single best way to convert QuickBooks to Xero in Canada. The right method depends on the state of your data, how much history you need, and whether you have an accountant handling the process.</p>\n<h3>Migration Method Comparison</h3>\n<table class=\"table table-striped\"><thead><tr><th>Method</th><th>Best For</th><th>Time</th><th>Cost</th><th>History Transferred</th></tr></thead><tbody><tr><td><strong>Jet Convert (automated)</strong></td><td>Clean QB files where you want full history</td><td>20 min to 5 business days</td><td>Free for up to 2 years (Xero subsidises)</td><td>Current + prior fiscal year (additional years available for a fee)</td></tr><tr><td><strong>Fresh start conversion</strong></td><td>Messy QB files, or businesses that want a clean break</td><td>1 day</td><td>Free (manual setup)</td><td>Opening balances only — keep your QB file for historical reference</td></tr><tr><td><strong>Xero Conversion Toolbox (CSV import)</strong></td><td>Accountants handling complex files with multiple entities or custom requirements</td><td>2–5 days</td><td>Free (manual labour involved)</td><td>As much as you import manually</td></tr></tbody></table>\n<h3>Which should you choose?</h3>\n<p>If your QuickBooks file is reasonably clean (accounts are reconciled, chart of accounts is tidy, AR/AP balances are accurate), start with Jet Convert. It is the fastest path and preserves your transaction history.</p>\n<p>If your QuickBooks file is a mess — years of unreconciled accounts, duplicate entries, an overbuilt chart of accounts with 200+ categories nobody uses — consider the fresh start conversion. Migrating bad data just gives you bad data in a new system. Start clean, enter your opening balances from your last tax return, and build good habits from day one.</p>\n<p>If you are an accountant or bookkeeper handling a complex migration (multiple AR/AP accounts, custom report structures, or specific chart of accounts requirements), the Xero Conversion Toolbox gives you the most control through CSV imports.</p>\n<h2 id=\"pre-migration-checklist\">Pre-Migration Checklist: What to Do in QuickBooks Before You Touch Anything</h2>\n<p>This is the step most people rush through, and it is the step that causes the most problems downstream. Do not start the migration until every item on this list is complete.</p>\n<ol>\n<li><strong>Reconcile all bank and credit card accounts</strong> to the most recent statement. This is non-negotiable. If your accounts are not reconciled in QuickBooks, you will carry over unreconciled transactions into Xero and immediately have discrepancies you cannot explain.</li>\n<li><strong>Run and save key reports.</strong> Generate a Profit and Loss, Balance Sheet, Trial Balance, and AR/AP Aging report as of today. Save these as PDFs. You will use them to verify the migration was accurate. These reports are your baseline.</li>\n<li><strong>Clean up unapplied credits, undeposited funds, and old open invoices.</strong> Undeposited Funds is one of the most common problem areas in QuickBooks files. If you have amounts sitting in the Undeposited Funds account, apply them to the correct deposits before migrating. Old open invoices that will never be collected should be written off. Unapplied vendor credits should be applied or removed.</li>\n<li><strong>Simplify your chart of accounts.</strong> Fewer accounts means a cleaner Xero file. If you have expense categories that you never report on separately (do you really need &ldquo;Office Supplies — Paper&rdquo; and &ldquo;Office Supplies — Toner&rdquo; as separate accounts?), merge them now. Xero works best with a streamlined chart of accounts — 30 to 50 accounts for most small businesses. For guidance on how to structure this, see our <a href=\"/blog/xero-chart-of-accounts-canada/\">Xero chart of accounts setup guide</a>.</li>\n<li><strong>Export customer and supplier lists.</strong> Download your contacts from QuickBooks as a CSV. While Jet Convert handles this automatically, having a separate copy lets you verify nothing was lost.</li>\n<li><strong>Note your GST/HST details.</strong> Record your GST/HST registration number, filing frequency (monthly, quarterly, or annually), and reporting period. You will need these during Xero setup. If you are registered in multiple provinces, note the PST/QST registration numbers as well.</li>\n<li><strong>Back up your QuickBooks file.</strong> Go to File &rarr; Back Up Company &rarr; Create Local Backup and save it to a secure, separate location. Regardless of which migration method you choose, you must keep this backup. CRA requires you to retain records for at least 6 years.</li>\n</ol>\n<h2 id=\"step-by-step-jet-convert\">Step-by-Step: Migrating with Jet Convert (The Most Common Method)</h2>\n<p>Jet Convert is Xero's official migration partner, and it is the method we use for most QuickBooks to Xero migrations in Canada. Here is the process, with CPA commentary on the Canadian-specific steps that trip people up.</p>\n<h3>Step 1: Sign up for Xero</h3>\n<p>Create your Xero account. As Xero Partners, LedgerLogic clients can claim 90% off Xero for the first 3 months through our partner link.</p>\n<p><em>\uD83D\uDD17 Affiliate Disclosure: LedgerLogic is a Xero partner. We may earn a commission if you sign up through this link at no extra cost to you. We only recommend tools we use with our own clients.</em></p>\n<h3>Step 2: Access Jet Convert through Xero's migration page</h3>\n<p>Once you are logged into Xero, navigate to the migration tool. Xero subsidises the cost of Jet Convert, making it free for up to 2 years of transaction history.</p>\n<h3>Step 3: Connect your QuickBooks file</h3>\n<p>For QuickBooks Online, you will authorise the connection directly. For QuickBooks Desktop, you will need to upload your company file. Follow Jet Convert's prompts — they are straightforward.</p>\n<h3>Step 4: Map your chart of accounts</h3>\n<p>This is where you need to pay attention. Jet Convert will attempt to match your QuickBooks accounts to Xero's Canadian template. Review every mapping.</p>\n<p><strong>CPA tip:</strong> Xero's default Canadian chart of accounts is a reasonable starting point. Customise from there rather than trying to recreate your QuickBooks structure exactly. This is a chance to simplify.</p>\n<h3>Step 5: Verify tax codes — this is where most Canadian migrations go wrong</h3>\n<p>QuickBooks tax codes do not always map cleanly to Xero's Canadian tax rates. HST provinces (Ontario at 13%, Nova Scotia at 14%, New Brunswick, PEI, and Newfoundland at 15%) use a single combined tax rate. GST+PST provinces (British Columbia, Saskatchewan, Manitoba) need both taxes configured. Quebec requires GST+QST setup.</p>\n<p>Xero's default Canadian tax rates handle most of these correctly, but you must verify that the mapping from your QuickBooks file assigned the right rate to each account. If your QuickBooks file had custom tax codes or workarounds, this is where those break.</p>\n<p>For a detailed walkthrough of getting this right, see our guide on <a href=\"/blog/xero-gst-hst-setup-canada/\">GST/HST setup in Xero</a>.</p>\n<h3>Step 6: Review the converted data in Xero</h3>\n<p>Once Jet Convert finishes (anywhere from 20 minutes to 5 business days), log into Xero and review the imported data. Check that your chart of accounts looks correct, that contacts imported properly, and that recent transactions are present.</p>\n<h3>Step 7: Reconcile your bank accounts in Xero</h3>\n<p>Run a bank reconciliation in Xero for each account and compare it against your last completed reconciliation in QuickBooks. The balances should match. If they do not, investigate before proceeding.</p>\n<h2 id=\"post-migration-verification\">Post-Migration Verification: The Steps Most Guides Skip</h2>\n<p>This is where the CPA perspective matters. Every migration guide covers the conversion process. Almost none of them cover what to do after the data lands in Xero. These verification steps are the difference between a migration that works and one that causes problems at your next tax filing.</p>\n<h3>Compare Trial Balances: QuickBooks vs Xero</h3>\n<p>Pull a Trial Balance from both systems as of the same date. Every account should match to the penny. If a balance is off, trace it back to the individual transactions. Common causes: transactions that did not migrate, tax amounts that rounded differently, or accounts that mapped to the wrong Xero category.</p>\n<h3>Verify AR and AP balances</h3>\n<p>Run an Aged Receivables and Aged Payables report in both systems. The totals should match. Note that open invoices may migrate as single-line summaries in Xero rather than detailed multi-line invoices. The dollar amounts should still be correct.</p>\n<h3>Check GST/HST account balances</h3>\n<p>This is critical for Canadian businesses. Your GST/HST payable and receivable account balances in Xero should match QuickBooks exactly. If they do not, your next GST/HST filing will be incorrect. Run the GST/HST Summary report in Xero and compare it against your last QuickBooks sales tax report. For details on how GST/HST rates work across provinces, see our <a href=\"/blog/current-gst-hst-rate-canada-and-by-provinces/\">current GST/HST rates by province guide</a>.</p>\n<h3>Run a bank reconciliation summary for each account</h3>\n<p>Verify that every bank account and credit card account shows the correct reconciled balance in Xero. Connect your bank feeds and confirm that new transactions are flowing in from your Canadian bank (RBC, TD, BMO, Scotiabank, CIBC, and most credit unions all support Xero's direct bank feed).</p>\n<h3>Set up payroll</h3>\n<p>Xero does not have built-in Canadian payroll. You will need to integrate with a third-party provider like Wagepoint or Rise People. If you are migrating mid-year, enter the year-to-date payroll figures for each employee into the new system. If possible, time your migration to coincide with the start of a new calendar year to avoid this complication entirely.</p>\n<h3>Configure Hubdoc for receipt capture</h3>\n<p>Hubdoc comes included with your Xero subscription. Set it up to capture receipts via email forwarding, the mobile app, or direct connections to your suppliers. This replaces whatever receipt tracking system you were using before and keeps your expense documentation CRA-audit-ready. Once Hubdoc is running, move on to <a href=\"/blog/xero-invoicing-canada/\">setting up your Xero invoicing</a> if you have not already configured your invoice templates and payment options.</p>\n<h3>Set up bank rules</h3>\n<p>Once you have a week or two of transactions flowing through Xero's bank feed, start creating <a href=\"/blog/xero-bank-rules-canada/\">bank rules to automate your reconciliation</a>. This is one of Xero's best features and can save you 2 to 4 hours per month on bookkeeping. We cover the setup process in our dedicated guide, including 10 specific rules every Canadian business should create.</p>\n[[CTA_CONSULT]]\n<h2 id=\"common-migration-mistakes\">Common QuickBooks to Xero Migration Mistakes (and How We Fix Them)</h2>\n<p>After handling dozens of these migrations, here are the issues we see most often.</p>\n<h3>Sub-accounts in QuickBooks become independent accounts in Xero</h3>\n<p>QuickBooks lets you nest accounts (for example, &ldquo;Travel&rdquo; as a parent with &ldquo;Travel — Flights&rdquo; and &ldquo;Travel — Hotels&rdquo; as sub-accounts). Xero does not support sub-accounts in the same way. All of these become standalone accounts. Plan for this by reviewing your QuickBooks sub-account structure before migrating and deciding which ones to keep versus merge.</p>\n<h3>Multiple AR/AP accounts in QuickBooks merge into one in Xero</h3>\n<p>If you had separate Accounts Receivable or Accounts Payable accounts in QuickBooks (common in desktop versions), Xero consolidates these into a single AR and a single AP account. Your total balances will be correct, but if you relied on separate AR accounts for reporting, you will need to use Xero's tracking categories or contact groups instead.</p>\n<h3>Inactive accounts with activity get re-activated</h3>\n<p>If you archived or made accounts inactive in QuickBooks but those accounts had transactions within the migration period, Jet Convert will bring them into Xero as active accounts. Review your chart of accounts after migration and archive anything you do not need going forward.</p>\n<h3>GST/HST codes do not map automatically</h3>\n<p>This is the most important one. QuickBooks uses its own tax code system that does not translate directly to Xero's Canadian tax rates. A QuickBooks tax code for &ldquo;HST ON 13%&rdquo; might map to the wrong Xero tax rate, or map to &ldquo;Tax Exempt&rdquo; by default. You must verify every tax rate assignment after migration. If you skip this step, your next GST/HST return will be wrong. Review our <a href=\"/blog/current-gst-hst-rate-canada-and-by-provinces/\">current GST/HST rates by province</a> to confirm the correct rates for your province.</p>\n<h3>Open invoices migrate as single-line summaries</h3>\n<p>Detailed invoices with multiple line items in QuickBooks will appear in Xero as a single line showing the unpaid balance. The amount owing is correct, but the line-item detail is not preserved. If you need detailed invoice records for historical reference, keep your QuickBooks backup accessible.</p>\n<h3>Recurring transactions do not migrate</h3>\n<p>Any memorised transactions or recurring invoices in QuickBooks will need to be recreated in Xero manually. Make a list of these before you start the migration so nothing falls through the cracks.</p>\n<h2 id=\"faq\">FAQ</h2>\n<h3>How long does it take to migrate from QuickBooks to Xero?</h3>\n<p>Using Jet Convert, the automated conversion takes between 20 minutes and 5 business days depending on file size. A fresh start conversion can be completed in a single sitting. The full end-to-end process — including pre-migration cleanup, the conversion, and thorough post-migration verification — typically takes 1 to 2 weeks when working with a CPA. We recommend running both systems in parallel for at least one month before decommissioning QuickBooks.</p>\n<h3>Is the QuickBooks to Xero migration free?</h3>\n<p>The Jet Convert tool is subsidised by Xero and is free for up to 2 years of transaction history (the current fiscal year and the prior year). Migrating additional years may incur a fee. Professional migration services from a CPA or bookkeeper are a separate investment but can prevent costly errors — particularly around GST/HST tax code mapping.</p>\n<h3>Will I lose my transaction history when switching to Xero?</h3>\n<p>Not with Jet Convert. It transfers your full transaction history for the covered period. With a fresh start conversion, you only bring forward opening balances, but you retain your QuickBooks file for historical reference. Regardless of method, always keep your QuickBooks backup. CRA requires you to retain financial records for a minimum of 6 years.</p>\n<h3>Can I use both QuickBooks and Xero at the same time during the transition?</h3>\n<p>Yes, and we recommend it. Run both systems in parallel for at least one month. Continue entering transactions in QuickBooks during this overlap period and reconcile both systems at month-end to verify they produce matching reports. This parallel period is your safety net.</p>\n<h3>Do I need an accountant to migrate from QuickBooks to Xero?</h3>\n<p>It is technically possible to do it yourself, but we strongly recommend professional help for Canadian businesses. The primary risk is incorrect GST/HST tax code mapping, which can result in wrong tax filings and CRA issues. If you sell across multiple provinces or have QST obligations in Quebec, the tax configuration complexity increases significantly. The cost of a professional migration is typically far less than the cost of correcting filing errors.</p>\n<h3>What happens to my payroll data when I switch from QuickBooks to Xero?</h3>\n<p>Xero does not include built-in Canadian payroll. You will need to set up payroll through a third-party provider such as Wagepoint or Rise People. Your QuickBooks payroll history does not migrate automatically. If you switch mid-year, you will need to enter year-to-date figures for each employee. If you can time the switch to the start of a calendar year, this step becomes much simpler. Learn more about <a href=\"/blog/how-long-does-it-take-to-learn-xero/\">how long it takes to get comfortable with Xero</a> including the payroll integration setup.</p>\n<h3>What QuickBooks data does not migrate to Xero?</h3>\n<p>Several items require manual recreation: inventory items (Xero handles inventory differently), recurring/memorised transactions, saved report templates, budgets, and detailed line items on open invoices. Sub-accounts become independent accounts. Multiple AR/AP accounts consolidate into one each. Plan for these differences before starting the migration.</p>\n<h3>How much does it cost to hire an accountant for a QuickBooks to Xero migration in Canada?</h3>\n<p>Professional migration fees vary depending on the complexity of your file. For a straightforward small business file, expect to pay between $500 and $1,500. More complex migrations involving multiple entities, extensive transaction history, or multi-provincial tax setups can cost $2,000 to $5,000. At LedgerLogic, we scope every migration before quoting so there are no surprises. <a href=\"/contact/\">Book a free discovery call</a> to get an estimate for your specific situation.</p>",
+    "toc": [
+        {
+            "id": "why-canadian-businesses-are-switching",
+            "title": "Why Canadian Businesses Are Switching from QuickBooks to Xero"
+        },
+        {
+            "id": "three-ways-to-migrate",
+            "title": "Three Ways to Migrate from QuickBooks to Xero"
+        },
+        {
+            "id": "pre-migration-checklist",
+            "title": "Pre-Migration Checklist"
+        },
+        {
+            "id": "step-by-step-jet-convert",
+            "title": "Step-by-Step: Migrating with Jet Convert"
+        },
+        {
+            "id": "post-migration-verification",
+            "title": "Post-Migration Verification"
+        },
+        {
+            "id": "common-migration-mistakes",
+            "title": "Common Migration Mistakes"
+        },
+        {
+            "id": "faq",
+            "title": "FAQ"
+        }
+    ],
+    "faq": [
+        {
+            "question": "How long does it take to migrate from QuickBooks to Xero?",
+            "answer": "Using Jet Convert, the automated conversion takes between 20 minutes and 5 business days depending on file size. A fresh start conversion can be completed in a single sitting. The full end-to-end process typically takes 1 to 2 weeks when working with a CPA. We recommend running both systems in parallel for at least one month before decommissioning QuickBooks."
+        },
+        {
+            "question": "Is the QuickBooks to Xero migration free?",
+            "answer": "The Jet Convert tool is subsidised by Xero and is free for up to 2 years of transaction history (the current fiscal year and the prior year). Migrating additional years may incur a fee. Professional migration services from a CPA or bookkeeper are a separate investment but can prevent costly errors."
+        },
+        {
+            "question": "Will I lose my transaction history when switching to Xero?",
+            "answer": "Not with Jet Convert. It transfers your full transaction history for the covered period. With a fresh start conversion, you only bring forward opening balances, but you retain your QuickBooks file for historical reference. Always keep your QuickBooks backup — CRA requires you to retain financial records for a minimum of 6 years."
+        },
+        {
+            "question": "Can I use both QuickBooks and Xero at the same time during the transition?",
+            "answer": "Yes, and we recommend it. Run both systems in parallel for at least one month. Continue entering transactions in QuickBooks during this overlap period and reconcile both systems at month-end to verify they produce matching reports."
+        },
+        {
+            "question": "Do I need an accountant to migrate from QuickBooks to Xero?",
+            "answer": "We strongly recommend professional help for Canadian businesses. The primary risk is incorrect GST/HST tax code mapping, which can result in wrong tax filings and CRA issues. The cost of a professional migration is typically far less than the cost of correcting filing errors."
+        },
+        {
+            "question": "What happens to my payroll data when I switch from QuickBooks to Xero?",
+            "answer": "Xero does not include built-in Canadian payroll. You will need to set up payroll through a third-party provider such as Wagepoint or Rise People. If you switch mid-year, you will need to enter year-to-date figures for each employee."
+        },
+        {
+            "question": "What QuickBooks data does not migrate to Xero?",
+            "answer": "Several items require manual recreation: inventory items, recurring/memorised transactions, saved report templates, budgets, and detailed line items on open invoices. Sub-accounts become independent accounts. Multiple AR/AP accounts consolidate into one each."
+        },
+        {
+            "question": "How much does it cost to hire an accountant for a QuickBooks to Xero migration in Canada?",
+            "answer": "For a straightforward small business file, expect to pay between $500 and $1,500. More complex migrations involving multiple entities, extensive transaction history, or multi-provincial tax setups can cost $2,000 to $5,000. At LedgerLogic, we scope every migration before quoting so there are no surprises."
+        }
+    ],
+    "howTo": {
+        "name": "How to Migrate from QuickBooks to Xero in Canada Using Jet Convert",
+        "description": "Step-by-step guide to migrating your Canadian business from QuickBooks to Xero using Jet Convert, Xero's official migration tool.",
+        "totalTime": "P5D",
+        "estimatedCost": {
+            "currency": "CAD",
+            "value": "0-5000"
+        },
+        "steps": [
+            {
+                "name": "Sign up for Xero",
+                "text": "Create your Xero account. LedgerLogic clients can claim 90% off Xero for the first 3 months through our partner link."
+            },
+            {
+                "name": "Access Jet Convert through Xero",
+                "text": "Log into Xero and navigate to the migration tool. Xero subsidises Jet Convert, making it free for up to 2 years of transaction history."
+            },
+            {
+                "name": "Connect your QuickBooks file",
+                "text": "For QuickBooks Online, authorise the connection directly. For QuickBooks Desktop, upload your company file."
+            },
+            {
+                "name": "Map your chart of accounts",
+                "text": "Review Jet Convert's account mapping suggestions. Customise from Xero's default Canadian chart of accounts rather than recreating your QuickBooks structure exactly."
+            },
+            {
+                "name": "Verify tax codes",
+                "text": "Verify that QuickBooks tax codes mapped correctly to Xero's Canadian tax rates. Check HST, GST+PST, and GST+QST rates for your province."
+            },
+            {
+                "name": "Review the converted data in Xero",
+                "text": "Check your chart of accounts, contacts, and recent transactions in Xero once Jet Convert finishes processing."
+            },
+            {
+                "name": "Reconcile your bank accounts",
+                "text": "Run a bank reconciliation in Xero for each account and compare against your last completed reconciliation in QuickBooks."
+            }
+        ]
+    },
+    "midContentCta": {
+        "title": "Ready to Switch from QuickBooks to Xero?",
+        "description": "Our CPA team handles the entire migration — from data cleanup and conversion to GST/HST verification and bank feed setup. We have migrated dozens of Canadian businesses and know exactly where things go wrong.",
+        "buttonText": "Book a Free Discovery Call",
+        "buttonLink": "/contact/"
+    },
+    "author": "Seb Prost, CPA",
+    "date": "February 28, 2026",
+    "readTime": "10 min read",
+    "tags": [
+        "Xero",
+        "QuickBooks",
+        "Migration"
+    ],
+    "category": "Accounting Tools",
+    "image": "/images/blog-heroes/hero_qb_xero_migration.png"
+}

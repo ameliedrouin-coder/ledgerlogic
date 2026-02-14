@@ -25,6 +25,7 @@ const PILLAR_MAP: Record<string, { slug: string; title: string; category: string
 
     'xero-vs-quickbooks-canada': { slug: '/xero-accounting-canada', title: 'Xero for Canadian Businesses (2026)', category: 'Cloud Accounting' },
     'is-xero-easy-to-use': { slug: '/xero-accounting-canada', title: 'Xero for Canadian Businesses (2026)', category: 'Cloud Accounting' },
+    'quickbooks-to-xero-migration-canada': { slug: '/xero-accounting-canada', title: 'Xero for Canadian Businesses (2026)', category: 'Cloud Accounting' },
 
     // Cluster B: Incorporation
     'transferring-personal-assets-from-proprietorship-to-a-corporation-in-canada-section-85-rollover': { slug: 'tax-benefits-and-disadvantages-of-incorporating-in-canada', title: 'Tax Benefits & Disadvantages of Incorporating', category: 'Structuring' },

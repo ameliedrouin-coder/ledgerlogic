@@ -83,6 +83,21 @@ const nextConfig = {
                 destination: '/blog/is-xero-worth-it',
                 permanent: true,
             },
+            {
+                source: '/blog/5-reasons-why-xero-bookkeeping-is-the-best-choice-for-canadian-business-owners',
+                destination: '/blog/is-xero-worth-it',
+                permanent: true,
+            },
+            {
+                source: '/blog/why-is-xero-the-best',
+                destination: '/blog/is-xero-worth-it',
+                permanent: true,
+            },
+            {
+                source: '/blog/xero-accounting-software-revolutionizing-business-financial-management',
+                destination: '/xero-accounting-canada',
+                permanent: true,
+            },
         ];
     },
 };
