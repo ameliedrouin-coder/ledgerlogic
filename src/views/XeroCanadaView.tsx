@@ -399,7 +399,11 @@ export default function XeroCanadaView() {
                                     step: '4',
                                     title: 'Customize Your Chart of Accounts',
                                     time: '~30-60 minutes',
-                                    content: 'Xero default Canadian chart of accounts is a starting point. Customize it to match your specific revenue streams, cost categories, and expense types. If you are migrating from QuickBooks Desktop or Sage 50, your CPA can map your existing structure to Xero. Our Xero migration service handles this end to end.',
+                                    content: (
+                                        <>
+                                            Xero default Canadian <Link href="/blog/xero-chart-of-accounts-canada" className="text-teal-600 hover:text-teal-700 underline">chart of accounts</Link> is a starting point. Customize it to match your specific revenue streams, cost categories, and expense types. If you are migrating from QuickBooks Desktop or Sage 50, your CPA can map your existing structure to Xero. Our Xero migration service handles this end to end.
+                                        </>
+                                    ),
                                 },
                                 {
                                     step: '5',

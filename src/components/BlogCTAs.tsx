@@ -77,11 +77,29 @@ export const LeadMagnetCTA = () => {
     const [email, setEmail] = React.useState('');
     const router = useRouter();
 
-    const handleSubmit = (e: React.FormEvent) => {
+    const [status, setStatus] = React.useState<'idle' | 'loading' | 'success' | 'error'>('idle');
+
+    const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
-        // In a real app, submit email to API here
-        console.log("Submitting email:", email);
-        router.push('/thank-you');
+        setStatus('loading');
+
+        try {
+            const response = await fetch('/api/send-lead-magnet', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ email }),
+            });
+
+            if (!response.ok) throw new Error('Failed to submit');
+
+            setStatus('success');
+            setEmail('');
+            // Optional: Redirect to thank you, or just show success state
+            // router.push('/thank-you'); 
+        } catch (error) {
+            console.error(error);
+            setStatus('error');
+        }
     };
 
     return (
@@ -98,22 +116,37 @@ export const LeadMagnetCTA = () => {
                     Ensure you're CRA-compliant and audit-proof your books in just 15 minutes a week.
                 </p>
 
-                <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-3 max-w-lg mx-auto">
-                    <input
-                        type="email"
-                        required
-                        placeholder="Enter your email address..."
-                        value={email}
-                        onChange={(e) => setEmail(e.target.value)}
-                        className="flex-1 px-5 py-3 rounded-lg border border-slate-300 bg-white text-slate-900 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent transition-all shadow-sm"
-                    />
-                    <button
-                        type="submit"
-                        className="px-8 py-3 bg-slate-900 hover:bg-slate-800 text-white font-bold rounded-lg transition-all shadow-md hover:shadow-lg active:scale-95 whitespace-nowrap"
-                    >
-                        Send me the Checklist
-                    </button>
-                </form>
+                {status === 'success' ? (
+                    <div className="bg-teal-50 border border-teal-100 rounded-lg p-6 text-center">
+                        <div className="inline-flex items-center justify-center w-12 h-12 bg-teal-100 text-teal-600 rounded-full mb-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                        </div>
+                        <h4 className="text-xl font-bold text-teal-800 mb-2">Check Your Inbox!</h4>
+                        <p className="text-teal-600">We've sent the checklist to <strong>{email}</strong>.</p>
+                        <button onClick={() => setStatus('idle')} className="mt-4 text-sm text-teal-700 underline hover:text-teal-900">Send to another email</button>
+                    </div>
+                ) : (
+                    <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-3 max-w-lg mx-auto">
+                        <input
+                            type="email"
+                            required
+                            placeholder="Enter your email address..."
+                            value={email}
+                            onChange={(e) => setEmail(e.target.value)}
+                            disabled={status === 'loading'}
+                            className="flex-1 px-5 py-3 rounded-lg border border-slate-300 bg-white text-slate-900 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent transition-all shadow-sm disabled:opacity-70"
+                        />
+                        <button
+                            type="submit"
+                            disabled={status === 'loading'}
+                            className="px-8 py-3 bg-slate-900 hover:bg-slate-800 text-white font-bold rounded-lg transition-all shadow-md hover:shadow-lg active:scale-95 whitespace-nowrap disabled:opacity-70 disabled:cursor-not-allowed flex items-center justify-center min-w-[140px]"
+                        >
+                            {status === 'loading' ? (
+                                <span className="w-5 h-5 border-2 border-white/30 border-t-white rounded-full animate-spin"></span>
+                            ) : "Send me the Checklist"}
+                        </button>
+                    </form>
+                )}
                 <p className="text-slate-400 text-xs mt-4">
                     Strictly no spam. Unsubscribe anytime.
                 </p>

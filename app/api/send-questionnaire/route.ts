@@ -17,12 +17,16 @@ export async function POST(request: Request) {
             );
         }
 
+        // Check for recipient email in env, fallback to hardcoded (for safety/legacy) but prefer env
+        const recipientEmail = process.env.RESEND_NOTIFICATION_EMAIL || 'sebprost@gmail.com';
+        console.log(`Attempting to send questionnaire email to: ${recipientEmail}`);
+
         // Send email
         const { data, error } = await resend.emails.send({
             from: 'LedgerLogic Questionnaire <onboarding@resend.dev>', // Will change to onboarding@ledgerlogic.ca after domain verification
-            to: ['sebprost@gmail.com'],
+            to: [recipientEmail],
             replyTo: email,
-            subject: `New Questionnaire Submission - ${name}`,
+            subject: `New Questionnaire Submission - ${name} (${new Date().toLocaleTimeString()})`,
             html: `
                 <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
                     <h2 style="color: #0f766e; border-bottom: 2px solid #0f766e; padding-bottom: 10px;">

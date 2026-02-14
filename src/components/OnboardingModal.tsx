@@ -59,6 +59,17 @@ const OnboardingModal: React.FC<OnboardingModalProps> = ({ isOpen, onClose }) =>
         painPoint: ''
     });
 
+    // Reset state when modal opens
+    React.useEffect(() => {
+        if (isOpen) {
+            setStep(1);
+            setIsSubmitting(false);
+            // Optional: clear form data or keep it? Keeping it might be nice for "oops I closed it"
+            // But for "new submission" testing, maybe we want to keep it to make it faster?
+            // User asked about reuse. Let's keep data but reset step.
+        }
+    }, [isOpen]);
+
     const updateField = (field: keyof FormData, value: string) => {
         setFormData(prev => ({ ...prev, [field]: value }));
     };
