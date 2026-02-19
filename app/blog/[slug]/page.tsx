@@ -19,17 +19,20 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         };
     }
 
+    // Strip HTML tags from excerpt for metadata
+    const cleanExcerpt = post.excerpt.replace(/<[^>]+>/g, '');
+
     return {
         title: post.title,
-        description: post.excerpt,
+        description: cleanExcerpt,
         alternates: {
             canonical: `/blog/${post.slug}`,
         },
         openGraph: {
             title: post.title,
-            description: post.excerpt,
+            description: cleanExcerpt,
             type: 'article',
-            url: `https://ledgerlogic.ca/blog/${post.slug}`,
+            url: `https://www.ledgerlogic.ca/blog/${params.slug}`,
             images: [
                 {
                     url: post.image,
@@ -44,7 +47,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         twitter: {
             card: 'summary_large_image',
             title: post.title,
-            description: post.excerpt,
+            description: cleanExcerpt,
             images: [post.image],
         },
     };

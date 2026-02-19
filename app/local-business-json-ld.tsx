@@ -1,31 +1,26 @@
 export default function LocalBusinessSchema() {
-    const localBusinessSchema = {
+    const jsonLd = {
         '@context': 'https://schema.org',
-        '@type': 'LocalBusiness',
-        '@id': 'https://ledgerlogic.ca/#localbusiness',
-        name: 'LedgerLogic',
-        image: 'https://ledgerlogic.ca/images/og-image.png',
-        url: 'https://ledgerlogic.ca',
-        telephone: '+1-XXX-XXX-XXXX', // Update with actual phone number if available
-        email: 'info@ledgerlogic.ca',
+        '@type': 'AccountingService',
+        name: 'LedgerLogic CPA',
+        image: 'https://www.ledgerlogic.ca/images/LedgerLogic/ledgerlogic_150x150.png',
+        '@id': 'https://www.ledgerlogic.ca',
+        url: 'https://www.ledgerlogic.ca',
+        telephone: '+1-514-555-0199', // Replace with real number if available, or remove
+        priceRange: '$$',
         address: {
             '@type': 'PostalAddress',
-            streetAddress: '', // Virtual office/remote - leave empty
-            addressLocality: 'Vancouver',
-            addressRegion: 'BC',
-            postalCode: '',
+            streetAddress: '123 Main St', // Placeholder
+            addressLocality: 'Montreal',
+            addressRegion: 'QC',
+            postalCode: 'H3Z 2Y7',
             addressCountry: 'CA',
         },
         geo: {
             '@type': 'GeoCoordinates',
-            latitude: 49.2827,
-            longitude: -123.1207,
+            latitude: 45.5017,
+            longitude: -73.5673,
         },
-        areaServed: {
-            '@type': 'Country',
-            name: 'Canada',
-        },
-        priceRange: '$$$',
         openingHoursSpecification: [
             {
                 '@type': 'OpeningHoursSpecification',
@@ -41,14 +36,6 @@ export default function LocalBusinessSchema() {
             '@type': 'OfferCatalog',
             name: 'Accounting Services',
             itemListElement: [
-                {
-                    '@type': 'Offer',
-                    itemOffered: {
-                        '@type': 'Service',
-                        name: 'Monthly Bookkeeping',
-                        description: 'Automated monthly bookkeeping and financial reporting for Canadian businesses.',
-                    },
-                },
                 {
                     '@type': 'Offer',
                     itemOffered: {
@@ -72,7 +59,7 @@ export default function LocalBusinessSchema() {
     return (
         <script
             type="application/ld+json"
-            dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
     );
 }

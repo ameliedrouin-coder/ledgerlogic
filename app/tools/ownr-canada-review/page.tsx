@@ -6,9 +6,9 @@ export const metadata: Metadata = {
     title: 'Ownr Review 2026: The Cheapest Way to Incorporate in Canada?',
     description: 'CPA review of Ownr.co. We verify if the $300 RBC cash back offer is real, compare pricing vs lawyers, and show you exactly how to incorporate in minutes.',
     openGraph: {
-        title: 'Ownr Review 2026: The Cheapest Way to Incorporate in Canada?',
-        description: 'CPA review of Ownr.co. We verify if the $300 RBC cash back offer is real, compare pricing vs lawyers, and show you exactly how to incorporate in minutes.',
-        url: 'https://ledgerlogic.ca/tools/ownr-canada-review',
+        title: 'Ownr Review 2026: Incorporate in Canada for Less',
+        description: 'Is Ownr the best way to incorporate in Canada? We review pricing, features, and the RBC cash back offer. Save $300+ on incorporation.',
+        url: 'https://www.ledgerlogic.ca/tools/ownr-canada-review',
         siteName: 'LedgerLogic',
         locale: 'en_CA',
         type: 'article',
@@ -210,7 +210,7 @@ const DATA = {
                 "name": "Seb Prost",
                 "jobTitle": "CPA",
                 "affiliation": "LedgerLogic",
-                "sameAs": ["https://ledgerlogic.ca/about-us", "https://www.linkedin.com/in/sebastienprost/"]
+                "sameAs": ["https://www.ledgerlogic.ca/about-us", "https://www.linkedin.com/in/sebastienprost/"]
             },
             "datePublished": "2026-02-01",
             "dateModified": "2026-02-01",

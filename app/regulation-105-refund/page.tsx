@@ -312,11 +312,11 @@ function Schema() {
                 "provider": {
                     "@type": "AccountingService",
                     "name": "LedgerLogic CPA",
-                    "url": "https://ledgerlogic.ca"
+                    "url": "https://www.ledgerlogic.ca"
                 },
                 "description": "Tax recovery service for non-residents who had 15% withholding tax deducted from payments for services rendered in Canada.",
                 "areaServed": "Canada",
-                "image": "https://ledgerlogic.ca/images/hero-bg.jpg",
+                "image": "https://www.ledgerlogic.ca/images/hero-bg.jpg",
                 "offers": [
                     {
                         "@type": "Offer",
@@ -340,7 +340,7 @@ function Schema() {
             },
             {
                 "@type": "FAQPage",
-                "@id": "https://ledgerlogic.ca/regulation-105-refund/#faq",
+                "@id": "https://www.ledgerlogic.ca/regulation-105-refund/#faq",
                 "mainEntity": [
                     {
                         "@type": "Question",

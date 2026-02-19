@@ -5,9 +5,15 @@ import ToolPageView from '@/views/ToolPageView';
 export const metadata: Metadata = {
     title: 'Dext Canada Review 2026: Pricing, Setup Guide + Is It Worth It?',
     description: 'Expert CPA review of Dext for Canadian businesses. Compare pricing, see real-world setup guide, pros/cons vs Hubdoc, and whether it\'s worth it. Updated 2026.',
+    openGraph: {
+        title: 'Dext Canada Review: Receipt Capture & OCR for Canadian Business',
+        description: 'Read our honest review of Dext (formerly Receipt Bank) for Canadian businesses. How it handles GST/HST, integrates with Xero/QBO, and pricing in CAD.',
+        url: 'https://www.ledgerlogic.ca/tools/dext-canada',
+        type: 'article',
+    },
     alternates: {
-        canonical: '/tools/dext-canada'
-    }
+        canonical: '/tools/dext-canada',
+    },
 };
 
 const DATA = {
@@ -151,7 +157,7 @@ const DATA = {
                 "name": "Seb Prost",
                 "jobTitle": "CPA",
                 "affiliation": "LedgerLogic",
-                "sameAs": ["https://ledgerlogic.ca/about-us", "https://www.linkedin.com/in/sebastienprost/"]
+                "sameAs": ["https://www.ledgerlogic.ca/about-us", "https://www.linkedin.com/in/sebastienprost/"]
             },
             "datePublished": "2026-02-01",
             "dateModified": "2026-02-01",

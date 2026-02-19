@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
             allow: '/',
             disallow: ['/private/', '/admin/'], // Minimal disallow
         },
-        sitemap: 'https://ledgerlogic.ca/sitemap.xml',
+        sitemap: 'https://www.ledgerlogic.ca/sitemap.xml',
     };
 }

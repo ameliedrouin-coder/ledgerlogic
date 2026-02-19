@@ -6,9 +6,9 @@ export const metadata: Metadata = {
     title: 'Venn Review 2026: The Best Business Bank for Canadian Startups?',
     description: 'CPA review of Venn (venn.ca). We test the low FX fees, multi-currency accounts, and corporate cards to see if it beats RBC and TD for small businesses.',
     openGraph: {
-        title: 'Venn Review 2026: The Best Business Bank for Canadian Startups?',
-        description: 'CPA review of Venn (venn.ca). We test the low FX fees, multi-currency accounts, and corporate cards to see if it beats RBC and TD for small businesses.',
-        url: 'https://ledgerlogic.ca/tools/venn-canada-review',
+        title: 'Venn (Vault) Banking Review: Best Pricing for Canadian Startups?',
+        description: 'Review of Venn (formerly Vault), the no-fee business account for Canadian startups. Save on FX with multi-currency accounts.',
+        url: 'https://www.ledgerlogic.ca/tools/venn-canada-review',
         siteName: 'LedgerLogic',
         locale: 'en_CA',
         type: 'article',
@@ -206,7 +206,7 @@ const DATA = {
                 "name": "Seb Prost",
                 "jobTitle": "CPA",
                 "affiliation": "LedgerLogic",
-                "sameAs": ["https://ledgerlogic.ca/about-us", "https://www.linkedin.com/in/sebastienprost/"]
+                "sameAs": ["https://www.ledgerlogic.ca/about-us", "https://www.linkedin.com/in/sebastienprost/"]
             },
             "datePublished": "2026-02-01",
             "dateModified": "2026-02-01",

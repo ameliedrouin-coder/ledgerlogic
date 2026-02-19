@@ -24,6 +24,12 @@ const nextConfig = {
     trailingSlash: false,
     async redirects() {
         return [
+            {
+                source: '/:path*',
+                has: [{ type: 'host', value: 'ledgerlogic.ca' }],
+                destination: 'https://www.ledgerlogic.ca/:path*',
+                permanent: true,
+            },
             { source: '/tools/xero-canada', destination: '/xero-accounting-canada', permanent: true },
             { source: '/xero-support', destination: '/xero-migration', permanent: true },
             {

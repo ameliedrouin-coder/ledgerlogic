@@ -44,9 +44,12 @@ export default function XeroCanadaView() {
                             <div className="inline-block px-3 py-1 bg-white/10 backdrop-blur-md rounded-full text-teal-200 text-sm font-semibold mb-6 border border-white/20">
                                 Accounting Software Guide
                             </div>
-                            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-heading mb-6 leading-tight">
-                                Xero Accounting Canada: <span className="text-teal-300">The Complete 2026 Guide</span>
+                            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-heading mb-4 leading-tight">
+                                Xero Accounting Canada — <span className="text-teal-300">Expert Setup, Migration & CPA Support</span>
                             </h1>
+                            <p className="text-xl md:text-2xl text-teal-100 font-medium mb-8">
+                                The Complete 2026 Guide for Canadian SMEs
+                            </p>
 
                             {/* Author Block for E-E-A-T */}
                             <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-lg p-4 mb-8">
@@ -312,7 +315,7 @@ export default function XeroCanadaView() {
                     <section id="comparison" className="mb-20">
                         <span className="text-teal-600 font-bold tracking-wider text-sm uppercase mb-2 block">Platform Comparison</span>
                         <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">
-                            <Link href="/blog/is-xero-worth-it" className="hover:text-teal-600 transition-colors">Xero vs. QuickBooks Online</Link> in Canada: <span className="text-teal-600">An Honest Comparison</span>
+                            <Link href="/blog/xero-vs-quickbooks-canada" className="hover:text-teal-600 transition-colors">Xero vs. QuickBooks Online</Link> in Canada: <span className="text-teal-600">An Honest Comparison</span>
                         </h2>
                         <p className="text-lg text-slate-700 leading-relaxed mb-8">
                             This is the most common question we hear from Canadian business owners evaluating accounting software. Both are strong cloud platforms. Here is how they compare on the features that matter most to Canadian SMEs.
@@ -576,6 +579,44 @@ export default function XeroCanadaView() {
                                     </div>
                                 </div>
                             ))}
+                        </div>
+                    </section>
+
+                    {/* SECTION: Certified Partner Services */}
+                    <section id="services" className="mb-20">
+                        <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">
+                            Work With a Certified <span className="text-teal-600">Xero Partner in Canada</span>
+                        </h2>
+                        <p className="text-lg text-slate-700 leading-relaxed mb-8">
+                            LedgerLogic is a licensed Canadian CPA firm and certified Xero partner. We handle Xero setup, migration from QuickBooks or Sage, GST/HST configuration, and ongoing bookkeeping — all on a fixed monthly fee with no surprises.
+                        </p>
+
+                        <div className="bg-slate-50 border border-slate-200 rounded-xl p-8">
+                            <h3 className="text-2xl font-bold text-slate-900 mb-6">What's included:</h3>
+                            <div className="grid md:grid-cols-2 gap-6 mb-8">
+                                {[
+                                    'Xero account setup and chart of accounts configuration',
+                                    'Bank feed connection and GST/HST tax code audit',
+                                    'Migration from QuickBooks Desktop, QBO, or Sage 50',
+                                    'Monthly bookkeeping and reconciliation',
+                                    'GST/HST filing and CRA compliance',
+                                    'Unlimited CPA access',
+                                ].map((item, i) => (
+                                    <div key={i} className="flex items-start gap-3">
+                                        <div className="p-1 bg-teal-100 rounded-full text-teal-600 mt-1 shrink-0">
+                                            <Check size={14} strokeWidth={3} />
+                                        </div>
+                                        <span className="text-slate-700 font-medium">{item}</span>
+                                    </div>
+                                ))}
+                            </div>
+
+                            <button
+                                onClick={() => setIsModalOpen(true)}
+                                className="inline-flex items-center justify-center px-8 py-4 bg-teal-500 hover:bg-teal-400 text-white font-bold rounded-lg transition-all shadow-lg shadow-teal-900/20 text-lg w-full md:w-auto"
+                            >
+                                Book a Free Consultation →
+                            </button>
                         </div>
                     </section>
 

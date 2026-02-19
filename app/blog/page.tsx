@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: 'LedgerLogic Insights | Canadian Tax & Accounting Blog',
         description: 'Actionable financial advice for Canadian entrepreneurs. Tax tips, software guides, and growth strategies.',
-        url: 'https://ledgerlogic.ca/blog',
+        url: 'https://www.ledgerlogic.ca/blog',
         type: 'website',
         // images: ['/images/blog-index-og.png'], // Ideal to have a specific one, or falls back to global
     },

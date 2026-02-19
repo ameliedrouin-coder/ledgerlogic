@@ -416,7 +416,7 @@ const BlogPost: React.FC<BlogPostProps> = ({ post, relatedPosts }) => {
                                 "name": post.author,
                                 "url": "https://ledgerlogic.ca/about"
                             }],
-                            "description": post.excerpt,
+                            "description": post.excerpt.replace(/<[^>]+>/g, ''),
                             "mainEntityOfPage": {
                                 "@type": "WebPage",
                                 "@id": `https://ledgerlogic.ca/blog/${post.slug}`
@@ -681,7 +681,7 @@ const BlogPost: React.FC<BlogPostProps> = ({ post, relatedPosts }) => {
                                             {related.title}
                                         </h4>
                                         <p className="text-slate-600 text-sm line-clamp-3 flex-1 leading-relaxed">
-                                            {related.excerpt}
+                                            {related.excerpt.replace(/<[^>]+>/g, '')}
                                         </p>
 
                                         {/* Author and CTA */}

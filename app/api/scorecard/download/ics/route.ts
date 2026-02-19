@@ -9,7 +9,15 @@ export async function GET(req: Request) {
             duration: { hours: 1 },
             title: 'Month-End Close',
             description: 'Reminder to close books.',
-            url: 'https://ledgerlogic.ca',
+            url: 'https://www.ledgerlogic.ca/scorecard',
+            geo: {
+                lat: 49.2827,
+                lon: -123.1207,
+            },
+            organizer: {
+                name: 'Sebastien Prost, CPA',
+                email: 'sebastien@ledgerlogic.ca',
+            },
             categories: ['Finance'],
             status: 'CONFIRMED',
             busyStatus: 'BUSY',

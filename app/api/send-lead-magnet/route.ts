@@ -15,6 +15,8 @@ export async function POST(request: Request) {
             );
         }
 
+        const downloadUrl = '/resources/xero-setup-checklist.pdf';
+
         // 1. Send Notification to Admin
         const recipientEmail = process.env.RESEND_NOTIFICATION_EMAIL || 'sebprost@gmail.com';
         console.log(`Sending Lead Magnet notification to: ${recipientEmail} for lead: ${email}`);
@@ -47,12 +49,9 @@ export async function POST(request: Request) {
                 <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; color: #334155;">
                     <h2 style="color: #0d9488;">Here is your Xero Checklist</h2>
                     <p>Hi there,</p>
-                    <p>Thanks for requesting our <strong>Ultimate Canadian Xero Setup Checklist</strong>.</p>
-                    <p>Since we are currently updating the file to the 2026 version, we will email you the PDF as soon as it is live (within 24 hours).</p>
-                    <p>In the meantime, feel free to browsing our <a href="https://ledgerlogic.ca/blog">latest guides</a>.</p>
-                    <br>
-                    <p>Best regards,</p>
-                    <p><strong>The LedgerLogic Team</strong></p>
+                    <p>Thanks for requesting our guide.</p>
+                    <p>Here is your download link: <a href="https://www.ledgerlogic.ca${downloadUrl}">Download Guide</a></p>
+                    <p>Best,<br/>The LedgerLogic Team</p>
                 </div>
             `,
         });

@@ -6,12 +6,13 @@ export const metadata: Metadata = {
     title: 'Float Card Review 2026: The Best Corporate Card for Canadian Teams?',
     description: 'CPA review of the Float Card. We test the 4% yield, receipt capture apps, and expense approvals. See why it is the default choice for Canadian SMEs.',
     openGraph: {
-        title: 'Float Card Review 2026: The Best Corporate Card for Canadian Teams?',
-        description: 'CPA review of the Float Card. Is it better than a traditional bank card? We verify the fees, yield, and accounting integrations.',
-        url: 'https://ledgerlogic.ca/tools/float-canada-review',
-        siteName: 'LedgerLogic',
-        locale: 'en_CA',
+        title: 'Float Card Canada Review: Best Corporate Card for Canadian Startups?',
+        description: 'Detailed review of Float financial for Canadian businesses. 4% interest, 1% cashback, and high limits without a personal guarantee.',
+        url: 'https://www.ledgerlogic.ca/tools/float-canada-review',
         type: 'article',
+    },
+    alternates: {
+        canonical: '/tools/float-canada-review',
     },
     twitter: {
         card: 'summary_large_image',
@@ -19,9 +20,7 @@ export const metadata: Metadata = {
         description: 'Why 3,000+ Canadian businesses use Float to manage team spending.',
     },
     keywords: ['float card review', 'float corporate card', 'canadian spend management', 'float vs ramp', 'float vs amex'],
-    alternates: {
-        canonical: '/tools/float-canada-review'
-    }
+
 };
 
 const DATA = {
@@ -206,7 +205,7 @@ const DATA = {
                 "name": "Seb Prost",
                 "jobTitle": "CPA",
                 "affiliation": "LedgerLogic",
-                "sameAs": ["https://ledgerlogic.ca/about-us", "https://www.linkedin.com/in/sebastienprost/"]
+                "sameAs": ["https://www.ledgerlogic.ca/about-us", "https://www.linkedin.com/in/sebastienprost/"]
             },
             "datePublished": "2026-02-01",
             "dateModified": "2026-02-01",

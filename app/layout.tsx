@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: 'LedgerLogic | Modern Accounting & Virtual CFO',
         description: 'Stop stressing about your books. Get strategic tax & accounting guidance from a real team of experts. Licensed Canadian CPA firm.',
-        url: 'https://ledgerlogic.ca',
+        url: 'https://www.ledgerlogic.ca',
         siteName: 'LedgerLogic',
         images: [
             {

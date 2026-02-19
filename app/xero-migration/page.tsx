@@ -6,13 +6,12 @@ export const metadata: Metadata = {
     description:
         'CPA-led Xero migration and setup for Canadian businesses. We handle data migration from Sage, QuickBooks, or scratch — GST/HST config, bank feeds, and training included.',
     alternates: {
-        canonical: 'https://ledgerlogic.ca/xero-migration',
+        canonical: '/xero-migration',
     },
     openGraph: {
-        title: 'Xero Migration & Setup Services · LedgerLogic',
-        description:
-            'CPA-led Xero migration and setup for Canadian businesses. Data migration from Sage, QuickBooks, or scratch — GST/HST config, bank feeds, and training included.',
-        url: 'https://ledgerlogic.ca/xero-migration',
+        title: 'Migration to Xero | Expert Canadian Xero Setup Service',
+        description: 'Move your accounting to Xero with zero downtime. We migrate historical data from QuickBooks Desktop, QBO, or Sage 50. Flat-fee packages.',
+        url: 'https://www.ledgerlogic.ca/xero-migration',
         siteName: 'LedgerLogic',
         locale: 'en_CA',
         type: 'website',
@@ -45,8 +44,8 @@ function ServiceSchema() {
         provider: {
             '@type': 'Organization',
             name: 'LedgerLogic',
-            url: 'https://ledgerlogic.ca',
-            logo: 'https://ledgerlogic.ca/images/LedgerLogic/ledgerlogic_150x150.png',
+            url: 'https://www.ledgerlogic.ca',
+            logo: 'https://www.ledgerlogic.ca/images/LedgerLogic/ledgerlogic_150x150.png',
             founder: {
                 '@type': 'Person',
                 name: 'Seb Prost',
@@ -172,13 +171,13 @@ function ServiceSchema() {
                 '@type': 'ListItem',
                 position: 1,
                 name: 'Home',
-                item: 'https://ledgerlogic.ca',
+                item: 'https://www.ledgerlogic.ca',
             },
             {
                 '@type': 'ListItem',
                 position: 2,
                 name: 'Xero Migration & Setup',
-                item: 'https://ledgerlogic.ca/xero-migration',
+                item: 'https://www.ledgerlogic.ca/xero-migration',
             },
         ],
     };

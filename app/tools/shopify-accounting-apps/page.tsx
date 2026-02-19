@@ -6,11 +6,9 @@ export const metadata: Metadata = {
     title: 'A2X Review 2026: The Best Shopify Accounting App for Canadian Sellers?',
     description: 'CPA review of A2X for Shopify. We break down the pricing, features for Canada (GST/HST handling), and why it beats manual data entry.',
     openGraph: {
-        title: 'A2X Review 2026: The Best Shopify Accounting App for Canadian Sellers?',
-        description: 'CPA review of A2X for Shopify. We break down the pricing, GST/HST handling, and QBO/Xero integration.',
-        url: 'https://ledgerlogic.ca/tools/shopify-accounting-apps',
-        siteName: 'LedgerLogic',
-        locale: 'en_CA',
+        title: 'Best Shopify Accounting Apps for Canada: A2X vs Synder',
+        description: 'The definitive guide to connecting Shopify to Xero/QuickBooks in Canada. Compare A2X, Synder, and Link My Books for GST/HST compliance.',
+        url: 'https://www.ledgerlogic.ca/tools/shopify-accounting-apps',
         type: 'article',
     },
     twitter: {
@@ -205,7 +203,7 @@ const DATA = {
                 "name": "Seb Prost",
                 "jobTitle": "CPA",
                 "affiliation": "LedgerLogic",
-                "sameAs": ["https://ledgerlogic.ca/about-us", "https://www.linkedin.com/in/sebastienprost/"]
+                "sameAs": ["https://www.ledgerlogic.ca/about-us", "https://www.linkedin.com/in/sebastienprost/"]
             },
             "datePublished": "2026-02-01",
             "dateModified": "2026-02-01",

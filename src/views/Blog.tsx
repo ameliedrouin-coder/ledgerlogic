@@ -180,7 +180,7 @@ const Blog: React.FC = () => {
                                 <h1 className="hero-main-title">
                                     <Link href={`/blog/${featuredPost.slug}?${searchParams?.toString()}`}>{featuredPost.title}</Link>
                                 </h1>
-                                <p className="hero-main-excerpt">{featuredPost.excerpt}</p>
+                                <p className="hero-main-excerpt">{featuredPost.excerpt.replace(/<[^>]+>/g, '')}</p>
                                 <div className="hero-main-meta">
                                     <span className="meta-author">By {featuredPost.author}</span>
                                     <span className="meta-dot">·</span>
@@ -271,7 +271,7 @@ const Blog: React.FC = () => {
                                             <Link href={`/blog/${post.slug}?${searchParams?.toString()}`} className="card-title-link">
                                                 <h3 className="card-title">{post.title}</h3>
                                             </Link>
-                                            <p className="card-text">{post.excerpt.substring(0, 120)}...</p>
+                                            <p className="card-text">{post.excerpt.replace(/<[^>]+>/g, '').substring(0, 120)}...</p>
                                             <div className="card-footer-meta">
                                                 <div className="meta-left">
                                                     <Calendar size={14} className="meta-icon" />

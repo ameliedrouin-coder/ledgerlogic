@@ -6,12 +6,13 @@ export const metadata: Metadata = {
     title: 'Synder Review 2026: Stripe & Square Accounting Automation for Canada',
     description: 'CPA review of Synder. How to sync Stripe, Square, and PayPal data to Xero/QuickBooks with zero errors. Best for high-volume transactions.',
     openGraph: {
-        title: 'Synder Review 2026: Stripe & Square Accounting Automation',
-        description: 'CPA review of Synder. We test the multi-currency syncing, tax handling (GST/HST), and revenue recognition features.',
-        url: 'https://ledgerlogic.ca/tools/synder-review',
-        siteName: 'LedgerLogic',
-        locale: 'en_CA',
+        title: 'Synder Review: Multi-Channel E-commerce Accounting for Canada',
+        description: 'Connecting Shopify, Amazon, Stripe, and PayPal to Xero? Read our Synder review to see if it handles Canadian taxes better than A2X.',
+        url: 'https://www.ledgerlogic.ca/tools/synder-review',
         type: 'article',
+    },
+    alternates: {
+        canonical: '/tools/synder-review',
     },
     twitter: {
         card: 'summary_large_image',
@@ -19,9 +20,7 @@ export const metadata: Metadata = {
         description: 'Automate your Stripe and Square bookkeeping. No more manual data entry or messy deposit matching.',
     },
     keywords: ['synder review', 'stripe accounting', 'square to xero', 'synder vs a2x', 'stripe gst hst'],
-    alternates: {
-        canonical: '/tools/synder-review'
-    }
+
 };
 
 const DATA = {
@@ -205,7 +204,7 @@ const DATA = {
                 "name": "Seb Prost",
                 "jobTitle": "CPA",
                 "affiliation": "LedgerLogic",
-                "sameAs": ["https://ledgerlogic.ca/about-us", "https://www.linkedin.com/in/sebastienprost/"]
+                "sameAs": ["https://www.ledgerlogic.ca/about-us", "https://www.linkedin.com/in/sebastienprost/"]
             },
             "datePublished": "2026-02-01",
             "dateModified": "2026-02-01",

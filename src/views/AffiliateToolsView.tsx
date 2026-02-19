@@ -212,8 +212,11 @@ const AffiliateToolsView: React.FC = () => {
                         Best Accounting Tools for <br className="hidden md:block" />
                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-teal-500">Canadian Businesses</span>
                     </h1>
-                    <p className="text-xl text-slate-500 mb-10 max-w-2xl mx-auto leading-relaxed">
+                    <p className="text-xl text-slate-500 mb-4 max-w-2xl mx-auto leading-relaxed">
                         Stop guessing. We've curated the exact software stack you need to automate bookkeeping, slash taxes, and gain cash flow visibility.
+                    </p>
+                    <p className="text-lg text-slate-500 mb-10 max-w-2xl mx-auto leading-relaxed">
+                        Every tool below has been tested on real Canadian client accounts by our CPA team and verified for GST/HST compliance, Xero and QuickBooks integration, and transparent pricing.
                     </p>
 
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">
@@ -378,7 +381,7 @@ const AffiliateToolsView: React.FC = () => {
                                                 href={buildAffiliateUrl(tool.affiliateUrl, 'quiz_results', tool.name)}
                                                 onClick={() => trackAffiliateClick(tool.name, 'quiz_results')}
                                                 target="_blank"
-                                                rel="noopener noreferrer"
+                                                rel="noopener noreferrer sponsored"
                                                 className="inline-flex items-center justify-center px-6 py-3 bg-blue-600 text-white font-bold rounded-xl hover:bg-blue-700 transition-all shadow-md hover:shadow-lg hover:-translate-y-0.5"
                                             >
                                                 {tool.affiliateOffer}
@@ -496,10 +499,11 @@ const AffiliateToolsView: React.FC = () => {
             </section >
 
             {/* 3. TOP PICKS (Redesigned & Moved Down) */}
-            < section id="top-picks" className="pt-48 pb-32 bg-slate-50" >
+            <section id="top-picks" className="pt-24 pb-10 bg-slate-50">
                 <div className="container mx-auto px-6 max-w-7xl">
                     <div className="text-center mb-20">
                         <span className="text-teal-600 font-bold tracking-wider uppercase text-sm mb-4 block">Market Leaders</span>
+                        <p className="text-[10px] text-slate-400 uppercase tracking-widest mb-2">Last verified: February 2026</p>
                         <h2 className="text-4xl md:text-5xl font-extrabold text-slate-900 mb-6">Our Top Picks</h2>
                         <p className="text-slate-500 text-xl max-w-2xl mx-auto">
                             The heavy hitters. If you don't want to overthink it, these are the gold standards for Canadian business finance.
@@ -564,7 +568,7 @@ const AffiliateToolsView: React.FC = () => {
                                         <a
                                             href={tool.affiliateUrl}
                                             target="_blank"
-                                            rel="sponsored nofollow"
+                                            rel="noopener noreferrer sponsored"
                                             className="flex-1 text-center py-3 rounded-xl bg-slate-900 text-white font-bold text-sm hover:bg-slate-800 hover:scale-[1.02] transition-all shadow-xl shadow-slate-200"
                                         >
                                             Get {tool.name.split(' ')[0]}
@@ -595,20 +599,29 @@ const AffiliateToolsView: React.FC = () => {
             </section >
 
             {/* 6. TRUST SECTION */}
-            < section className="py-20 text-center max-w-3xl mx-auto px-6" >
-                <h2 className="text-3xl font-bold text-slate-900 mb-8">How We Select Tools</h2>
-                <div className="grid sm:grid-cols-2 gap-6 text-left">
+            <section className="py-10 max-w-4xl mx-auto px-6">
+                <div className="text-center mb-12">
+                    <h2 className="text-3xl font-bold text-slate-900 mb-4">How We Select Tools</h2>
+                    <p className="text-slate-600 text-xl max-w-2xl mx-auto leading-relaxed">
+                        Every tool on this page has been installed and tested on real Canadian client accounts. We re-verify pricing and features quarterly.
+                    </p>
+                </div>
+
+                <div className="grid md:grid-cols-2 gap-6 text-left">
                     {[
-                        "Must fully support Canadian entities (GST/HST handling)",
-                        "Automates bookkeeping correctly (no 'messy data')",
-                        "Integrates reliably with Xero or QBO",
-                        "Provides meaningful time savings for our clients"
-                    ].map((criteria, i) => (
-                        <div key={i} className="flex items-start gap-4 p-4 rounded-xl bg-white border border-slate-100 shadow-sm">
-                            <div className="w-8 h-8 rounded-full bg-teal-50 flex items-center justify-center shrink-0">
-                                <ShieldCheck size={16} className="text-teal-600" />
+                        { title: "Canadian tax compliance.", text: "Must handle GST/HST correctly across all provinces, including multi-province scenarios like HST in Ontario and GST+PST in British Columbia." },
+                        { title: "Clean accounting integration.", text: "Must sync accurately with Xero or QuickBooks Online without creating duplicate entries or miscategorised transactions." },
+                        { title: "Real time savings.", text: "Must eliminate at least 2 hours of manual bookkeeping per month for a typical Canadian SME." },
+                        { title: "Transparent pricing.", text: "We list current Canadian pricing and flag any tools where costs increase significantly after a trial period." }
+                    ].map((item, i) => (
+                        <div key={i} className="flex items-start gap-4 p-6 rounded-xl bg-white border border-slate-100 shadow-sm hover:border-teal-200 transition-colors">
+                            <div className="w-10 h-10 rounded-full bg-teal-50 flex items-center justify-center shrink-0 mt-1">
+                                <ShieldCheck size={20} className="text-teal-600" />
                             </div>
-                            <p className="text-slate-700 font-medium pt-1 text-sm">{criteria}</p>
+                            <div>
+                                <h3 className="font-bold text-slate-900 mb-2 text-xl">{item.title}</h3>
+                                <p className="text-slate-600 text-base leading-relaxed">{item.text}</p>
+                            </div>
                         </div>
                     ))}
                 </div>
@@ -661,67 +674,7 @@ const AffiliateToolsView: React.FC = () => {
                         ))}
                     </div>
 
-                    {/* JSON-LD Schema for FAQ */}
-                    <script
-                        type="application/ld+json"
-                        dangerouslySetInnerHTML={{
-                            __html: JSON.stringify({
-                                "@context": "https://schema.org",
-                                "@type": "FAQPage",
-                                "@id": "https://ledgerlogic.ca/tools/#faq",
-                                "mainEntity": [
-                                    {
-                                        "@type": "Question",
-                                        "name": "Do I need separate accounting software for my Canadian corporation?",
-                                        "acceptedAnswer": {
-                                            "@type": "Answer",
-                                            "text": "Yes, we strongly recommend using Canadian-specific accounting software like Xero or QuickBooks Online. These platforms handle GST/HST correctly, support Canadian payroll deductions, and integrate with CRA filing requirements."
-                                        }
-                                    },
-                                    {
-                                        "@type": "Question",
-                                        "name": "What's the difference between Xero and QuickBooks for Canadian businesses?",
-                                        "acceptedAnswer": {
-                                            "@type": "Answer",
-                                            "text": "Xero is ideal for service businesses and startups with a cleaner interface. QuickBooks Online is better for e-commerce businesses with inventory or complex project tracking needs. Both are fully Canadian tax-compliant."
-                                        }
-                                    },
-                                    {
-                                        "@type": "Question",
-                                        "name": "Which business bank account has the best FX rates for Canadian startups?",
-                                        "acceptedAnswer": {
-                                            "@type": "Answer",
-                                            "text": "Venn offers some of the lowest FX fees among Canadian business banks, especially for multi-currency operations. For tech companies dealing in USD, Venn or Ramp are typically the most cost-effective options."
-                                        }
-                                    },
-                                    {
-                                        "@type": "Question",
-                                        "name": "Can I switch from QuickBooks to Xero without losing data?",
-                                        "acceptedAnswer": {
-                                            "@type": "Answer",
-                                            "text": "Yes! Both platforms allow data migration. Most accounting firms can help migrate your chart of accounts, invoices, and historical transactions. The process typically takes 1-2 weeks."
-                                        }
-                                    },
-                                    {
-                                        "@type": "Question",
-                                        "name": "What tools do I need if I run a Shopify store in Canada?",
-                                        "acceptedAnswer": {
-                                            "@type": "Answer",
-                                            "text": "For Canadian Shopify stores, we recommend: Xero or QuickBooks for accounting, Synder or A2X to sync Shopify sales automatically, Venn for business banking, and Dext for tracking receipts."
-                                        }
-                                    },
-                                    {
-                                        "@type": "Question",
-                                        "name": "How much does a typical Canadian SMB tool stack cost per month?",
-                                        "acceptedAnswer": {
-                                            "@type": "Answer",
-                                            "text": "A basic stack runs $50-100/month. A full stack including spend management and e-commerce sync is typically $150-300/month. With special offers, you can save 40-60% in your first year."
-                                        }
-                                    }
-                                ]
-                            })
-                        }}
-                    />
+
                 </div>
             </section>
 

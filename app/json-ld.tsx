@@ -2,11 +2,11 @@ export default function JsonLd() {
     const organizationSchema = {
         '@context': 'https://schema.org',
         '@type': 'ProfessionalService',
-        '@id': 'https://ledgerlogic.ca/#organization',
+        '@id': 'https://www.ledgerlogic.ca/#organization',
         name: 'LedgerLogic',
-        url: 'https://ledgerlogic.ca',
-        logo: 'https://ledgerlogic.ca/images/LedgerLogic/ledgerlogic_150x150.png',
-        image: 'https://ledgerlogic.ca/images/og-image.png',
+        url: 'https://www.ledgerlogic.ca',
+        logo: 'https://www.ledgerlogic.ca/images/LedgerLogic/ledgerlogic_150x150.png',
+        image: 'https://www.ledgerlogic.ca/images/og-image.png',
         description: 'Modern accounting and Virtual CFO services for Canadian growth companies. Fixed monthly pricing, automated bookkeeping, strategic tax planning.',
 
         // Founder information for E-A-T signals

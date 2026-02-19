@@ -6,12 +6,13 @@ export const metadata: Metadata = {
     title: 'Ramp Canada Review 2026: The Ultimate Corporate Card for USD Spend',
     description: 'CPA review of Ramp in Canada. Is the 1.5% cashback real? specific benefits for Canadian startups with high USD expenses and global teams.',
     openGraph: {
-        title: 'Ramp Canada Review 2026: The Ultimate Corporate Card for USD Spend',
-        description: 'CPA review of Ramp in Canada. We test the 1.5% cashback, FX handling, and NetSuite/Xero integrations.',
-        url: 'https://ledgerlogic.ca/tools/ramp-canada-review',
-        siteName: 'LedgerLogic',
-        locale: 'en_CA',
+        title: 'Ramp Corporate Card Canada Review: Is It Available?',
+        description: 'Ramp is now available for Canadian businesses with US entities or heavy USD spend. Read our review of the ultimate finance automation platform.',
+        url: 'https://www.ledgerlogic.ca/tools/ramp-canada-review',
         type: 'article',
+    },
+    alternates: {
+        canonical: '/tools/ramp-canada-review',
     },
     twitter: {
         card: 'summary_large_image',
@@ -19,9 +20,7 @@ export const metadata: Metadata = {
         description: 'See why Canadian tech companies are switching to Ramp for USD spend management.',
     },
     keywords: ['ramp canada review', 'ramp corporate card', 'ramp vs float', 'ramp vs brex canada', 'usd corporate card canada'],
-    alternates: {
-        canonical: '/tools/ramp-canada-review'
-    }
+
 };
 
 const DATA = {
@@ -192,7 +191,7 @@ const DATA = {
                 "name": "Seb Prost",
                 "jobTitle": "CPA",
                 "affiliation": "LedgerLogic",
-                "sameAs": ["https://ledgerlogic.ca/about-us", "https://www.linkedin.com/in/sebastienprost/"]
+                "sameAs": ["https://www.ledgerlogic.ca/about-us", "https://www.linkedin.com/in/sebastienprost/"]
             },
             "datePublished": "2026-02-01",
             "dateModified": "2026-02-01",

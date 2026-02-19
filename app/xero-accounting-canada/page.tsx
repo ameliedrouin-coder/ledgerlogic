@@ -3,22 +3,22 @@ import type { Metadata } from 'next';
 import XeroCanadaView from '@/views/XeroCanadaView';
 
 export const metadata: Metadata = {
-    title: 'Xero Accounting Canada: The Complete 2026 Guide for SMEs',
-    description: 'Everything Canadian businesses need to know about Xero — pricing, GST/HST compliance, setup, integrations, and how it compares to QuickBooks. By Sebastien Prost, CPA.',
+    title: 'Xero Accounting in Canada (2026) | CPA + Xero Partner — LedgerLogic',
+    description: 'Xero for Canadian businesses: pricing, GST/HST setup, payroll & integrations, and QuickBooks comparisons—plus CPA-reviewed tips to avoid costly mistakes.',
     keywords: ['xero accounting canada', 'xero canada pricing', 'xero gst hst', 'xero vs quickbooks canada', 'best accounting software canada', 'xero shopify integration canada'],
     alternates: {
-        canonical: '/xero-accounting-canada',
+        canonical: 'https://www.ledgerlogic.ca/xero-accounting-canada',
     },
     openGraph: {
-        title: 'Xero Accounting Canada: The Complete 2026 Guide for SMEs',
-        description: 'Pricing, GST/HST compliance, integrations, and expert setup advice for Canadian SMEs.',
-        url: 'https://ledgerlogic.ca/xero-accounting-canada',
+        title: 'Xero Accounting in Canada (2026) | CPA + Xero Partner',
+        description: 'Pricing, GST/HST setup, payroll & integrations, and QuickBooks comparisons—CPA-reviewed guidance for Canadian SMEs.',
+        url: 'https://www.ledgerlogic.ca/xero-accounting-canada',
         type: 'article',
         locale: 'en_CA',
         siteName: 'LedgerLogic',
         images: [
             {
-                url: 'https://ledgerlogic.ca/images/og-image.png',
+                url: 'https://www.ledgerlogic.ca/images/og-image.png',
                 width: 1200,
                 height: 630,
                 alt: 'Xero Accounting Canada Guide by LedgerLogic',
@@ -27,8 +27,8 @@ export const metadata: Metadata = {
     },
     twitter: {
         card: 'summary_large_image',
-        title: 'Xero Accounting Canada: The Complete 2026 Guide for SMEs',
-        description: 'Pricing, GST/HST compliance, integrations, and expert setup advice for Canadian SMEs.',
+        title: 'Xero Accounting in Canada (2026) | CPA + Xero Partner',
+        description: 'Pricing, GST/HST setup, payroll & integrations, and QuickBooks comparisons—CPA-reviewed guidance for Canadian SMEs.',
     },
 };
 
@@ -46,35 +46,35 @@ function XeroCanadaJsonLd() {
     const articleSchema = {
         '@context': 'https://schema.org',
         '@type': 'Article',
-        headline: 'Xero Accounting Canada: The Complete 2026 Guide for Canadian Small Businesses',
-        description: 'Everything Canadian businesses need to know about Xero — pricing, GST/HST compliance, setup, integrations, and how it compares to QuickBooks.',
-        image: 'https://ledgerlogic.ca/images/og-image.png',
+        headline: 'Xero Accounting in Canada (2026) | CPA + Xero Partner',
+        description: 'Xero for Canadian businesses: pricing, GST/HST setup, payroll & integrations, and QuickBooks comparisons—plus CPA-reviewed tips to avoid costly mistakes.',
+        image: 'https://www.ledgerlogic.ca/images/og-image.png',
         datePublished: '2026-02-06',
-        dateModified: '2026-02-06',
+        dateModified: new Date().toISOString().split('T')[0], // Update to current date
         author: {
             '@type': 'Person',
-            '@id': 'https://ledgerlogic.ca/#sebastien-prost',
+            '@id': 'https://www.ledgerlogic.ca/#sebastien-prost',
             name: 'Sebastien Prost',
             jobTitle: 'CPA, Founder',
             description: 'Licensed Canadian CPA with 10+ years of CRA experience',
             worksFor: {
                 '@type': 'Organization',
                 name: 'LedgerLogic',
-                url: 'https://ledgerlogic.ca',
+                url: 'https://www.ledgerlogic.ca',
             },
         },
         publisher: {
             '@type': 'Organization',
             name: 'LedgerLogic',
-            url: 'https://ledgerlogic.ca',
+            url: 'https://www.ledgerlogic.ca',
             logo: {
                 '@type': 'ImageObject',
-                url: 'https://ledgerlogic.ca/images/LedgerLogic/ledgerlogic_150x150.png',
+                url: 'https://www.ledgerlogic.ca/images/LedgerLogic/ledgerlogic_150x150.png',
             },
         },
         mainEntityOfPage: {
             '@type': 'WebPage',
-            '@id': 'https://ledgerlogic.ca/xero-accounting-canada',
+            '@id': 'https://www.ledgerlogic.ca/xero-accounting-canada',
         },
     };
 
@@ -157,19 +157,19 @@ function XeroCanadaJsonLd() {
                 '@type': 'ListItem',
                 position: 1,
                 name: 'Home',
-                item: 'https://ledgerlogic.ca',
+                item: 'https://www.ledgerlogic.ca',
             },
             {
                 '@type': 'ListItem',
                 position: 2,
                 name: 'Resources',
-                item: 'https://ledgerlogic.ca/resources',
+                item: 'https://www.ledgerlogic.ca/resources',
             },
             {
                 '@type': 'ListItem',
                 position: 3,
-                name: 'Xero Accounting Canada',
-                item: 'https://ledgerlogic.ca/xero-accounting-canada',
+                name: 'Xero Accounting in Canada',
+                item: 'https://www.ledgerlogic.ca/xero-accounting-canada',
             },
         ],
     };
@@ -191,42 +191,42 @@ function XeroCanadaJsonLd() {
                 position: 1,
                 name: 'Choose Your Plan and Set Your Region',
                 text: 'Select Canada as your country and set your fiscal year end when creating your Xero organization. This loads the correct chart of accounts template, tax rates, and base currency (CAD).',
-                url: 'https://ledgerlogic.ca/xero-accounting-canada#setup',
+                url: 'https://www.ledgerlogic.ca/xero-accounting-canada#setup',
             },
             {
                 '@type': 'HowToStep',
                 position: 2,
                 name: 'Connect Your Bank Accounts',
                 text: 'Xero supports automatic bank feeds from all major Canadian banks. Transactions import daily and queue up for reconciliation. Connect every business bank account and credit card.',
-                url: 'https://ledgerlogic.ca/xero-accounting-canada#setup',
+                url: 'https://www.ledgerlogic.ca/xero-accounting-canada#setup',
             },
             {
                 '@type': 'HowToStep',
                 position: 3,
                 name: 'Configure GST/HST and Provincial Tax Settings',
                 text: 'Verify your GST/HST registration number is entered correctly. Set default tax codes for your common revenue and expense accounts. If you operate in Québec, configure QST separately.',
-                url: 'https://ledgerlogic.ca/xero-accounting-canada#setup',
+                url: 'https://www.ledgerlogic.ca/xero-accounting-canada#setup',
             },
             {
                 '@type': 'HowToStep',
                 position: 4,
                 name: 'Customize Your Chart of Accounts',
                 text: "Xero's default Canadian chart of accounts is a starting point. Customize it to match your specific revenue streams, cost categories, and expense types.",
-                url: 'https://ledgerlogic.ca/xero-accounting-canada#setup',
+                url: 'https://www.ledgerlogic.ca/xero-accounting-canada#setup',
             },
             {
                 '@type': 'HowToStep',
                 position: 5,
                 name: 'Invite Your Team and Accountant',
                 text: "Add your bookkeeper, CPA, and team members. Use Xero's role-based permissions to control access: admin, standard, invoice-only, or read-only.",
-                url: 'https://ledgerlogic.ca/xero-accounting-canada#setup',
+                url: 'https://www.ledgerlogic.ca/xero-accounting-canada#setup',
             },
             {
                 '@type': 'HowToStep',
                 position: 6,
                 name: 'Activate Hubdoc',
                 text: 'Hubdoc is included free with every Xero plan. It captures bills, receipts, and bank statements automatically and feeds them into Xero for processing.',
-                url: 'https://ledgerlogic.ca/xero-accounting-canada#setup',
+                url: 'https://www.ledgerlogic.ca/xero-accounting-canada#setup',
             },
         ],
     };
@@ -234,16 +234,16 @@ function XeroCanadaJsonLd() {
     const personSchema = {
         '@context': 'https://schema.org',
         '@type': 'Person',
-        '@id': 'https://ledgerlogic.ca/#sebastien-prost',
+        '@id': 'https://www.ledgerlogic.ca/#sebastien-prost',
         name: 'Sebastien Prost',
         jobTitle: 'CPA, Founder',
         description: 'Licensed Canadian CPA with 10+ years of CRA experience. Sebastien has helped dozens of Canadian SMEs set up, migrate to, and optimize Xero.',
         worksFor: {
             '@type': 'Organization',
             name: 'LedgerLogic',
-            url: 'https://ledgerlogic.ca',
+            url: 'https://www.ledgerlogic.ca',
         },
-        url: 'https://ledgerlogic.ca/about',
+        url: 'https://www.ledgerlogic.ca/about',
     };
 
     const combinedSchema = {

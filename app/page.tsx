@@ -9,6 +9,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: 'LedgerLogic | Financial Operating System for Canadian Growth',
         description: 'Stop stressing about your books. Get strategic tax & accounting guidance from real CPAs. Fixed pricing, modern tech stack, zero surprises.',
+        url: 'https://www.ledgerlogic.ca',
         type: 'website',
     },
     twitter: {
@@ -17,7 +18,7 @@ export const metadata: Metadata = {
         description: 'Automated accounting and strategic tax guidance for Canadian businesses. Fixed monthly pricing. Book a free discovery call.',
     },
     alternates: {
-        canonical: 'https://ledgerlogic.ca',
+        canonical: '/',
     },
 };
 

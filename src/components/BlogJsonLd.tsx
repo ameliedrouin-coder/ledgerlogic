@@ -32,7 +32,7 @@ export default function BlogJsonLd({ post }: { post: BlogPost }) {
                 url: `${siteUrl}/logo.png`
             }
         },
-        description: post.excerpt,
+        description: post.excerpt.replace(/<[^>]+>/g, ''),
         mainEntityOfPage: {
             '@type': 'WebPage',
             '@id': `${siteUrl}/blog/${post.slug}`
